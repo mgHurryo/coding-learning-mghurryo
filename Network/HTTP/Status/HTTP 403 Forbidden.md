@@ -53,3 +53,12 @@ Content-Type: application/json
 - [[HTTP 401 Unauthorized]]
 - [[HTTP 404 Not Found]]
 - [[HTTP 400 Bad Request]]
+
+## Big-event 项目经验
+
+`403 Forbidden` 适合表达“已经知道你是谁，但你不能访问该资源”。它和 [[Network/HTTP/Status/HTTP 401 Unauthorized]] 的区别是：
+
+- `401`：未认证或认证失败。
+- `403`：已认证，但权限不足。
+
+Big-event 当前重点是登录态校验；后续如果加入管理员、普通用户等角色控制，就应把权限不足场景映射到 403。

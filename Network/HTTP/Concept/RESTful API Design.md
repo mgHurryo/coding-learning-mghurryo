@@ -61,6 +61,35 @@ REST（Representational State Transfer）是一种软件架构风格，由 Roy F
 - 保持接口无状态，认证信息通过 Token 传递。
 - 正确返回错误信息，包含机器可读的错误码和可读描述。
 
+## 来自 Big-event 的项目经验
+
+Big-event 的用户模块可以抽象出一套常见 REST API 经验：
+
+| 场景 | 推荐方法 | 说明 |
+|------|----------|------|
+| 注册、登录 | POST | 它们是提交动作，不是单纯读取资源 |
+| 查询用户信息 | GET | 读取当前用户或指定用户信息 |
+| 更新资料 | PATCH | 只修改昵称、邮箱等部分字段 |
+| 修改密码 | PATCH | 修改用户凭据的一部分 |
+
+在项目里，RESTful 设计不只体现在 URL，还体现在参数和响应边界：
+
+- DTO 接收外部输入，避免直接暴露数据库实体。
+- Token 放在 `Authorization` 请求头中，而不是 URL 查询参数中。
+- 成功和失败使用统一响应模型，但仍应合理搭配 HTTP 状态码。
+- 参数校验失败、未认证、无权限、服务端异常应区分处理。
+
+## 统一响应与 HTTP 状态码
+
+常见后端会同时使用两层状态：
+
+| 层级 | 例子 | 含义 |
+|------|------|------|
+| HTTP 状态码 | `200`、`401`、`422`、`500` | 协议层结果 |
+| 业务响应码 | `code: 0`、`code: 1` | 应用层结果 |
+
+学习项目可以先统一返回 `Result<T>`；正式项目中，建议让认证失败、参数错误、权限不足等场景也尽量匹配合适的 HTTP 状态码。
+
 ## 相关概念
 
 - [[GET]]
@@ -69,3 +98,10 @@ REST（Representational State Transfer）是一种软件架构风格，由 Roy F
 - [[PATCH]]
 - [[DELETE]]
 - [[HTTP Method 选择指南]]
+- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验]]
+- [[Java/Framework/Spring-Boot/Learning/11-全局异常处理与统一响应]]
+
+## 参考资料
+
+- [Spring Framework Web MVC Reference](https://docs.spring.io/spring-framework/reference/web.html)
+- [Spring Framework Error Responses](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-ann-rest-exceptions.html)

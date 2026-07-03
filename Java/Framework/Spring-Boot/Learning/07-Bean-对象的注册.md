@@ -316,3 +316,20 @@ InputStream is = ConfigSelector.class
 3. `.getResourceAsStream()` 从 `classpath` 根目录下找 `common.imports` 文件. 如果找到, 就打开成 `InputStream`, 如果找不到, 就返回 null
 
 最后我们把他封装为一个 `bufferedReader`, 方便我们一行一行读取.
+
+## 与项目实践的连接
+
+Bean 注册不是只服务于学习示例，在真实 Spring Boot 项目中经常用于：
+
+- 注册 `SecurityFilterChain`，见 [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]。
+- 注册密码加密器，见 [[Security/Authentication/密码存储实践]]。
+- 注册第三方 SDK 客户端。
+- 通过配置类组织跨模块组件。
+
+Big-event 中的安全配置类就是典型的“配置类 + Bean 注册 + 依赖注入”组合。
+
+## 相关主题
+
+- [[Java/Framework/Spring-Boot/Annotation/@Configuration\|@Configuration]]
+- [[Java/Framework/Spring-Boot/Annotation/@AutoWired()\|@Autowired]]
+- [[Java/Advanced/反射]]

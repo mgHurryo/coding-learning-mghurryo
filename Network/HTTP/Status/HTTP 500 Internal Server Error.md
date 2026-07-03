@@ -51,3 +51,9 @@ Content-Type: application/json
 - [[HTTP 400 Bad Request]]
 - [[HTTP 502 Bad Gateway]]
 - [[HTTP 503 Service Unavailable]]
+
+## Big-event 项目经验
+
+`500 Internal Server Error` 适合作为服务端兜底异常响应，但不应该把内部堆栈、数据库密码、JWT secret 等敏感信息返回给前端。
+
+Spring Boot 项目中通常使用 `@RestControllerAdvice` 和 `@ExceptionHandler` 统一处理异常，相关实现见 [[Java/Framework/Spring-Boot/Learning/11-全局异常处理与统一响应]]。

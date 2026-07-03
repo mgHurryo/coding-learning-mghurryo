@@ -52,4 +52,4 @@ category: Security
 
 - [[Security/Authentication/JJWT 笔记\|JJWT 笔记]]
 - [[Network/HTTP/Status/HTTP 401 Unauthorized\|401 Unauthorized]]
-- [[Bearer Authentication]]
+- [[Security/Authentication/Bearer Authentication\|Bearer Authentication]]

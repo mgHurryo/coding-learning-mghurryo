@@ -58,3 +58,14 @@ Content-Type: application/json
 - [[HTTP 403 Forbidden]]
 - [[HTTP 400 Bad Request]]
 - [[HTTP 404 Not Found]]
+
+## Big-event 项目经验
+
+在 JWT 无状态认证中，`401 Unauthorized` 适合表达“请求没有通过认证”，例如：
+
+- 没有携带 `Authorization` 请求头。
+- Bearer Token 缺失或格式错误。
+- Token 过期，需要重新登录。
+- Token 签名校验失败。
+
+相关实现见 [[Security/Authentication/JWT 无状态认证]] 和 [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证]]。

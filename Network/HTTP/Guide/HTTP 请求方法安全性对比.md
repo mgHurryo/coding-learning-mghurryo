@@ -54,9 +54,21 @@ tags:
 - 更新操作用 PUT（全量）或 PATCH（局部）。
 - 删除操作用 DELETE，注意软删除策略。
 
+## Big-event 场景
+
+| Big-event 操作 | 方法 | 安全 | 幂等 | 说明 |
+|----------------|------|------|------|------|
+| 查询用户信息 | GET | 是 | 是 | 只读查询 |
+| 注册 | POST | 否 | 否 | 创建用户或提交注册动作 |
+| 登录 | POST | 否 | 否 | 提交凭据并生成 Token |
+| 更新资料 | PATCH | 否 | 视实现 | 局部更新用户字段 |
+| 修改密码 | PATCH | 否 | 视实现 | 局部更新凭据 |
+
 ## 相关概念
 
 - [[HTTP Safety]]
 - [[HTTP Idempotency]]
 - [[HTTP Caching]]
 - [[HTTP Method 选择指南]]
+- [[Network/HTTP/Concept/RESTful API Design\|RESTful API Design]]
+- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]]

@@ -44,7 +44,7 @@ category: Network
 | :--- | :--- |
 | 2xx 成功 | [[Network/HTTP/Status/HTTP 200 OK\|200]] · [[Network/HTTP/Status/HTTP 201 Created\|201]] · [[Network/HTTP/Status/HTTP 204 No Content\|204]] |
 | 3xx 重定向 | [[Network/HTTP/Status/HTTP 304 Not Modified\|304]] |
-| 4xx 客户端错误 | [[Network/HTTP/Status/HTTP 400 Bad Request\|400]] · [[Network/HTTP/Status/HTTP 401 Unauthorized\|401]] · [[Network/HTTP/Status/HTTP 403 Forbidden\|403]] · [[Network/HTTP/Status/HTTP 404 Not Found\|404]] · [[Network/HTTP/Status/HTTP 405 Method Not Allowed\|405]] · [[Network/HTTP/Status/HTTP 422 Unprocessable Entity\|422]] |
+| 4xx 客户端错误 | [[Network/HTTP/Status/HTTP 400 Bad Request\|400]] · [[Network/HTTP/Status/HTTP 401 Unauthorized\|401]] · [[Network/HTTP/Status/HTTP 403 Forbidden\|403]] · [[Network/HTTP/Status/HTTP 404 Not Found\|404]] · [[Network/HTTP/Status/HTTP 405 Method Not Allowed\|405]] · [[Network/HTTP/Status/HTTP 422 Unprocessable Entity\|422]] · [[Network/HTTP/Status/HTTP 429 Too Many Requests\|429]] |
 | 5xx 服务器错误 | [[Network/HTTP/Status/HTTP 500 Internal Server Error\|500]] · [[Network/HTTP/Status/HTTP 502 Bad Gateway\|502]] · [[Network/HTTP/Status/HTTP 503 Service Unavailable\|503]] |
 
 ## 安全机制
@@ -63,8 +63,16 @@ category: Network
 | [[Network/HTTP/Guide/HTTP 请求方法安全性对比\|方法安全性对比]] | 安全、幂等、可缓存三维对比 |
 | [[Network/HTTP/Guide/常见误区\|常见误区]] | 常见设计错误与最佳实践 |
 
+## Spring Boot 项目实践
+
+| 笔记 | 说明 |
+| :--- | :--- |
+| [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]] | Controller、DTO、参数绑定、Bean Validation |
+| [[Java/Framework/Spring-Boot/Learning/11-全局异常处理与统一响应\|全局异常处理与统一响应]] | REST API 的统一错误响应 |
+
 ## 相关主题
 
 - [[Network/MOC\|网络 MOC]]
 - [[Security/MOC\|Security MOC]]
 - [[Java/Foundation/MOC\|Java 基础网络编程]]
+- [[Java/Framework/Spring-Boot/MOC\|Spring Boot MOC]]

@@ -276,6 +276,17 @@ JJWT 0.12 是重大的重构版本，API 变化较大。
 
 ---
 
+## Big-event 项目经验
+
+Big-event 使用 JJWT 生成和解析登录 Token，可以抽象出以下通用经验：
+
+- `jjwt-api`、`jjwt-impl`、`jjwt-jackson` 三个 artifact 版本应保持一致。
+- JWT 密钥和过期时间应来自配置，不要硬编码在业务方法中。
+- Token 解析应捕获过期、格式错误、签名错误等异常，并交给统一异常响应处理。
+- Spring Boot 项目中，JJWT 通常和 Spring Security Filter 组合使用。
+
+Big-event 使用的是 JJWT 0.13.x 系列；本笔记原示例以 0.12.x API 为主，实际项目应以当前依赖版本的官方 README / Javadoc 为准。
+
 ## 注意事项
 
 1. **密钥长度**：HMAC 密钥必须满足算法最短长度要求，过短会抛 `WeakKeyException`。
@@ -286,7 +297,13 @@ JJWT 0.12 是重大的重构版本，API 变化较大。
 
 ## 相关概念
 
-- [[JWT 基本原理]]
-- [[HTTP 401 Unauthorized]]
-- [[Bearer Authentication]]
-- [[OAuth 2.0]]
+- [[Security/Authentication/JWT 无状态认证|JWT 无状态认证]]
+- [[Security/Authentication/Bearer Authentication|Bearer Authentication]]
+- [[Network/HTTP/Status/HTTP 401 Unauthorized|HTTP 401 Unauthorized]]
+- [[Security/Authentication/OAuth 2.0|OAuth 2.0]]
+- [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证|Spring Security JWT 无状态认证]]
+
+## 参考资料
+
+- [JJWT GitHub](https://github.com/jwtk/jjwt)
+- [JJWT API Javadoc](https://javadoc.io/doc/io.jsonwebtoken/jjwt-api/latest/index.html)

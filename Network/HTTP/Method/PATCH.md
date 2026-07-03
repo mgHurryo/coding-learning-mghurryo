@@ -49,8 +49,19 @@ Content-Type: application/json
 - 设计 PATCH 接口时应尽量保证幂等，避免重试导致意外结果。
 - 需要明确处理字段缺失、类型错误等情况。
 
+## Big-event 场景
+
+Big-event 中更新用户资料和修改密码适合 PATCH，因为它们只修改资源的一部分：
+
+- 更新资料只修改昵称、邮箱等字段。
+- 修改密码只修改用户凭据，不替换整个用户资源。
+
+这类接口应结合 DTO 和 Bean Validation，明确处理字段缺失、格式错误和跨字段校验。
+
 ## 相关概念
 
 - [[PUT]]
 - [[HTTP Idempotency]]
 - [[RESTful API Design]]
+- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]]
+- [[Security/Authentication/密码存储实践\|密码存储实践]]

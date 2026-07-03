@@ -14,5 +14,12 @@ title: "@SpringBootApplication"
 1. 没有添加 `@MapperScan()`: 如果只在 Mapper 对象上申明 `@Mapper`, Spring 并不会扫描到, 必须手动添加 `@MapperScan("top.hurry.XXX Mapper")`
 2. 启动类必须放到父包中: 如果不放到父包中, 则会无法扫描到 Controller, Service 等包.
 
+## 关联知识
+
+- [[Java/Framework/Spring-Boot/Learning/06-Bean-对象的扫描\|Bean 对象的扫描]]
+- [[Java/Framework/Spring-Boot/Learning/09-Spring-Boot自动配置的原理\|Spring Boot 自动配置的原理]]
+- [[Java/Framework/Spring-Boot/Learning/05-接入-Mybatis\|接入 MyBatis]]
+- [[Java/Advanced/反射\|反射]]
+- [[Java/Framework/Spring-的一般项目结构\|Spring 的一般项目结构]]
 
 

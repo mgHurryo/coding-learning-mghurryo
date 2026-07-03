@@ -51,3 +51,16 @@ Content-Type: application/json
 - [[HTTP 400 Bad Request]]
 - [[POST]]
 - [[RESTful API Design]]
+
+## Big-event 项目经验
+
+`422 Unprocessable Entity` 适合表达“请求格式能读懂，但业务语义或字段校验不通过”。
+
+在 Spring Boot + Bean Validation 场景中，以下情况可以考虑使用 422：
+
+- 用户名不符合正则规则。
+- 邮箱格式不正确。
+- 新密码和确认密码不一致。
+- 必填字段为空白字符串。
+
+相关实现见 [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验]]。

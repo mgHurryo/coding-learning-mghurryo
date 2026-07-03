@@ -49,9 +49,21 @@ Content-Type: application/json
 - 创建成功后通常返回 `201 Created`，响应头中包含新资源的 URL。
 - 由于非幂等，网络重试可能导致重复创建，需配合幂等键等机制。
 
+## Big-event 场景
+
+Big-event 中注册和登录使用 POST：
+
+- 注册会创建用户或提交注册动作。
+- 登录会提交凭据并生成 JWT Token。
+- 密码不应放在 URL 中，应通过请求体提交，并配合 HTTPS。
+
+登录后的 Token 认证流程见 [[Security/Authentication/JWT 无状态认证]]。
+
 ## 相关概念
 
 - [[HTTP Idempotency]]
 - [[RESTful API Design]]
 - [[幂等接口设计]]
 - [[HTTP 201 Created]]
+- [[Security/Authentication/密码存储实践\|密码存储实践]]
+- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]]

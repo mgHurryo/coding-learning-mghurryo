@@ -48,6 +48,27 @@ tags:
 - 考虑幂等性和安全性，选择合适的方法可以减少重复请求带来的问题。
 - 复杂查询条件不适合放 URL 时，可用 POST 替代 GET。
 
+## 来自 Big-event 的项目经验
+
+Big-event 中的方法选择可以作为 Spring Boot CRUD 接口的简化模板：
+
+| 接口意图 | 方法 | 选择理由 |
+|----------|------|----------|
+| 用户注册 | POST | 创建账号或提交注册动作，非幂等 |
+| 用户登录 | POST | 提交凭据并生成 Token，非单纯查询 |
+| 查询用户信息 | GET | 只读操作 |
+| 更新用户资料 | PATCH | 只更新部分字段 |
+| 修改密码 | PATCH | 修改用户凭据的一部分 |
+
+注意：登录虽然“查询用户是否存在”，但它会生成 Token，属于提交认证动作，所以使用 POST 更合适。
+
+## 和状态码的配合
+
+- 未认证：[[Network/HTTP/Status/HTTP 401 Unauthorized]]
+- 已认证但无权限：[[Network/HTTP/Status/HTTP 403 Forbidden]]
+- 参数语义不合法：[[Network/HTTP/Status/HTTP 422 Unprocessable Entity]]
+- 服务端兜底异常：[[Network/HTTP/Status/HTTP 500 Internal Server Error]]
+
 ## 相关概念
 
 - [[RESTful API Design]]

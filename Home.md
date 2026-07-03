@@ -19,6 +19,7 @@ category: 主页
 | ☕ **Java** | Java 基础 → 进阶 → 框架生态 | [[Java/MOC\|前往 Java]] |
 | 🌐 **Network** | 传输层（TCP/UDP）→ 应用层（HTTP） | [[Network/MOC\|前往 Network]] |
 | 🔒 **Security** | 认证授权（JWT/OAuth2）、传输安全 | [[Security/MOC\|前往 Security]] |
+| 🗄️ **MySQL** | 数据源、JDBC、SQL 与持久层实践 | [[MySQL/MOC\|前往 MySQL]] |
 
 ## 导航路径建议
 
@@ -44,6 +45,11 @@ Security/MOC
  └─ Authentication/
       ├─ JJWT        ← Java JWT 库
       └─ OAuth 2.0    ← 授权框架
+
+MySQL/MOC
+ ├─ JDBC URL
+ ├─ DataSource 数据源
+ └─ MyBatis 数据访问
 ```
 
 ## 最近更新
@@ -51,8 +57,9 @@ Security/MOC
 - 仓库重组为 Network / Security / Java 三大领域
 - [[Network/HTTP/MOC\|HTTP MOC]] 完成
 - [[Security/MOC\|Security MOC]] 完成
+- [[MySQL/MOC\|MySQL MOC]] 补充数据源与 MyBatis 数据访问
 - [[Java/Framework/Spring-Boot/Learning/09-Spring-Boot自动配置的原理\|Spring-Boot 自动配置的原理]]
 
 ## 标签云
 
-`#Java` `#Spring` `#Spring-Boot` `#Network` `#HTTP` `#Security` `#JWT` `#CORS`
+`#Java` `#Spring` `#Spring-Boot` `#Network` `#HTTP` `#Security` `#JWT` `#CORS` `#MySQL`

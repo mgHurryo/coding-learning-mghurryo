@@ -40,3 +40,19 @@ public @interface SpringBootApplication {}
 `@ComponentScan` 在没有变量传入的时候, 它自动会使用当前标记的类的当前包来作为参数传入, 扫描当前包及其子包, 也就是说, Spring Boot 在启动时会默认扫描启动类以及启动类下的子包
 
 在实际开发中, 所有需要被Spring 管理的 Bean 对象, 我们一律都写在启动类所在包的子包中. 例如 Service 层, DAO 层, Controller 层.
+
+## 与项目实践的连接
+
+Big-event 中，启动类位于父包下，Controller、Service、Config、Filter、Mapper 等包都在其子包中，便于组件扫描。
+
+需要注意：
+
+- 普通 Spring 组件依赖 `@ComponentScan`。
+- MyBatis Mapper 通常还需要 `@Mapper` 或 `@MapperScan`，见 [[Java/Framework/Spring-Boot/Learning/05-接入-Mybatis\|接入 MyBatis]]。
+- 包结构设计见 [[Java/Framework/Spring-的一般项目结构]]。
+
+## 相关主题
+
+- [[Java/Framework/Spring-Boot/Annotation/@SpringBootApplication\|@SpringBootApplication]]
+- [[Java/Framework/Spring-Boot/Annotation/@AutoWired()\|@Autowired]]
+- [[Java/Advanced/反射]]

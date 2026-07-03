@@ -38,9 +38,17 @@ Host: api.example.com
 - 避免在 GET 请求中传递敏感信息，因为参数会暴露在 URL 和浏览器历史中。
 - GET 请求不应产生副作用，如创建、更新或删除数据。
 
+## Big-event 场景
+
+Big-event 中查询用户信息属于 GET 场景：它只读取资源，不应该修改服务器状态。
+
+注意：登录不能用 GET，即使它看起来是在“查询用户是否存在”。登录会提交密码并生成 Token，应该使用 [[Network/HTTP/Method/POST\|POST]]。
+
 ## 相关概念
 
 - [[HTTP Safety]]
 - [[HTTP Idempotency]]
 - [[HTTP Caching]]
 - [[RESTful API Design]]
+- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]]
+- [[Network/HTTP/Guide/常见误区\|HTTP 常见误区]]
