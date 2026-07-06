@@ -69,3 +69,10 @@ After maintenance work, verify through Obsidian MCP that:
 4. Report what changed and what was verified.
 5. Do not create files with spaces in their names.
 6. Every modification must be committed to git after verification, using an all-English standard git commit message.
+
+## Git Commit Message
+
+1. Every commit message must follow a standard type, do not create a new type.
+2. Follow the [conventionalcommit](CONVENTIONALCOMMIT.md) rules.
+3. In this project, optional body is recommendation and suggested to write.
+4. Every point of optional body needs to add - at the front.
