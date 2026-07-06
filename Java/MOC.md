@@ -31,5 +31,5 @@ category: Java
 - [[Home\|返回主页]]
 - [[Network/MOC\|Network MOC]]
 - [[Security/MOC\|Security MOC]]
-- [[MySQL/MOC\|MySQL MOC]]
+- [[MySQL/00-Map/MySQL-MOC\|MySQL MOC]]
 

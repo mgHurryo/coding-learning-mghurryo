@@ -119,8 +119,8 @@ public class email{
 
 `@ConfigurationProperties` 适合绑定一组有共同前缀的配置，例如：
 
-- `spring.datasource.*`：数据库连接配置，见 [[MySQL/DataSource 数据源]]。
-- `jwt.*`：Token 密钥、过期时间等认证配置，见 [[Security/Authentication/JWT 无状态认证]]。
+- `spring.datasource.*`：数据库连接配置，见[[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]。
+- `jwt.*`：Token 密钥、过期时间等认证配置，见 [[Security/Authentication/JWT-无状态认证]]。
 - 自定义第三方服务配置：邮件、对象存储、支付 SDK 等。
 
 相比零散使用 `@Value`，配置属性类更适合中大型项目维护，也更容易配合校验和自动补全。
@@ -129,4 +129,6 @@ public class email{
 
 - [[Java/Framework/Spring-Boot/Annotation/@Configuration\|@Configuration]]
 - [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]
-- [[MySQL/JDBC URL]]
+- [[MySQL/12-Java-Persistence/JDBC-URL|JDBC URL]]
+
+

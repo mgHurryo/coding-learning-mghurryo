@@ -46,9 +46,9 @@ Big-event 中查询用户信息属于 GET 场景：它只读取资源，不应�
 
 ## 相关概念
 
-- [[HTTP Safety]]
-- [[HTTP Idempotency]]
-- [[HTTP Caching]]
-- [[RESTful API Design]]
+- [[HTTP-Safety]]
+- [[HTTP-Idempotency]]
+- [[HTTP-Caching]]
+- [[RESTful-API-Design]]
 - [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]]
 - [[Network/HTTP/Guide/常见误区\|HTTP 常见误区]]

@@ -26,7 +26,7 @@ category: Network
 | **核心概念** | 幂等性 · 安全性 · 缓存 | HTTP 协议设计的重要语义 |
 | **状态码** | 200 · 201 · 204 · 4xx · 5xx | 各类状态码详解 |
 | **安全机制** | CORS · XST | 浏览器安全策略与攻击防范 |
-| **项目实践** | [[Network/HTTP/Concept/RESTful API Design\|RESTful API]] · [[Network/HTTP/Guide/HTTP Method 选择指南\|方法选择]] | Spring Boot 后端接口设计经验 |
+| **项目实践** | [[Network/HTTP/Concept/RESTful-API-Design\|RESTful API]] · [[Network/HTTP/Guide/HTTP-Method-选择指南\|方法选择]] | Spring Boot 后端接口设计经验 |
 
 ## 相关主题
 

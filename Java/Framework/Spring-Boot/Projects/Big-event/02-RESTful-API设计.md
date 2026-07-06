@@ -6,7 +6,7 @@ tags: [restful, api, controller, java]
 # 🔵 RESTful API 设计
 
 > 对应项目文件：`controller/UserController.java`、`dto/*.java`、`pojo/Result.java`
-> 关联笔记：[[01-SpringBoot基础]] | [[03-数据校验Bean-Validation]] | [[11-分层架构与DTO模式]]
+> 关联笔记：[[01-Spring-Boot-基础]] | [[03-数据校验Bean-Validation]] | [[11-分层架构与-DTO-模式]]
 
 ---
 

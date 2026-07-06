@@ -30,37 +30,37 @@ category: Network
 
 | 笔记 | 说明 |
 | :--- | :--- |
-| [[Network/HTTP/Concept/HTTP Idempotency\|幂等性]] | 多次相同请求的效果是否一致 |
-| [[Network/HTTP/Concept/HTTP Safety\|安全性]] | 请求是否只读不写 |
-| [[Network/HTTP/Concept/HTTP Caching\|缓存]] | 浏览器与代理缓存机制 |
-| [[Network/HTTP/Concept/RESTful API Design\|RESTful 设计]] | 基于 HTTP 方法的 API 架构 |
-| [[Network/HTTP/Concept/HTTP Proxy\|HTTP 代理]] | 正向代理、反向代理 |
+| [[Network/HTTP/Concept/HTTP-Idempotency\|幂等性]] | 多次相同请求的效果是否一致 |
+| [[Network/HTTP/Concept/HTTP-Safety\|安全性]] | 请求是否只读不写 |
+| [[Network/HTTP/Concept/HTTP-Caching\|缓存]] | 浏览器与代理缓存机制 |
+| [[Network/HTTP/Concept/RESTful-API-Design\|RESTful 设计]] | 基于 HTTP 方法的 API 架构 |
+| [[Network/HTTP/Concept/HTTP-Proxy\|HTTP 代理]] | 正向代理、反向代理 |
 | [[Network/HTTP/Concept/HTTPS\|HTTPS]] | 加密传输的安全版 HTTP |
-| [[Network/HTTP/Concept/TLS Handshake\|TLS 握手]] | 加密连接建立流程 |
+| [[Network/HTTP/Concept/TLS-Handshake\|TLS 握手]] | 加密连接建立流程 |
 
 ## 状态码
 
 | 分类 | 笔记 |
 | :--- | :--- |
-| 2xx 成功 | [[Network/HTTP/Status/HTTP 200 OK\|200]] · [[Network/HTTP/Status/HTTP 201 Created\|201]] · [[Network/HTTP/Status/HTTP 204 No Content\|204]] |
-| 3xx 重定向 | [[Network/HTTP/Status/HTTP 304 Not Modified\|304]] |
-| 4xx 客户端错误 | [[Network/HTTP/Status/HTTP 400 Bad Request\|400]] · [[Network/HTTP/Status/HTTP 401 Unauthorized\|401]] · [[Network/HTTP/Status/HTTP 403 Forbidden\|403]] · [[Network/HTTP/Status/HTTP 404 Not Found\|404]] · [[Network/HTTP/Status/HTTP 405 Method Not Allowed\|405]] · [[Network/HTTP/Status/HTTP 422 Unprocessable Entity\|422]] · [[Network/HTTP/Status/HTTP 429 Too Many Requests\|429]] |
-| 5xx 服务器错误 | [[Network/HTTP/Status/HTTP 500 Internal Server Error\|500]] · [[Network/HTTP/Status/HTTP 502 Bad Gateway\|502]] · [[Network/HTTP/Status/HTTP 503 Service Unavailable\|503]] |
+| 2xx 成功 | [[HTTP-200-OK\|200]] · [[HTTP-201-Created\|201]] · [[HTTP-204-No-Content\|204]] |
+| 3xx 重定向 | [[HTTP-304-Not-Modified\|304]] |
+| 4xx 客户端错误 | [[HTTP-400-Bad-Request\|400]] · [[HTTP-401-Unauthorized\|401]] · [[HTTP-403-Forbidden\|403]] · [[HTTP-404-Not-Found\|404]] · [[HTTP-405-Method-Not-Allowed\|405]] · [[HTTP-422-Unprocessable-Entity\|422]] · [[HTTP-429-Too-Many-Requests\|429]] |
+| 5xx 服务器错误 | [[HTTP-500-Internal-Server-Error\|500]] · [[HTTP-502-Bad-Gateway\|502]] · [[HTTP-503-Service-Unavailable\|503]] |
 
 ## 安全机制
 
 | 笔记 | 说明 |
 | :--- | :--- |
-| [[Network/HTTP/Security/CORS Preflight\|CORS 预检]] | 浏览器跨域安全策略 |
+| [[CORS-Preflight\|CORS 预检]] | 浏览器跨域安全策略 |
 | [[Network/HTTP/Security/XST\|XST]] | 跨站追踪攻击与防范 |
 
 ## 最佳实践与指南
 
 | 笔记 | 说明 |
 | :--- | :--- |
-| [[Network/HTTP/Guide/HTTP Method 选择指南\|方法选择指南]] | 不同场景下如何选择 HTTP 方法 |
+| [[Network/HTTP/Guide/HTTP-Method-选择指南\|方法选择指南]] | 不同场景下如何选择 HTTP 方法 |
 | [[Network/HTTP/Guide/幂等接口设计\|幂等接口设计]] | 保证网络重试安全的方案 |
-| [[Network/HTTP/Guide/HTTP 请求方法安全性对比\|方法安全性对比]] | 安全、幂等、可缓存三维对比 |
+| [[Network/HTTP/Guide/HTTP-请求方法安全性对比\|方法安全性对比]] | 安全、幂等、可缓存三维对比 |
 | [[Network/HTTP/Guide/常见误区\|常见误区]] | 常见设计错误与最佳实践 |
 
 ## Spring Boot 项目实践

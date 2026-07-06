@@ -42,5 +42,5 @@ category: Java
 - [[Home\|返回主页]]
 - [[Java/Foundation/MOC\|Java MOC]]
 - [[Java/Framework/Spring-的一般项目结构\|Spring 项目结构]]
-- [[MySQL/MOC\|MySQL MOC]]
+- [[MySQL/00-Map/MySQL-MOC\|MySQL MOC]]
 - [[Security/MOC\|Security MOC]]

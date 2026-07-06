@@ -19,7 +19,8 @@ category: 主页
 | ☕ **Java** | Java 基础 → 进阶 → 框架生态 | [[Java/MOC\|前往 Java]] |
 | 🌐 **Network** | 传输层（TCP/UDP）→ 应用层（HTTP） | [[Network/MOC\|前往 Network]] |
 | 🔒 **Security** | 认证授权（JWT/OAuth2）、传输安全 | [[Security/MOC\|前往 Security]] |
-| 🗄️ **MySQL** | 数据源、JDBC、SQL 与持久层实践 | [[MySQL/MOC\|前往 MySQL]] |
+| 🗄️ **MySQL** | SQL、CRUD、索引、事务、调优与持久层实践 | [[MySQL/00-Map/MySQL-MOC\|前往 MySQL]] |
+| 🧩 **Big-event** | 项目通用知识总结与落点映射 | [[Big-event通用知识总结/00-通用知识索引\|前往 Big-event]] |
 
 ## 导航路径建议
 
@@ -47,9 +48,14 @@ Security/MOC
       └─ OAuth 2.0    ← 授权框架
 
 MySQL/MOC
- ├─ JDBC URL
- ├─ DataSource 数据源
- └─ MyBatis 数据访问
+ ├─ 01-Basics/            ← 数据库、表、字段、类型、字符集、存储引擎
+ ├─ 02-DDL/               ← 建库、建表、改表、约束
+ ├─ 03-DML/               ← INSERT、SELECT、UPDATE、DELETE
+ ├─ 04-Query/             ← WHERE、JOIN、分页、聚合、分组
+ ├─ 05-Transaction-Lock/  ← 事务、隔离级别、MVCC、锁、死锁
+ ├─ 06-Index/             ← 主键索引、联合索引、覆盖索引、索引失效
+ ├─ 07-Performance/       ← EXPLAIN、慢查询、SQL 调优、连接池调优
+ └─ 08-Java-Persistence/  ← JDBC、DataSource、MyBatis 方法实践
 ```
 
 ## 最近更新
@@ -57,7 +63,7 @@ MySQL/MOC
 - 仓库重组为 Network / Security / Java 三大领域
 - [[Network/HTTP/MOC\|HTTP MOC]] 完成
 - [[Security/MOC\|Security MOC]] 完成
-- [[MySQL/MOC\|MySQL MOC]] 补充数据源与 MyBatis 数据访问
+- [[MySQL/00-Map/MySQL-MOC\|MySQL MOC]] 重构为英文目录 + 方法级 SQL / 调优知识索引
 - [[Java/Framework/Spring-Boot/Learning/09-Spring-Boot自动配置的原理\|Spring-Boot 自动配置的原理]]
 
 ## 标签云

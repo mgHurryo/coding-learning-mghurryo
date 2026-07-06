@@ -16,19 +16,19 @@ category: Security
 
 | 笔记 | 说明 |
 | :--- | :--- |
-| [[Security/Authentication/JWT 无状态认证\|JWT 无状态认证]] | JWT 结构、Bearer Token 流程与无状态认证取舍 |
-| [[Security/Authentication/Bearer Authentication\|Bearer Authentication]] | Authorization 请求头携带 Token 的认证方式 |
-| [[Security/Authentication/JJWT 笔记\|JJWT 笔记]] | Java JWT 库的使用：创建、解析、签名 |
-| [[Security/Authentication/OAuth 2.0\|OAuth 2.0]] | 授权框架概览 |
+| [[Security/Authentication/JWT-无状态认证\|JWT 无状态认证]] | JWT 结构、Bearer Token 流程与无状态认证取舍 |
+| [[Security/Authentication/Bearer-Authentication\|Bearer Authentication]] | Authorization 请求头携带 Token 的认证方式 |
+| [[Security/Authentication/JJWT-笔记\|JJWT 笔记]] | Java JWT 库的使用：创建、解析、签名 |
+| [[Security/Authentication/OAuth-2.0\|OAuth 2.0]] | 授权框架概览 |
 | [[Security/Authentication/密码存储实践\|密码存储实践]] | MD5 风险、BCrypt 与 PasswordEncoder |
-| [[Network/HTTP/Status/HTTP 401 Unauthorized\|401 Unauthorized]] | HTTP 未认证状态码 |
+| [[HTTP-401-Unauthorized\|401 Unauthorized]] | HTTP 未认证状态码 |
 
 ## 传输安全
 
 | 笔记 | 说明 |
 | :--- | :--- |
 | [[Network/HTTP/Concept/HTTPS\|HTTPS]] | 加密传输 |
-| [[Network/HTTP/Concept/TLS Handshake\|TLS 握手]] | 加密连接建立流程 |
+| [[Network/HTTP/Concept/TLS-Handshake\|TLS 握手]] | 加密连接建立流程 |
 
 ## 相关主题
 

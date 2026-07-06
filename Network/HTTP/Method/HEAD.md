@@ -49,5 +49,5 @@ Last-Modified: Wed, 21 Oct 2025 07:28:00 GMT
 ## 相关概念
 
 - [[GET]]
-- [[HTTP Caching]]
-- [[HTTP 200 OK]]
+- [[HTTP-Caching]]
+- [[HTTP-200-OK]]

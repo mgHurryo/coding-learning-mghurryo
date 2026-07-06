@@ -44,6 +44,6 @@ Host: api.example.com
 
 ## 相关概念
 
-- [[HTTP Idempotency]]
-- [[RESTful API Design]]
-- [[HTTP 204 No Content]]
+- [[HTTP-Idempotency]]
+- [[RESTful-API-Design]]
+- [[HTTP-204-No-Content]]

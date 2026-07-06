@@ -42,6 +42,6 @@ TRACE 方法可能导致 [[XST]]（Cross-Site Tracing）攻击：攻击者利用
 
 ## 相关概念
 
-- [[HTTP Safety]]
-- [[HTTP Idempotency]]
+- [[HTTP-Safety]]
+- [[HTTP-Idempotency]]
 - [[XST]]

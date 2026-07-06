@@ -33,8 +33,8 @@ Spring Boot Web 项目通常使用 Spring MVC 编写 REST API。Big-event 中的
 
 HTTP 方法语义可继续看：
 
-- [[Network/HTTP/Guide/HTTP Method 选择指南]]
-- [[Network/HTTP/Concept/RESTful API Design]]
+- [[Network/HTTP/Guide/HTTP-Method-选择指南]]
+- [[Network/HTTP/Concept/RESTful-API-Design]]
 
 ## 3. 参数绑定
 

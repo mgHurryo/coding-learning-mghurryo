@@ -44,7 +44,7 @@ Access-Control-Allow-Headers: Content-Type, Authorization
 
 ## CORS 预检
 
-当浏览器发起复杂跨域请求（如自定义请求头、非简单方法）时，会先自动发送 OPTIONS 预检请求，确认服务器是否允许实际请求。详情见 [[CORS Preflight]]。
+当浏览器发起复杂跨域请求（如自定义请求头、非简单方法）时，会先自动发送 OPTIONS 预检请求，确认服务器是否允许实际请求。详情见 [[CORS-Preflight]]。
 
 ## 注意事项
 
@@ -53,6 +53,6 @@ Access-Control-Allow-Headers: Content-Type, Authorization
 
 ## 相关概念
 
-- [[CORS Preflight]]
-- [[HTTP Safety]]
-- [[HTTP Idempotency]]
+- [[CORS-Preflight]]
+- [[HTTP-Safety]]
+- [[HTTP-Idempotency]]

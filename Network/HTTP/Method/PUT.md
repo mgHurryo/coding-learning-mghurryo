@@ -56,5 +56,5 @@ Content-Type: application/json
 ## 相关概念
 
 - [[PATCH]]
-- [[HTTP Idempotency]]
-- [[RESTful API Design]]
+- [[HTTP-Idempotency]]
+- [[RESTful-API-Design]]

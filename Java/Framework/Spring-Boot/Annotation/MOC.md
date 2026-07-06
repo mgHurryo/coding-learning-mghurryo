@@ -25,7 +25,7 @@ category: Spring-Boot
 | 注解 | 作用 | 相关实践 |
 |------|------|----------|
 | [[Java/Framework/Spring-Boot/Annotation/@RestController()\|@RestController]] | REST API 控制器，返回 JSON 数据 | [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]] |
-| [[Java/Framework/Spring-Boot/Annotation/@RequestMapping()\|@RequestMapping]] | 请求路径与方法映射 | [[Network/HTTP/Guide/HTTP Method 选择指南\|HTTP Method 选择指南]] |
+| [[Java/Framework/Spring-Boot/Annotation/@RequestMapping()\|@RequestMapping]] | 请求路径与方法映射 | [[Network/HTTP/Guide/HTTP-Method-选择指南\|HTTP Method 选择指南]] |
 
 ## 项目经验
 

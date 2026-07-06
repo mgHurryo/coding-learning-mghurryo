@@ -24,4 +24,4 @@ category: Java
 - [[Java/Foundation/MOC\|Java 基础 MOC]]
 - [[Java/Framework/MOC\|Java 框架 MOC]]
 - [[Java/Framework/Spring-Boot/MOC\|Spring Boot MOC]]
-- [[MySQL/MOC\|MySQL MOC]]
+- [[MySQL/00-Map/MySQL-MOC\|MySQL MOC]]

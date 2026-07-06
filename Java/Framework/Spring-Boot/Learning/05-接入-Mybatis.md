@@ -48,8 +48,8 @@ spring:
 
 配置细节可继续看：
 
-- [[MySQL/JDBC URL]]
-- [[MySQL/DataSource 数据源]]
+- [[MySQL/12-Java-Persistence/JDBC-URL|JDBC URL]]
+- [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
 
 ## 3. 注册 Mapper
 
@@ -130,12 +130,14 @@ mybatis:
 
 ## 相关主题
 
-- [[MySQL/MyBatis 数据访问]]
-- [[MySQL/DataSource 数据源]]
+- [[MySQL/12-Java-Persistence/MyBatis-数据访问|MyBatis 数据访问]]
+- [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
 - [[Java/Framework/Spring-的一般项目结构]]
 
 ## 参考资料
 
 - [MyBatis Spring Boot Starter](https://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
 - [MyBatis 官方文档](https://mybatis.org/mybatis-3/)
+
+
 
