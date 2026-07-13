@@ -52,6 +52,6 @@ Big-event 的 JWT 登录态适合使用 Bearer Token：
 - [[Security/Authentication/JWT-无状态认证\|JWT 无状态认证]]
 - [[Security/Authentication/JJWT-笔记\|JJWT 笔记]]
 - [[Security/Authentication/OAuth-2.0\|OAuth 2.0]]
-- [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]
+- [[12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]
 - [[HTTP-401-Unauthorized\|401 Unauthorized]]
 

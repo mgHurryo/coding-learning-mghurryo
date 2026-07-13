@@ -16,9 +16,9 @@ title: "@SpringBootApplication"
 
 ## 关联知识
 
-- [[Java/Framework/Spring-Boot/Learning/06-Bean-对象的扫描\|Bean 对象的扫描]]
-- [[Java/Framework/Spring-Boot/Learning/09-Spring-Boot自动配置的原理\|Spring Boot 自动配置的原理]]
-- [[Java/Framework/Spring-Boot/Learning/05-接入-Mybatis\|接入 MyBatis]]
+- [[06-Bean-对象的扫描\|Bean 对象的扫描]]
+- [[09-Spring-Boot自动配置的原理\|Spring Boot 自动配置的原理]]
+- [[05-接入-Mybatis\|接入 MyBatis]]
 - [[Java/Advanced/反射\|反射]]
 - [[Java/Framework/Spring-的一般项目结构\|Spring 的一般项目结构]]
 

@@ -71,4 +71,4 @@ tags:
 - [[HTTP-Caching]]
 - [[HTTP-Method-选择指南]]
 - [[Network/HTTP/Concept/RESTful-API-Design\|RESTful API Design]]
-- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]]
+- [[10-RESTful-API与参数校验\|RESTful API 与参数校验]]

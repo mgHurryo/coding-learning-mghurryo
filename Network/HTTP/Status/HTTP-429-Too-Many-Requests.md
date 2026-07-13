@@ -45,5 +45,5 @@ Big-event 当前重点是 JWT 登录态和基础接口保护。后续如果扩�
 - [[HTTP-401-Unauthorized\|401 Unauthorized]]
 - [[HTTP-503-Service-Unavailable\|503 Service Unavailable]]
 - [[Security/Authentication/密码存储实践\|密码存储实践]]
-- [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]
+- [[12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]
 

@@ -301,7 +301,7 @@ Big-event 使用的是 JJWT 0.13.x 系列；本笔记原示例以 0.12.x API 为
 - [[Security/Authentication/Bearer-Authentication|Bearer Authentication]]
 - [[HTTP-401-Unauthorized|HTTP-401-Unauthorized]]
 - [[Security/Authentication/OAuth-2.0|OAuth 2.0]]
-- [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证|Spring Security JWT 无状态认证]]
+- [[12-Spring-Security-JWT无状态认证|Spring Security JWT 无状态认证]]
 
 ## 参考资料
 

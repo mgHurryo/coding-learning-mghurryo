@@ -69,14 +69,14 @@ HTTP 请求
 | 层次 | 放什么 | 示例 |
 |------|--------|------|
 | 领域基础知识 | 协议、数据库、安全概念 | [[Network/HTTP/Concept/RESTful-API-Design]][[MySQL/12-Java-Persistence/JDBC-URL\|JDBC URL]]、[[Security/Authentication/JWT-无状态认证]] |
-| 框架实现知识 | Spring Boot、MyBatis、Validation 等实现 | [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验]] |
-| 集成模式知识 | 多个技术组合后的工程模式 | [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证]] |
+| 框架实现知识 | Spring Boot、MyBatis、Validation 等实现 | [[10-RESTful-API与参数校验]] |
+| 集成模式知识 | 多个技术组合后的工程模式 | [[12-Spring-Security-JWT无状态认证]] |
 | 项目案例知识 | 某个项目如何应用这些知识 | [[Java/Framework/Spring-Boot/Projects/Big-event/12-项目完整分析总结]] |
 
 ## 相关主题
 
-- [[Java/Framework/Spring-Boot/Learning/13-Lombok与DTO模式]]
-- [[Java/Framework/Spring-Boot/Learning/11-全局异常处理与统一响应]]
+- [[13-Lombok与DTO模式]]
+- [[11-全局异常处理与统一响应]]
 - [[MySQL/12-Java-Persistence/MyBatis-数据访问|MyBatis 数据访问]]
 
 流量发来时, 按照以下顺序来处理:

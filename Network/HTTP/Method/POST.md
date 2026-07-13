@@ -66,4 +66,4 @@ Big-event 中注册和登录使用 POST：
 - [[幂等接口设计]]
 - [[HTTP-201-Created]]
 - [[Security/Authentication/密码存储实践\|密码存储实践]]
-- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]]
+- [[10-RESTful-API与参数校验\|RESTful API 与参数校验]]

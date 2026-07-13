@@ -11,7 +11,7 @@ title: "@RequestMapping"
 
 ## 关联知识
 
-- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]]
+- [[10-RESTful-API与参数校验\|RESTful API 与参数校验]]
 - [[Network/HTTP/Guide/HTTP-Method-选择指南\|HTTP Method 选择指南]]
 - [[Network/HTTP/Guide/常见误区\|HTTP 常见误区]]
 - [[Network/HTTP/Concept/RESTful-API-Design\|RESTful API Design]]

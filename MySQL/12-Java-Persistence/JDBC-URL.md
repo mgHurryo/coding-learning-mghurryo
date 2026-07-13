@@ -52,8 +52,8 @@ Big-event 使用的是本地 MySQL 数据库连接。这里抽象出的通用经
 ## 相关主题
 
 - [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
-- [[Java/Framework/Spring-Boot/Learning/03-Spring-Boot配置文件]]
-- [[Java/Framework/Spring-Boot/Learning/04-yaml-配置文件的书写与获取]]
+- [[03-Spring-Boot配置文件]]
+- [[04-yaml-配置文件的书写与获取]]
 - [[Java/Foundation/网络编程]]
 - [[Network/Transport/MOC\|网络传输层]]
 

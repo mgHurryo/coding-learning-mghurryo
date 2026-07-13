@@ -63,4 +63,4 @@ Content-Type: application/json
 - 新密码和确认密码不一致。
 - 必填字段为空白字符串。
 
-相关实现见 [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验]]。
+相关实现见 [[10-RESTful-API与参数校验]]。

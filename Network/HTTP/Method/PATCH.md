@@ -63,5 +63,5 @@ Big-event 中更新用户资料和修改密码适合 PATCH，因为它们只修�
 - [[PUT]]
 - [[HTTP-Idempotency]]
 - [[RESTful-API-Design]]
-- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]]
+- [[10-RESTful-API与参数校验\|RESTful API 与参数校验]]
 - [[Security/Authentication/密码存储实践\|密码存储实践]]

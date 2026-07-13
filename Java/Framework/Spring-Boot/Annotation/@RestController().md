@@ -12,7 +12,7 @@ title: RestController()
 
 ## 关联知识
 
-- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]]
-- [[Java/Framework/Spring-Boot/Learning/11-全局异常处理与统一响应\|全局异常处理与统一响应]]
+- [[10-RESTful-API与参数校验\|RESTful API 与参数校验]]
+- [[11-全局异常处理与统一响应\|全局异常处理与统一响应]]
 - [[Network/HTTP/Concept/RESTful-API-Design\|RESTful API Design]]
 - [[Network/HTTP/MOC\|HTTP MOC]]

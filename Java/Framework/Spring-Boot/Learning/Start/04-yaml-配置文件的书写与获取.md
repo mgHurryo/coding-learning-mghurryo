@@ -128,7 +128,7 @@ public class email{
 ## 相关主题
 
 - [[Java/Framework/Spring-Boot/Annotation/@Configuration\|@Configuration]]
-- [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]
+- [[12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]
 - [[MySQL/12-Java-Persistence/JDBC-URL|JDBC URL]]
 
 

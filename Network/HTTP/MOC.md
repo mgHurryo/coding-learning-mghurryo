@@ -67,8 +67,8 @@ category: Network
 
 | 笔记 | 说明 |
 | :--- | :--- |
-| [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]] | Controller、DTO、参数绑定、Bean Validation |
-| [[Java/Framework/Spring-Boot/Learning/11-全局异常处理与统一响应\|全局异常处理与统一响应]] | REST API 的统一错误响应 |
+| [[10-RESTful-API与参数校验\|RESTful API 与参数校验]] | Controller、DTO、参数绑定、Bean Validation |
+| [[11-全局异常处理与统一响应\|全局异常处理与统一响应]] | REST API 的统一错误响应 |
 
 ## 相关主题
 

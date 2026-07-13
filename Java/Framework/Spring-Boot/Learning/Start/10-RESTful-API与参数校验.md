@@ -86,7 +86,7 @@ code + message + data
 - Controller 返回值更稳定。
 - 可以和全局异常处理配合。
 
-更完整的错误响应设计见 [[Java/Framework/Spring-Boot/Learning/11-全局异常处理与统一响应]]。
+更完整的错误响应设计见 [[11-全局异常处理与统一响应]]。
 
 ## 参考资料
 

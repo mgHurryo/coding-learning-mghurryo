@@ -35,4 +35,4 @@ category: Security
 - [[Network/MOC\|网络 MOC]]
 - [[Network/HTTP/MOC\|HTTP MOC]]
 - [[Java/Framework/Spring-Boot/MOC\|Spring Boot 安全整合]]
-- [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]
+- [[12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]

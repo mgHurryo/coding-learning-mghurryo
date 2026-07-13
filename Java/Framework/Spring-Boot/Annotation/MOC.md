@@ -16,15 +16,15 @@ category: Spring-Boot
 
 | 注解 | 作用 | 相关实践 |
 |------|------|----------|
-| [[Java/Framework/Spring-Boot/Annotation/@SpringBootApplication\|@SpringBootApplication]] | Spring Boot 启动入口、自动配置、组件扫描 | [[Java/Framework/Spring-Boot/Learning/09-Spring-Boot自动配置的原理\|自动配置原理]] |
-| [[Java/Framework/Spring-Boot/Annotation/@Configuration\|@Configuration]] | 声明配置类，配合 `@Bean` 注册组件 | [[Java/Framework/Spring-Boot/Learning/07-Bean-对象的注册\|Bean 对象的注册]] |
-| [[Java/Framework/Spring-Boot/Annotation/@AutoWired()\|@Autowired]] | 依赖注入 | [[Java/Framework/Spring-Boot/Learning/07-Bean-对象的注册\|Bean 对象的注册]] |
+| [[Java/Framework/Spring-Boot/Annotation/@SpringBootApplication\|@SpringBootApplication]] | Spring Boot 启动入口、自动配置、组件扫描 | [[09-Spring-Boot自动配置的原理\|自动配置原理]] |
+| [[Java/Framework/Spring-Boot/Annotation/@Configuration\|@Configuration]] | 声明配置类，配合 `@Bean` 注册组件 | [[07-Bean-对象的注册\|Bean 对象的注册]] |
+| [[Java/Framework/Spring-Boot/Annotation/@AutoWired()\|@Autowired]] | 依赖注入 | [[07-Bean-对象的注册\|Bean 对象的注册]] |
 
 ## Web 接口
 
 | 注解 | 作用 | 相关实践 |
 |------|------|----------|
-| [[Java/Framework/Spring-Boot/Annotation/@RestController()\|@RestController]] | REST API 控制器，返回 JSON 数据 | [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验\|RESTful API 与参数校验]] |
+| [[Java/Framework/Spring-Boot/Annotation/@RestController()\|@RestController]] | REST API 控制器，返回 JSON 数据 | [[10-RESTful-API与参数校验\|RESTful API 与参数校验]] |
 | [[Java/Framework/Spring-Boot/Annotation/@RequestMapping()\|@RequestMapping]] | 请求路径与方法映射 | [[Network/HTTP/Guide/HTTP-Method-选择指南\|HTTP Method 选择指南]] |
 
 ## 项目经验

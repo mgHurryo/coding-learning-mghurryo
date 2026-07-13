@@ -52,7 +52,7 @@ server:
 Spring Boot 配置文件通常承载这些内容：
 
 - 数据库连接：见[[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]] 和[[MySQL/12-Java-Persistence/JDBC-URL|JDBC URL]]。
-- MyBatis 行为：见 [[Java/Framework/Spring-Boot/Learning/05-接入-Mybatis\|接入 MyBatis]]。
+- MyBatis 行为：见 [[05-接入-Mybatis\|接入 MyBatis]]。
 - JWT 密钥和过期时间：见 [[Security/Authentication/JWT-无状态认证]]。
 - 多环境配置：开发、测试、生产环境应拆分配置，避免在代码中硬编码敏感信息。
 
@@ -60,7 +60,7 @@ Big-event 中的数据库配置、JWT 配置、MyBatis 驼峰映射都属于配�
 
 ## 相关主题
 
-- [[Java/Framework/Spring-Boot/Learning/04-yaml-配置文件的书写与获取\|yaml 配置文件的书写与获取]]
+- [[04-yaml-配置文件的书写与获取\|yaml 配置文件的书写与获取]]
 - [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
 - [[Security/Authentication/JWT-无状态认证]]
 

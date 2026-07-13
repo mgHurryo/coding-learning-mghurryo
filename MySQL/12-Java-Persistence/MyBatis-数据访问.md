@@ -76,7 +76,7 @@ mybatis:
 
 ## 相关主题
 
-- [[Java/Framework/Spring-Boot/Learning/05-接入-Mybatis]]
+- [[05-接入-Mybatis]]
 - [[Java/Framework/Spring-的一般项目结构]]
 - [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
 - [[Java/Advanced/反射]]

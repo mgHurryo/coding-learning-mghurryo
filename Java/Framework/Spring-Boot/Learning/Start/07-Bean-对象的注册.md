@@ -321,7 +321,7 @@ InputStream is = ConfigSelector.class
 
 Bean 注册不是只服务于学习示例，在真实 Spring Boot 项目中经常用于：
 
-- 注册 `SecurityFilterChain`，见 [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]。
+- 注册 `SecurityFilterChain`，见 [[12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]。
 - 注册密码加密器，见 [[Security/Authentication/密码存储实践]]。
 - 注册第三方 SDK 客户端。
 - 通过配置类组织跨模块组件。

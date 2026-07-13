@@ -98,8 +98,8 @@ Big-event 的用户模块可以抽象出一套常见 REST API 经验：
 - [[PATCH]]
 - [[DELETE]]
 - [[HTTP-Method-选择指南]]
-- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验]]
-- [[Java/Framework/Spring-Boot/Learning/11-全局异常处理与统一响应]]
+- [[10-RESTful-API与参数校验]]
+- [[11-全局异常处理与统一响应]]
 
 ## 参考资料
 

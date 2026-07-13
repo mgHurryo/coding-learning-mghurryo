@@ -67,7 +67,7 @@ Big-event 使用 JWT 表示登录态：
 - Spring Security Filter 在 Controller 之前校验 Token。
 - Token 过期、格式错误、签名错误应返回稳定的错误响应。
 
-对应 Spring Boot 实现见 [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证]]。
+对应 Spring Boot 实现见 [[12-Spring-Security-JWT无状态认证]]。
 
 ## 5. 实战注意点
 
@@ -84,7 +84,7 @@ Big-event 使用 JWT 表示登录态：
 - [[HTTP-401-Unauthorized]]
 - [[Network/HTTP/Method/POST]]
 - [[Network/HTTP/Concept/RESTful-API-Design]]
-- [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证]]
+- [[12-Spring-Security-JWT无状态认证]]
 
 ## 参考资料
 

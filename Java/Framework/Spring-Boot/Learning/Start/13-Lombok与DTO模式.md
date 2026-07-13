@@ -55,7 +55,7 @@ DTO 可以承载 Bean Validation 注解，例如 `@NotBlank`、`@Email`、`@Patt
 ## 相关主题
 
 - [[Java/Framework/Spring-的一般项目结构]]
-- [[Java/Framework/Spring-Boot/Learning/10-RESTful-API与参数校验]]
+- [[10-RESTful-API与参数校验]]
 
 ## 参考资料
 

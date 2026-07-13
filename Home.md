@@ -64,7 +64,7 @@ MySQL/MOC
 - [[Network/HTTP/MOC\|HTTP MOC]] 完成
 - [[Security/MOC\|Security MOC]] 完成
 - [[MySQL/00-Map/MySQL-MOC\|MySQL MOC]] 重构为英文目录 + 方法级 SQL / 调优知识索引
-- [[Java/Framework/Spring-Boot/Learning/09-Spring-Boot自动配置的原理\|Spring-Boot 自动配置的原理]]
+- [[09-Spring-Boot自动配置的原理\|Spring-Boot 自动配置的原理]]
 
 ## 标签云
 

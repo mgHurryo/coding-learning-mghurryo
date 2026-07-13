@@ -48,7 +48,7 @@ Big-event 中，启动类位于父包下，Controller、Service、Config、Filte
 需要注意：
 
 - 普通 Spring 组件依赖 `@ComponentScan`。
-- MyBatis Mapper 通常还需要 `@Mapper` 或 `@MapperScan`，见 [[Java/Framework/Spring-Boot/Learning/05-接入-Mybatis\|接入 MyBatis]]。
+- MyBatis Mapper 通常还需要 `@Mapper` 或 `@MapperScan`，见 [[05-接入-Mybatis\|接入 MyBatis]]。
 - 包结构设计见 [[Java/Framework/Spring-的一般项目结构]]。
 
 ## 相关主题

@@ -68,4 +68,4 @@ Content-Type: application/json
 - Token 过期，需要重新登录。
 - Token 签名校验失败。
 
-相关实现见 [[Security/Authentication/JWT-无状态认证]] 和 [[Java/Framework/Spring-Boot/Learning/12-Spring-Security-JWT无状态认证]]。
+相关实现见 [[Security/Authentication/JWT-无状态认证]] 和 [[12-Spring-Security-JWT无状态认证]]。
