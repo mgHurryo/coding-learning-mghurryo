@@ -37,7 +37,7 @@ SELECT * FROM user WHERE username LIKE "tom%" AND age = 18;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-Extra-字段|EXPLAIN Extra 字段]]
-- [[MySQL/05-Indexing/Composite-Index-联合索引|Composite Index 联合索引]]
+- [EXPLAIN Extra 字段](../08-Performance-Diagnostics/EXPLAIN-Extra-字段.md)
+- [Composite Index 联合索引](Composite-Index-联合索引.md)
 
 

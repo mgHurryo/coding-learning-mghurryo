@@ -45,13 +45,13 @@ Host: api.example.com
 
 Big-event 中查询用户信息属于 GET 场景：它只读取资源，不应该修改服务器状态。
 
-注意：登录不能用 GET，即使它看起来是在“查询用户是否存在”。登录会提交密码并生成 Token，应该使用 [[Network/HTTP/Method/POST\|POST]]。
+注意：登录不能用 GET，即使它看起来是在“查询用户是否存在”。登录会提交密码并生成 Token，应该使用 [POST](POST.md)。
 
 ## 相关概念
 
-- [[HTTP-Safety]]
-- [[HTTP-Idempotency]]
-- [[HTTP-Caching]]
-- [[RESTful-API-Design]]
-- [[10-RESTful-API与参数校验\|RESTful API 与参数校验]]
-- [[Network/HTTP/Guide/常见误区\|HTTP 常见误区]]
+- [HTTP-Safety](../Concept/HTTP-Safety.md)
+- [HTTP-Idempotency](../Concept/HTTP-Idempotency.md)
+- [HTTP-Caching](../Concept/HTTP-Caching.md)
+- [RESTful-API-Design](../Concept/RESTful-API-Design.md)
+- [RESTful API 与参数校验](../../../Java/Framework/Spring-Boot/Learning/Start/10-RESTful-API与参数校验.md)
+- [HTTP 常见误区](../Guide/常见误区.md)

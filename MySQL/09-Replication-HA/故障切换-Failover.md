@@ -36,6 +36,6 @@ SHOW VARIABLES LIKE 'gtid_mode';
 
 ## 相关主题
 
-- [[MySQL/09-Replication-HA/GTID|GTID]]
-- [[MySQL/09-Replication-HA/主从复制-Replication|主从复制 Replication]]
-- [[MySQL/10-Operations/备份恢复-Backup-Restore|备份恢复 Backup Restore]]
+- [GTID](GTID.md)
+- [主从复制 Replication](主从复制-Replication.md)
+- [备份恢复 Backup Restore](../10-Operations/备份恢复-Backup-Restore.md)

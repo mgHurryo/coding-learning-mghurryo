@@ -37,7 +37,7 @@ UPDATE article SET status = 0 WHERE id = 10;
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Index-索引概念|Index 索引概念]]
-- [[MySQL/06-Transaction-Lock/Deadlock-死锁|Deadlock 死锁]]
+- [Index 索引概念](../05-Indexing/Index-索引概念.md)
+- [Deadlock 死锁](Deadlock-死锁.md)
 
 

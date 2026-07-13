@@ -35,6 +35,6 @@ SET PERSIST long_query_time = 1;
 
 ## 相关主题
 
-- [[MySQL/07-InnoDB-Internals/Buffer-Pool|Buffer Pool]]
-- [[MySQL/07-InnoDB-Internals/redo-log|redo log]]
-- [[MySQL/08-Performance-Diagnostics/Slow-Query-Log-慢查询日志|Slow Query Log 慢查询日志]]
+- [Buffer Pool](../07-InnoDB-Internals/Buffer-Pool.md)
+- [redo log](../07-InnoDB-Internals/redo-log.md)
+- [Slow Query Log 慢查询日志](../08-Performance-Diagnostics/Slow-Query-Log-慢查询日志.md)

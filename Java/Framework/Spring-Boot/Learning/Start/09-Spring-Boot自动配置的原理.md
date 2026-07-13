@@ -11,7 +11,7 @@ category: Spring-Boot
 
 # 09. Spring-Boot 自动配置的原理
 
-[[08-Bean-的条件引入|上一章：Bean 的条件引入]]
+[上一章：Bean 的条件引入](08-Bean-的条件引入.md)
 
 ## 1. 在主启动类上添加 `@SpringBootApplication` 注解
 
@@ -57,7 +57,7 @@ Spring 会解析并执行：
 @Conditional 及其衍生注解
 ```
 
-具体筛选逻辑可以查看 [[08-Bean-的条件引入]] 
+具体筛选逻辑可以查看 [08-Bean-的条件引入](08-Bean-的条件引入.md)
 
 例如：
 

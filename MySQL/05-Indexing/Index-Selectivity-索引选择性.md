@@ -44,6 +44,6 @@ SELECT COUNT(DISTINCT status) / COUNT(*) AS selectivity FROM article;
 
 ## 相关主题
 
-- [[MySQL/99-Common-Concepts/选择性与基数|选择性与基数]]
-- [[MySQL/05-Indexing/Composite-Index-联合索引|Composite Index 联合索引]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-rows-字段|EXPLAIN rows 字段]]
+- [选择性与基数](../99-Common-Concepts/选择性与基数.md)
+- [Composite Index 联合索引](Composite-Index-联合索引.md)
+- [EXPLAIN rows 字段](../08-Performance-Diagnostics/EXPLAIN-rows-字段.md)

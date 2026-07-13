@@ -47,7 +47,7 @@ Spring Boot 项目要把慢 SQL 和接口、Mapper 方法、参数样本关联�
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/Slow-Query-Log-慢查询日志|Slow Query Log 慢查询日志]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-使用方法|EXPLAIN 使用方法]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-ANALYZE|EXPLAIN ANALYZE]]
-- [[MySQL/06-Transaction-Lock/锁等待排查-Lock-Wait|锁等待排查 Lock Wait]]
+- [Slow Query Log 慢查询日志](Slow-Query-Log-慢查询日志.md)
+- [EXPLAIN 使用方法](EXPLAIN-使用方法.md)
+- [EXPLAIN ANALYZE](EXPLAIN-ANALYZE.md)
+- [锁等待排查 Lock Wait](../06-Transaction-Lock/锁等待排查-Lock-Wait.md)

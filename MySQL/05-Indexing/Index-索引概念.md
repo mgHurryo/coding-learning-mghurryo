@@ -37,7 +37,7 @@ CREATE INDEX idx_article_user_id ON article(user_id);
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Composite-Index-联合索引|Composite Index 联合索引]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-使用方法|EXPLAIN 使用方法]]
+- [Composite Index 联合索引](Composite-Index-联合索引.md)
+- [EXPLAIN 使用方法](../08-Performance-Diagnostics/EXPLAIN-使用方法.md)
 
 

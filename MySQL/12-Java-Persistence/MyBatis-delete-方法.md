@@ -38,7 +38,7 @@ int deleteById(Long id, Long userId);
 
 ## 相关主题
 
-- [[MySQL/03-SQL-DML/DELETE-条件删除|DELETE 条件删除]]
-- [[MySQL/03-SQL-DML/Soft-Delete-逻辑删除|Soft Delete 逻辑删除]]
+- [DELETE 条件删除](../03-SQL-DML/DELETE-条件删除.md)
+- [Soft Delete 逻辑删除](../03-SQL-DML/Soft-Delete-逻辑删除.md)
 
 

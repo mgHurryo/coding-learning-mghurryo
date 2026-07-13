@@ -76,11 +76,11 @@ mybatis:
 
 ## 相关主题
 
-- [[05-接入-Mybatis]]
-- [[Java/Framework/Spring-的一般项目结构]]
-- [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
-- [[Java/Advanced/反射]]
-- [[Network/HTTP/Guide/幂等接口设计\|幂等接口设计]]
+- [05-接入-Mybatis](../../Java/Framework/Spring-Boot/Learning/Start/05-接入-Mybatis.md)
+- [Spring-的一般项目结构](../../Java/Framework/Spring-的一般项目结构.md)
+- [DataSource 数据源](DataSource-数据源.md)
+- [反射](../../Java/Advanced/反射.md)
+- [幂等接口设计](../../Network/HTTP/Guide/幂等接口设计.md)
 
 ## 参考资料
 

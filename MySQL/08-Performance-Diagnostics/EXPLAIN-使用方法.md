@@ -49,6 +49,6 @@ LIMIT 20;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-ANALYZE|EXPLAIN ANALYZE]]
-- [[MySQL/08-Performance-Diagnostics/optimizer-trace|optimizer trace]]
-- [[MySQL/05-Indexing/Index-索引概念|Index 索引概念]]
+- [EXPLAIN ANALYZE](EXPLAIN-ANALYZE.md)
+- [optimizer trace](optimizer-trace.md)
+- [Index 索引概念](../05-Indexing/Index-索引概念.md)

@@ -37,7 +37,7 @@ WHERE 等值列 + ORDER BY 列组成联合索引，通常能减少 `Using fileso
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/ORDER-BY-排序|ORDER BY 排序]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-Extra-字段|EXPLAIN Extra 字段]]
+- [ORDER BY 排序](../04-Query-Methods/ORDER-BY-排序.md)
+- [EXPLAIN Extra 字段](EXPLAIN-Extra-字段.md)
 
 

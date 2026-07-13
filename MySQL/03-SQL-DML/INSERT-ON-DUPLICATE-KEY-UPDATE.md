@@ -37,7 +37,7 @@ INSERT INTO user_stat (user_id, login_count) VALUES (1, 1) ON DUPLICATE KEY UPDA
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Unique-Index-唯一索引|Unique Index 唯一索引]]
-- [[Network/HTTP/Guide/幂等接口设计]]
+- [Unique Index 唯一索引](../05-Indexing/Unique-Index-唯一索引.md)
+- [幂等接口设计](../../Network/HTTP/Guide/幂等接口设计.md)
 
 

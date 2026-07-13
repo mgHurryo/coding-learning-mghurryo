@@ -38,7 +38,7 @@ SET GLOBAL long_query_time = 1;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-使用方法|EXPLAIN 使用方法]]
-- [[MySQL/08-Performance-Diagnostics/SELECT-调优|SELECT 调优]]
+- [EXPLAIN 使用方法](EXPLAIN-使用方法.md)
+- [SELECT 调优](SELECT-调优.md)
 
 

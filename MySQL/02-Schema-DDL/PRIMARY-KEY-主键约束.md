@@ -37,7 +37,7 @@ InnoDB 主键越短越稳定，二级索引叶子节点携带主键的成本越�
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Primary-Index-主键索引|Primary Index 主键索引]]
-- [[MySQL/01-Foundations/StorageEngine-存储引擎|StorageEngine 存储引擎]]
+- [Primary Index 主键索引](../05-Indexing/Primary-Index-主键索引.md)
+- [StorageEngine 存储引擎](../01-Foundations/StorageEngine-存储引擎.md)
 
 

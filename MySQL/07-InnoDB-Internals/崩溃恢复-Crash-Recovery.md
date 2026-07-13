@@ -41,7 +41,7 @@ SHOW VARIABLES LIKE 'innodb_fast_shutdown';
 
 ## 相关主题
 
-- [[MySQL/07-InnoDB-Internals/redo-log|redo log]]
-- [[MySQL/07-InnoDB-Internals/undo-log|undo log]]
-- [[MySQL/07-InnoDB-Internals/binlog-与-redo-log-协作|binlog 与 redo log 协作]]
-- [[MySQL/10-Operations/备份恢复-Backup-Restore|备份恢复 Backup Restore]]
+- [redo log](redo-log.md)
+- [undo log](undo-log.md)
+- [binlog 与 redo log 协作](binlog-与-redo-log-协作.md)
+- [备份恢复 Backup Restore](../10-Operations/备份恢复-Backup-Restore.md)

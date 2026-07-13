@@ -37,7 +37,7 @@ UPDATE article SET title = "new title", update_time = NOW() WHERE id = 10;
 
 ## 相关主题
 
-- [[MySQL/03-SQL-DML/UPDATE-批量更新|UPDATE 批量更新]]
-- [[MySQL/06-Transaction-Lock/Row-Lock-行锁|Row Lock 行锁]]
+- [UPDATE 批量更新](UPDATE-批量更新.md)
+- [Row Lock 行锁](../06-Transaction-Lock/Row-Lock-行锁.md)
 
 

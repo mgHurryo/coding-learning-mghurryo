@@ -37,7 +37,7 @@ Spring Boot 接口并发上升时，连接池过小会等待，过大可能压�
 
 ## 相关主题
 
-- [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
-- [[Java/Advanced/多线程]]
+- [DataSource 数据源](../12-Java-Persistence/DataSource-数据源.md)
+- [多线程](../../Java/Advanced/多线程.md)
 
 

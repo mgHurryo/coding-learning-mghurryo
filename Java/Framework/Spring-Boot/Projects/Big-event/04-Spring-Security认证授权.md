@@ -9,7 +9,7 @@ category: Spring-Boot
 # 🔴 Spring Security 认证与授权
 
 > 对应项目文件：`config/SpringSecurityConfig.java`、`filter/JwtFilter.java`
-> 关联笔记：[[05-JWT-令牌机制]] | [[01-Spring-Boot-基础]]
+> 关联笔记：[05-JWT-令牌机制](05-JWT-令牌机制.md) | [01-Spring-Boot-基础](01-Spring-Boot-基础.md)
 
 ---
 
@@ -144,4 +144,4 @@ SecurityContextHolder.getContext().setAuthentication(authentication);
 | `OncePerRequestFilter` | 每个请求只过滤一次 | `JwtFilter.java:20` |
 | `SecurityContextHolder` | 存储认证信息 | `JwtFilter.java:57` |
 
-> 🔗 **下一步学习：** [[05-JWT-令牌机制]] → JWT Token 的生成与验证
+> 🔗 **下一步学习：** [05-JWT-令牌机制](05-JWT-令牌机制.md) → JWT Token 的生成与验证

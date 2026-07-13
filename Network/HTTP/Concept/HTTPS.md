@@ -26,7 +26,7 @@ HTTPS（HyperText Transfer Protocol Secure）是 HTTP 的安全版本，通过 T
 1. 客户端向服务器请求建立 HTTPS 连接。
 2. 服务器返回数字证书。
 3. 客户端验证证书有效性。
-4. 客户端与服务器通过 [[TLS-Handshake]] 协商加密密钥。
+4. 客户端与服务器通过 [TLS-Handshake](TLS-Handshake.md) 协商加密密钥。
 5. 使用对称加密进行后续通信。
 
 ## HTTP vs HTTPS
@@ -45,6 +45,6 @@ HTTPS（HyperText Transfer Protocol Secure）是 HTTP 的安全版本，通过 T
 
 ## 相关概念
 
-- [[TLS-Handshake]]
-- [[HTTP-Proxy]]
-- [[CONNECT]]
+- [TLS-Handshake](TLS-Handshake.md)
+- [HTTP-Proxy](HTTP-Proxy.md)
+- [CONNECT](../Method/CONNECT.md)

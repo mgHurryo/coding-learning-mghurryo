@@ -9,8 +9,8 @@ title: "@Configuration"
 
 ## 关联知识
 
-- [[07-Bean-对象的注册\|Bean 对象的注册]]
-- [[04-yaml-配置文件的书写与获取\|yaml 配置文件的书写与获取]]
-- [[12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]
-- [[MySQL/12-Java-Persistence/DataSource-数据源\|DataSource 数据源]]
+- [Bean 对象的注册](../Learning/Start/07-Bean-对象的注册.md)
+- [yaml 配置文件的书写与获取](../Learning/Start/04-yaml-配置文件的书写与获取.md)
+- [Spring Security JWT 无状态认证](../Learning/Start/12-Spring-Security-JWT无状态认证.md)
+- [DataSource 数据源](../../../../MySQL/12-Java-Persistence/DataSource-数据源.md)
 

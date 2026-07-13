@@ -37,7 +37,7 @@ SELECT * FROM article WHERE category_id = 3 FOR UPDATE;
 
 ## 相关主题
 
-- [[MySQL/06-Transaction-Lock/Gap-Lock-间隙锁|Gap Lock 间隙锁]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-key-字段|EXPLAIN key 字段]]
+- [Gap Lock 间隙锁](Gap-Lock-间隙锁.md)
+- [EXPLAIN key 字段](../08-Performance-Diagnostics/EXPLAIN-key-字段.md)
 
 

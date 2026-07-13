@@ -50,6 +50,6 @@ LIMIT 20;
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Leftmost-Prefix-最左前缀原则|Leftmost Prefix 最左前缀原则]]
-- [[MySQL/05-Indexing/Covering-Index-覆盖索引|Covering Index 覆盖索引]]
-- [[MySQL/05-Indexing/Index-Selectivity-索引选择性|Index Selectivity 索引选择性]]
+- [Leftmost Prefix 最左前缀原则](Leftmost-Prefix-最左前缀原则.md)
+- [Covering Index 覆盖索引](Covering-Index-覆盖索引.md)
+- [Index Selectivity 索引选择性](Index-Selectivity-索引选择性.md)

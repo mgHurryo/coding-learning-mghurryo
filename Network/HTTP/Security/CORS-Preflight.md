@@ -13,7 +13,7 @@ category: Network
 
 ## 定义
 
-CORS 预检请求（Preflight Request）是浏览器在发送复杂跨域请求之前，自动发起的一个 [[OPTIONS]] 请求，用于确认服务器是否允许实际请求。
+CORS 预检请求（Preflight Request）是浏览器在发送复杂跨域请求之前，自动发起的一个 [OPTIONS](../Method/OPTIONS.md) 请求，用于确认服务器是否允许实际请求。
 
 ## 什么情况下会触发预检
 
@@ -68,6 +68,6 @@ Access-Control-Max-Age: 86400
 
 ## 相关概念
 
-- [[OPTIONS]]
-- [[HTTP-204-No-Content]]
-- [[HTTP-Safety]]
+- [OPTIONS](../Method/OPTIONS.md)
+- [HTTP-204-No-Content](../Status/HTTP-204-No-Content.md)
+- [HTTP-Safety](../Concept/HTTP-Safety.md)

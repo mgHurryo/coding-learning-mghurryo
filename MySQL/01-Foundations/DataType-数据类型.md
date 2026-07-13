@@ -37,7 +37,7 @@ id BIGINT AUTO_INCREMENT, amount DECIMAL(10,2), create_time DATETIME
 
 ## 相关主题
 
-- [[MySQL/01-Foundations/Column-字段|Column 字段]]
-- [[MySQL/02-Schema-DDL/CREATE-TABLE-创建表|CREATE TABLE 创建表]]
+- [Column 字段](Column-字段.md)
+- [CREATE TABLE 创建表](../02-Schema-DDL/CREATE-TABLE-创建表.md)
 
 

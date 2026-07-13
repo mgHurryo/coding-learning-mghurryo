@@ -37,7 +37,7 @@ SELECT id, title FROM article WHERE user_id IN (SELECT id FROM user WHERE status
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/IN-多值匹配|IN 多值匹配]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-使用方法|EXPLAIN 使用方法]]
+- [IN 多值匹配](IN-多值匹配.md)
+- [EXPLAIN 使用方法](../08-Performance-Diagnostics/EXPLAIN-使用方法.md)
 
 

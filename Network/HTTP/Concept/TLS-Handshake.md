@@ -36,6 +36,6 @@ HTTPS 依赖 TLS 握手建立安全通道，之后 HTTP 数据在该通道中加
 
 ## 相关概念
 
-- [[HTTPS]]
-- [[CONNECT]]
-- [[HTTP-Proxy]]
+- [HTTPS](HTTPS.md)
+- [CONNECT](../Method/CONNECT.md)
+- [HTTP-Proxy](HTTP-Proxy.md)

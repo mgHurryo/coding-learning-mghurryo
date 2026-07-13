@@ -34,8 +34,8 @@ SHOW VARIABLES LIKE 'relay_log%';
 
 ## 相关主题
 
-- [[MySQL/09-Replication-HA/主从复制-Replication|主从复制 Replication]]
-- [[MySQL/09-Replication-HA/复制延迟-Replication-Lag|复制延迟 Replication Lag]]
+- [主从复制 Replication](主从复制-Replication.md)
+- [复制延迟 Replication Lag](复制延迟-Replication-Lag.md)
 
 ## 参考资料
 

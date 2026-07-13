@@ -38,7 +38,7 @@ int updateTitle(Article article);
 
 ## 相关主题
 
-- [[MySQL/03-SQL-DML/UPDATE-条件更新|UPDATE 条件更新]]
-- [[MySQL/06-Transaction-Lock/Row-Lock-行锁|Row Lock 行锁]]
+- [UPDATE 条件更新](../03-SQL-DML/UPDATE-条件更新.md)
+- [Row Lock 行锁](../06-Transaction-Lock/Row-Lock-行锁.md)
 
 

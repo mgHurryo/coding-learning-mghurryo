@@ -37,7 +37,7 @@ SELECT id, title FROM article WHERE user_id = 1 ORDER BY id DESC LIMIT 20;
 
 ## 相关主题
 
-- [[MySQL/03-SQL-DML/SELECT-基础查询|SELECT 基础查询]]
-- [[MySQL/08-Performance-Diagnostics/LIMIT-深分页调优|LIMIT 深分页调优]]
+- [SELECT 基础查询](../03-SQL-DML/SELECT-基础查询.md)
+- [LIMIT 深分页调优](LIMIT-深分页调优.md)
 
 

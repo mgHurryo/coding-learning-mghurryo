@@ -47,9 +47,9 @@ ALTER TABLE article
 
 ## 相关主题
 
-- [[MySQL/02-Schema-DDL/ALTER-TABLE-修改表|ALTER TABLE 修改表]]
-- [[MySQL/06-Transaction-Lock/锁等待排查-Lock-Wait|锁等待排查 Lock Wait]]
-- [[MySQL/10-Operations/数据迁移-Data-Migration|数据迁移 Data Migration]]
+- [ALTER TABLE 修改表](ALTER-TABLE-修改表.md)
+- [锁等待排查 Lock Wait](../06-Transaction-Lock/锁等待排查-Lock-Wait.md)
+- [数据迁移 Data Migration](../10-Operations/数据迁移-Data-Migration.md)
 
 ## 参考资料
 

@@ -37,7 +37,7 @@ CREATE DATABASE app_db CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
 
 ## 相关主题
 
-- [[MySQL/01-Foundations/Database-数据库概念|Database 数据库概念]]
-- [[MySQL/01-Foundations/Charset-字符集与排序规则|Charset 字符集与排序规则]]
+- [Database 数据库概念](../01-Foundations/Database-数据库概念.md)
+- [Charset 字符集与排序规则](../01-Foundations/Charset-字符集与排序规则.md)
 
 

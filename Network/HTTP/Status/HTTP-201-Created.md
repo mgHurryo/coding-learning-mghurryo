@@ -17,8 +17,8 @@ category: Network
 
 ## 使用场景
 
-- [[POST]] 请求成功创建资源。
-- 某些 [[PUT]] 请求在资源不存在时创建资源。
+- [POST](../Method/POST.md) 请求成功创建资源。
+- 某些 [PUT](../Method/PUT.md) 请求在资源不存在时创建资源。
 
 ## 示例
 
@@ -46,7 +46,7 @@ Content-Type: application/json
 
 ## 相关概念
 
-- [[POST]]
-- [[PUT]]
-- [[HTTP-200-OK]]
-- [[RESTful-API-Design]]
+- [POST](../Method/POST.md)
+- [PUT](../Method/PUT.md)
+- [HTTP-200-OK](HTTP-200-OK.md)
+- [RESTful-API-Design](../Concept/RESTful-API-Design.md)

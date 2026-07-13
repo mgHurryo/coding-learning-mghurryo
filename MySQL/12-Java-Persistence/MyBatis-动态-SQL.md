@@ -42,7 +42,7 @@ category: MySQL
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/WHERE-条件过滤|WHERE 条件过滤]]
-- [[MySQL/05-Indexing/Composite-Index-联合索引|Composite Index 联合索引]]
+- [WHERE 条件过滤](../04-Query-Methods/WHERE-条件过滤.md)
+- [Composite Index 联合索引](../05-Indexing/Composite-Index-联合索引.md)
 
 

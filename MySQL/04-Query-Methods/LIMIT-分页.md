@@ -37,7 +37,7 @@ SELECT id, title FROM article ORDER BY id DESC LIMIT 20 OFFSET 40;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/LIMIT-深分页调优|LIMIT 深分页调优]]
-- [[MySQL/04-Query-Methods/ORDER-BY-排序|ORDER BY 排序]]
+- [LIMIT 深分页调优](../08-Performance-Diagnostics/LIMIT-深分页调优.md)
+- [ORDER BY 排序](ORDER-BY-排序.md)
 
 

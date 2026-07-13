@@ -45,6 +45,6 @@ SELECT * FROM information_schema.innodb_trx;
 
 ## 相关主题
 
-- [[MySQL/06-Transaction-Lock/MVCC|MVCC]]
-- [[MySQL/06-Transaction-Lock/Transaction-事务|Transaction 事务]]
-- [[MySQL/07-InnoDB-Internals/崩溃恢复-Crash-Recovery|崩溃恢复 Crash Recovery]]
+- [MVCC](../06-Transaction-Lock/MVCC.md)
+- [Transaction 事务](../06-Transaction-Lock/Transaction-事务.md)
+- [崩溃恢复 Crash Recovery](崩溃恢复-Crash-Recovery.md)

@@ -45,13 +45,13 @@ Big-event 的 JWT 登录态适合使用 Bearer Token：
 - 登录成功后返回 JWT。
 - 后续请求使用 `Authorization: Bearer <token>`。
 - Spring Security Filter 在 Controller 前解析和验证 Token。
-- Token 无效或过期时返回 [[HTTP-401-Unauthorized\|401 Unauthorized]]。
+- Token 无效或过期时返回 [401 Unauthorized](../../Network/HTTP/Status/HTTP-401-Unauthorized.md)。
 
 ## 相关主题
 
-- [[Security/Authentication/JWT-无状态认证\|JWT 无状态认证]]
-- [[Security/Authentication/JJWT-笔记\|JJWT 笔记]]
-- [[Security/Authentication/OAuth-2.0\|OAuth 2.0]]
-- [[12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]
-- [[HTTP-401-Unauthorized\|401 Unauthorized]]
+- [JWT 无状态认证](JWT-无状态认证.md)
+- [JJWT 笔记](JJWT-笔记.md)
+- [OAuth 2.0](OAuth-2.0.md)
+- [Spring Security JWT 无状态认证](../../Java/Framework/Spring-Boot/Learning/Start/12-Spring-Security-JWT无状态认证.md)
+- [401 Unauthorized](../../Network/HTTP/Status/HTTP-401-Unauthorized.md)
 

@@ -34,5 +34,5 @@ SHOW VARIABLES LIKE 'innodb_redo_log_capacity';
 
 ## 相关主题
 
-- [[MySQL/07-InnoDB-Internals/redo-log|redo log]]
-- [[MySQL/07-InnoDB-Internals/Buffer-Pool|Buffer Pool]]
+- [redo log](redo-log.md)
+- [Buffer Pool](Buffer-Pool.md)

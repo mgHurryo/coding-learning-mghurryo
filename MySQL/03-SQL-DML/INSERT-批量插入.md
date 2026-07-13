@@ -37,7 +37,7 @@ INSERT INTO category (category_name, create_time) VALUES ("Java", NOW()), ("MySQ
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/Batch-Insert-批量写入调优|Batch Insert 批量写入调优]]
-- [[MySQL/06-Transaction-Lock/Transaction-事务|Transaction 事务]]
+- [Batch Insert 批量写入调优](../08-Performance-Diagnostics/Batch-Insert-批量写入调优.md)
+- [Transaction 事务](../06-Transaction-Lock/Transaction-事务.md)
 
 

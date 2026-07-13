@@ -47,6 +47,6 @@ Content-Type: application/json
 
 ## 相关概念
 
-- [[HTTP-500-Internal-Server-Error]]
-- [[HTTP-502-Bad-Gateway]]
-- [[HTTP-429-Too-Many-Requests]]
+- [HTTP-500-Internal-Server-Error](HTTP-500-Internal-Server-Error.md)
+- [HTTP-502-Bad-Gateway](HTTP-502-Bad-Gateway.md)
+- [HTTP-429-Too-Many-Requests](HTTP-429-Too-Many-Requests.md)

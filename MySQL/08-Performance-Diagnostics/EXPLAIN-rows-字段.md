@@ -37,7 +37,7 @@ EXPLAIN SELECT * FROM article WHERE status = 1;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/WHERE-调优|WHERE 调优]]
-- [[MySQL/05-Indexing/Composite-Index-联合索引|Composite Index 联合索引]]
+- [WHERE 调优](WHERE-调优.md)
+- [Composite Index 联合索引](../05-Indexing/Composite-Index-联合索引.md)
 
 

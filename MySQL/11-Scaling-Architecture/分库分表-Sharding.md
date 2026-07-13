@@ -41,5 +41,5 @@ order_id hash -> db_n.table_n
 
 ## 相关主题
 
-- [[MySQL/11-Scaling-Architecture/冷热数据-Hot-Cold-Data|冷热数据 Hot Cold Data]]
-- [[MySQL/10-Operations/数据迁移-Data-Migration|数据迁移 Data Migration]]
+- [冷热数据 Hot Cold Data](冷热数据-Hot-Cold-Data.md)
+- [数据迁移 Data Migration](../10-Operations/数据迁移-Data-Migration.md)

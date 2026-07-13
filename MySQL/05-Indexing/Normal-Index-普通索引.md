@@ -37,7 +37,7 @@ CREATE INDEX idx_article_category ON article(category_id);
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Composite-Index-联合索引|Composite Index 联合索引]]
-- [[MySQL/08-Performance-Diagnostics/WHERE-调优|WHERE 调优]]
+- [Composite Index 联合索引](Composite-Index-联合索引.md)
+- [WHERE 调优](../08-Performance-Diagnostics/WHERE-调优.md)
 
 

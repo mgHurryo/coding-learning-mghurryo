@@ -36,6 +36,6 @@ SHOW GLOBAL STATUS LIKE 'Innodb_row_lock%';
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/慢-SQL-排查流程|慢 SQL 排查流程]]
-- [[MySQL/06-Transaction-Lock/锁等待排查-Lock-Wait|锁等待排查 Lock Wait]]
-- [[MySQL/09-Replication-HA/复制延迟-Replication-Lag|复制延迟 Replication Lag]]
+- [慢 SQL 排查流程](../08-Performance-Diagnostics/慢-SQL-排查流程.md)
+- [锁等待排查 Lock Wait](../06-Transaction-Lock/锁等待排查-Lock-Wait.md)
+- [复制延迟 Replication Lag](../09-Replication-HA/复制延迟-Replication-Lag.md)

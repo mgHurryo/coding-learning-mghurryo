@@ -45,9 +45,9 @@ SHOW GLOBAL STATUS LIKE 'Innodb_buffer_pool_read%';
 
 ## 相关主题
 
-- [[MySQL/07-InnoDB-Internals/checkpoint|checkpoint]]
-- [[MySQL/07-InnoDB-Internals/redo-log|redo log]]
-- [[MySQL/08-Performance-Diagnostics/慢-SQL-排查流程|慢 SQL 排查流程]]
+- [checkpoint](checkpoint.md)
+- [redo log](redo-log.md)
+- [慢 SQL 排查流程](../08-Performance-Diagnostics/慢-SQL-排查流程.md)
 
 ## 参考资料
 

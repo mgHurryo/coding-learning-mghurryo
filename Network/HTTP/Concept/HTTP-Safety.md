@@ -21,14 +21,14 @@ category: Network
 
 | 方法 | 是否安全 | 说明 |
 |------|----------|------|
-| [[GET]] | ✅ | 只读取资源 |
-| [[HEAD]] | ✅ | 只读取响应头 |
-| [[OPTIONS]] | ✅ | 查询通信选项 |
-| [[TRACE]] | ✅ | 回显请求 |
-| [[POST]] | ❌ | 创建资源，修改状态 |
-| [[PUT]] | ❌ | 替换资源，修改状态 |
-| [[PATCH]] | ❌ | 修改资源，修改状态 |
-| [[DELETE]] | ❌ | 删除资源，修改状态 |
+| [GET](../Method/GET.md) | ✅ | 只读取资源 |
+| [HEAD](../Method/HEAD.md) | ✅ | 只读取响应头 |
+| [OPTIONS](../Method/OPTIONS.md) | ✅ | 查询通信选项 |
+| [TRACE](../Method/TRACE.md) | ✅ | 回显请求 |
+| [POST](../Method/POST.md) | ❌ | 创建资源，修改状态 |
+| [PUT](../Method/PUT.md) | ❌ | 替换资源，修改状态 |
+| [PATCH](../Method/PATCH.md) | ❌ | 修改资源，修改状态 |
+| [DELETE](../Method/DELETE.md) | ❌ | 删除资源，修改状态 |
 
 ## 安全性的意义
 
@@ -52,6 +52,6 @@ category: Network
 
 ## 相关概念
 
-- [[HTTP-Idempotency]]
-- [[HTTP-Caching]]
-- [[RESTful-API-Design]]
+- [HTTP-Idempotency](HTTP-Idempotency.md)
+- [HTTP-Caching](HTTP-Caching.md)
+- [RESTful-API-Design](RESTful-API-Design.md)

@@ -51,6 +51,6 @@ LIMIT 20;
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/LIMIT-分页|LIMIT 分页]]
-- [[MySQL/05-Indexing/Covering-Index-覆盖索引|Covering Index 覆盖索引]]
-- [[MySQL/08-Performance-Diagnostics/ORDER-BY-调优|ORDER BY 调优]]
+- [LIMIT 分页](../04-Query-Methods/LIMIT-分页.md)
+- [Covering Index 覆盖索引](../05-Indexing/Covering-Index-覆盖索引.md)
+- [ORDER BY 调优](ORDER-BY-调优.md)

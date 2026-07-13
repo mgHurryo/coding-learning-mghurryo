@@ -12,7 +12,7 @@ category: Spring-Boot
 
 # 08. Bean 的条件引入
 
-[[07-Bean-对象的注册|上一章：Bean 对象的注册]] | [[09-Spring-Boot自动配置的原理|下一章：Spring-Boot 自动配置的原理]]
+[上一章：Bean 对象的注册](07-Bean-对象的注册.md) | [下一章：Spring-Boot 自动配置的原理](09-Spring-Boot自动配置的原理.md)
 
 Spring 中提供了的 `@Conditional` 条件注解来控制 Bean 的注册, 当条件满足时, Bean 才会被 Spring 注册
 

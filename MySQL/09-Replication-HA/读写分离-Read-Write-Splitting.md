@@ -36,6 +36,6 @@ read after write / strong consistency -> source
 
 ## 相关主题
 
-- [[MySQL/09-Replication-HA/复制延迟-Replication-Lag|复制延迟 Replication Lag]]
-- [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
-- [[MySQL/11-Scaling-Architecture/数据库边界与业务幂等|数据库边界与业务幂等]]
+- [复制延迟 Replication Lag](复制延迟-Replication-Lag.md)
+- [DataSource 数据源](../12-Java-Persistence/DataSource-数据源.md)
+- [数据库边界与业务幂等](../11-Scaling-Architecture/数据库边界与业务幂等.md)

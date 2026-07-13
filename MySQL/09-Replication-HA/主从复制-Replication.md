@@ -41,9 +41,9 @@ STOP REPLICA;
 
 ## 相关主题
 
-- [[MySQL/09-Replication-HA/binlog-Binary-Log|binlog Binary Log]]
-- [[MySQL/09-Replication-HA/relay-log|relay log]]
-- [[MySQL/09-Replication-HA/复制延迟-Replication-Lag|复制延迟 Replication Lag]]
+- [binlog Binary Log](binlog-Binary-Log.md)
+- [relay log](relay-log.md)
+- [复制延迟 Replication Lag](复制延迟-Replication-Lag.md)
 
 ## 参考资料
 

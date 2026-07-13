@@ -37,7 +37,7 @@ ALTER TABLE user ADD COLUMN update_time DATETIME NULL;
 
 ## 相关主题
 
-- [[MySQL/02-Schema-DDL/CREATE-TABLE-创建表|CREATE TABLE 创建表]]
-- [[MySQL/05-Indexing/SHOW-INDEX-查看索引|SHOW INDEX 查看索引]]
+- [CREATE TABLE 创建表](CREATE-TABLE-创建表.md)
+- [SHOW INDEX 查看索引](../05-Indexing/SHOW-INDEX-查看索引.md)
 
 

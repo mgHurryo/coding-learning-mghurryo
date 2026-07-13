@@ -37,7 +37,7 @@ CREATE TABLE user (id BIGINT PRIMARY KEY AUTO_INCREMENT, username VARCHAR(50) NO
 
 ## 相关主题
 
-- [[MySQL/02-Schema-DDL/PRIMARY-KEY-主键约束|PRIMARY KEY 主键约束]]
-- [[MySQL/05-Indexing/Index-索引概念|Index 索引概念]]
+- [PRIMARY KEY 主键约束](PRIMARY-KEY-主键约束.md)
+- [Index 索引概念](../05-Indexing/Index-索引概念.md)
 
 

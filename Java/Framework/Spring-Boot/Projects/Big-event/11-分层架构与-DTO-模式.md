@@ -9,7 +9,7 @@ category: Spring-Boot
 # 🟩 分层架构与 DTO 模式
 
 > 对应项目文件：全部 27 个 Java 源文件
-> 关联笔记：[[01-Spring-Boot-基础]] | [[02-RESTful-API设计]] | [[06-MyBatis-数据持久层]]
+> 关联笔记：[01-Spring-Boot-基础](01-Spring-Boot-基础.md) | [02-RESTful-API设计](02-RESTful-API设计.md) | [06-MyBatis-数据持久层](06-MyBatis-数据持久层.md)
 
 ---
 
@@ -117,4 +117,4 @@ Result.success() → JSON 响应
 | DTO | 数据传输 | `@Data`, 校验注解 |
 | Config | 框架配置 | `@Configuration`, `@Bean` |
 
-> 🔗 **下一步学习：** [[12-项目完整分析总结]] → 项目整体总结
+> 🔗 **下一步学习：** [12-项目完整分析总结](12-项目完整分析总结.md) → 项目整体总结

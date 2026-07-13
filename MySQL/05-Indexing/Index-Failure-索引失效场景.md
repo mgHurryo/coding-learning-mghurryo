@@ -50,6 +50,6 @@ WHERE create_time >= '2026-07-04'
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Leftmost-Prefix-最左前缀原则|Leftmost Prefix 最左前缀原则]]
-- [[MySQL/04-Query-Methods/LIKE-模糊查询|LIKE 模糊查询]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-使用方法|EXPLAIN 使用方法]]
+- [Leftmost Prefix 最左前缀原则](Leftmost-Prefix-最左前缀原则.md)
+- [LIKE 模糊查询](../04-Query-Methods/LIKE-模糊查询.md)
+- [EXPLAIN 使用方法](../08-Performance-Diagnostics/EXPLAIN-使用方法.md)

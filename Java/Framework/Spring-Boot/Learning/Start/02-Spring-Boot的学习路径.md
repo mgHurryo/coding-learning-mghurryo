@@ -11,7 +11,7 @@ category: Spring-Boot
 
 # 02. Spring-Boot 的学习路径
 
-[[01-使用-Maven-手动创建一个-Spring-Boot-项目|上一章：使用 Maven 手动创建一个 SpringBoot 项目]] | [[03-Spring-Boot配置文件|下一章：Spring-Boot 配置文件]]
+[上一章：使用 Maven 手动创建一个 SpringBoot 项目](01-使用-Maven-手动创建一个-Spring-Boot-项目.md) | [下一章：Spring-Boot 配置文件](03-Spring-Boot配置文件.md)
 
 ## 基础
 

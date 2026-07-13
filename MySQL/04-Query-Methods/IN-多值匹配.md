@@ -37,7 +37,7 @@ SELECT id, username FROM user WHERE id IN (1, 2, 3);
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/WHERE-条件过滤|WHERE 条件过滤]]
-- [[MySQL/08-Performance-Diagnostics/SELECT-调优|SELECT 调优]]
+- [WHERE 条件过滤](WHERE-条件过滤.md)
+- [SELECT 调优](../08-Performance-Diagnostics/SELECT-调优.md)
 
 

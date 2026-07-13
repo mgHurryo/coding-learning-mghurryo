@@ -37,7 +37,7 @@ EXPLAIN SELECT * FROM user WHERE id = 1;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-key-字段|EXPLAIN key 字段]]
-- [[MySQL/05-Indexing/Index-Failure-索引失效场景|Index Failure 索引失效场景]]
+- [EXPLAIN key 字段](EXPLAIN-key-字段.md)
+- [Index Failure 索引失效场景](../05-Indexing/Index-Failure-索引失效场景.md)
 
 

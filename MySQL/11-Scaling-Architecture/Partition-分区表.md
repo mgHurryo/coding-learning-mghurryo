@@ -40,5 +40,5 @@ PARTITION BY RANGE COLUMNS(created_at) (
 
 ## 相关主题
 
-- [[MySQL/11-Scaling-Architecture/冷热数据-Hot-Cold-Data|冷热数据 Hot Cold Data]]
-- [[MySQL/10-Operations/容量评估-Capacity-Planning|容量评估 Capacity Planning]]
+- [冷热数据 Hot Cold Data](冷热数据-Hot-Cold-Data.md)
+- [容量评估 Capacity Planning](../10-Operations/容量评估-Capacity-Planning.md)

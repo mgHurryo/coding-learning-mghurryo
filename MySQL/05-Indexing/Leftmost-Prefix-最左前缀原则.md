@@ -37,7 +37,7 @@ category: MySQL
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Composite-Index-联合索引|Composite Index 联合索引]]
-- [[MySQL/04-Query-Methods/BETWEEN-范围查询|BETWEEN 范围查询]]
+- [Composite Index 联合索引](Composite-Index-联合索引.md)
+- [BETWEEN 范围查询](../04-Query-Methods/BETWEEN-范围查询.md)
 
 

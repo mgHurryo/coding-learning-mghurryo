@@ -37,7 +37,7 @@ DELETE FROM article WHERE id = 10;
 
 ## 相关主题
 
-- [[MySQL/03-SQL-DML/Soft-Delete-逻辑删除|Soft Delete 逻辑删除]]
-- [[MySQL/03-SQL-DML/TRUNCATE-与-DELETE-区别|TRUNCATE 与 DELETE 区别]]
+- [Soft Delete 逻辑删除](Soft-Delete-逻辑删除.md)
+- [TRUNCATE 与 DELETE 区别](TRUNCATE-与-DELETE-区别.md)
 
 

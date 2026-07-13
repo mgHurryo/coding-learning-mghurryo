@@ -9,7 +9,7 @@ category: Spring-Boot
 # 🔷 Lombok 代码简化
 
 > 对应项目文件：项目中所有 POJO、DTO、Properties 类（共 10 个文件）
-> 关联笔记：[[02-RESTful-API设计]] | [[06-MyBatis-数据持久层]]
+> 关联笔记：[02-RESTful-API设计](02-RESTful-API设计.md) | [06-MyBatis-数据持久层](06-MyBatis-数据持久层.md)
 
 ---
 
@@ -88,4 +88,4 @@ public class Result<T> {
 | `@NoArgsConstructor` | 无参构造器 | `Result<T>` |
 | `@AllArgsConstructor` | 全参构造器 | `Result<T>` |
 
-> 🔗 **下一步学习：** [[11-分层架构与-DTO-模式]] → 项目整体架构设计
+> 🔗 **下一步学习：** [11-分层架构与-DTO-模式](11-分层架构与-DTO-模式.md) → 项目整体架构设计

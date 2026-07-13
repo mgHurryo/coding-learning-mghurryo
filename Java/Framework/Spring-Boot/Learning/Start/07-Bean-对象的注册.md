@@ -12,7 +12,7 @@ category: Spring-Boot
 
 # 07. Bean 对象的注册
 
-[[06-Bean-对象的扫描|上一章：Bean 对象的扫描]] | [[08-Bean-的条件引入|下一章：Bean 的条件引入]]
+[上一章：Bean 对象的扫描](06-Bean-对象的扫描.md) | [下一章：Bean 的条件引入](08-Bean-的条件引入.md)
 
 `Bean` 的组件扫描注册 Bean:
 
@@ -109,7 +109,7 @@ public Student student() {
 }
 ```
 
-第二种和第三种的前置条件 (这里需要用到 [[03-Spring-Boot配置文件|配置文件]] 和 [[04-yaml-配置文件的书写与获取|获取配置文件内容]] 的知识):
+第二种和第三种的前置条件 (这里需要用到 [配置文件](03-Spring-Boot配置文件.md) 和 [获取配置文件内容](04-yaml-配置文件的书写与获取.md) 的知识):
 
 ```Java
 @Configuration
@@ -251,7 +251,7 @@ public class ConfigSelector implements ImportSelector {
 }
 ```
 
-自己在文件中写好需要导入的库 (需要自己手动解析文件) [[#^ssb-7-1|详解]]:
+自己在文件中写好需要导入的库 (需要自己手动解析文件) [详解](07-Bean-对象的注册.md#^ssb-7-1):
 
 ```Java
 
@@ -321,8 +321,8 @@ InputStream is = ConfigSelector.class
 
 Bean 注册不是只服务于学习示例，在真实 Spring Boot 项目中经常用于：
 
-- 注册 `SecurityFilterChain`，见 [[12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]。
-- 注册密码加密器，见 [[Security/Authentication/密码存储实践]]。
+- 注册 `SecurityFilterChain`，见 [Spring Security JWT 无状态认证](12-Spring-Security-JWT无状态认证.md)。
+- 注册密码加密器，见 [密码存储实践](../../../../../Security/Authentication/密码存储实践.md)。
 - 注册第三方 SDK 客户端。
 - 通过配置类组织跨模块组件。
 
@@ -330,6 +330,6 @@ Big-event 中的安全配置类就是典型的“配置类 + Bean 注册 + 依�
 
 ## 相关主题
 
-- [[Java/Framework/Spring-Boot/Annotation/@Configuration\|@Configuration]]
-- [[Java/Framework/Spring-Boot/Annotation/@AutoWired()\|@Autowired]]
-- [[Java/Advanced/反射]]
+- [@Configuration](../../Annotation/@Configuration.md)
+- [@Autowired](../../Annotation/@AutoWired%28%29.md)
+- [反射](../../../../Advanced/反射.md)

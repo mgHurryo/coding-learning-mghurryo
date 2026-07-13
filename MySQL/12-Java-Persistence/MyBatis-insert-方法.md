@@ -38,7 +38,7 @@ int insert(User user);
 
 ## 相关主题
 
-- [[MySQL/03-SQL-DML/INSERT-单行插入|INSERT 单行插入]]
-- [[MySQL/12-Java-Persistence/MyBatis-批量操作|MyBatis 批量操作]]
+- [INSERT 单行插入](../03-SQL-DML/INSERT-单行插入.md)
+- [MyBatis 批量操作](MyBatis-批量操作.md)
 
 

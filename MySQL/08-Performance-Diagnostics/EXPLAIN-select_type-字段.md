@@ -37,7 +37,7 @@ EXPLAIN SELECT * FROM (SELECT id, title FROM article) t WHERE t.id > 10;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-id-字段|EXPLAIN id 字段]]
-- [[MySQL/04-Query-Methods/Subquery-子查询|Subquery 子查询]]
+- [EXPLAIN id 字段](EXPLAIN-id-字段.md)
+- [Subquery 子查询](../04-Query-Methods/Subquery-子查询.md)
 
 

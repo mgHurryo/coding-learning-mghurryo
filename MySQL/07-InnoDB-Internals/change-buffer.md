@@ -34,5 +34,5 @@ SHOW ENGINE INNODB STATUS;
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Secondary-Index-二级索引|Secondary Index 二级索引]]
-- [[MySQL/07-InnoDB-Internals/Buffer-Pool|Buffer Pool]]
+- [Secondary Index 二级索引](../05-Indexing/Secondary-Index-二级索引.md)
+- [Buffer Pool](Buffer-Pool.md)

@@ -43,8 +43,8 @@ SET optimizer_trace='enabled=off';
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-使用方法|EXPLAIN 使用方法]]
-- [[MySQL/05-Indexing/Index-Selectivity-索引选择性|Index Selectivity 索引选择性]]
+- [EXPLAIN 使用方法](EXPLAIN-使用方法.md)
+- [Index Selectivity 索引选择性](../05-Indexing/Index-Selectivity-索引选择性.md)
 
 ## 参考资料
 

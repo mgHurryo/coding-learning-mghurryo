@@ -45,6 +45,6 @@ SELECT * FROM article WHERE id = 1 FOR UPDATE;
 
 ## 相关主题
 
-- [[MySQL/99-Common-Concepts/当前读与快照读|当前读与快照读]]
-- [[MySQL/07-InnoDB-Internals/undo-log|undo log]]
-- [[MySQL/06-Transaction-Lock/Isolation-Level-隔离级别|Isolation Level 隔离级别]]
+- [当前读与快照读](../99-Common-Concepts/当前读与快照读.md)
+- [undo log](../07-InnoDB-Internals/undo-log.md)
+- [Isolation Level 隔离级别](Isolation-Level-隔离级别.md)

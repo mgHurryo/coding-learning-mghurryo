@@ -16,14 +16,14 @@ category: Java
 
 | 笔记 | 标签 | 说明 |
 | :--- | :--- | :--- |
-| [[Java/Foundation/网络编程\|网络编程]] | #Java #UDP #TCP #Socket | UDP/TCP 编程、单播/组播/广播、三次握手四次挥手 |
+| [网络编程](网络编程.md) | #Java #UDP #TCP #Socket | UDP/TCP 编程、单播/组播/广播、三次握手四次挥手 |
 | 集合框架 | — | 待补充 |
 | I/O 流 | — | 待补充 |
 
 ## 相关主题
 
-- [[Java/Advanced/MOC\|Java 进阶 MOC]]
-- [[Java/Framework/MOC\|Java 框架 MOC]]
-- [[Network/MOC\|网络 MOC]] — 传输层与 HTTP 协议
-- [[MySQL/00-Map/MySQL-MOC\|MySQL MOC]] — JDBC URL 与数据库连接实践
-- [[Home\|返回主页]]
+- [Java 进阶 MOC](../Advanced/MOC.md)
+- [Java 框架 MOC](../Framework/MOC.md)
+- [网络 MOC](../../Network/MOC.md) — 传输层与 HTTP 协议
+- [MySQL MOC](../../MySQL/00-Map/MySQL-MOC.md) — JDBC URL 与数据库连接实践
+- [返回主页](../../Home.md)

@@ -37,7 +37,7 @@ EXPLAIN SELECT user_id, COUNT(*) FROM article GROUP BY user_id;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/ORDER-BY-调优|ORDER BY 调优]]
-- [[MySQL/08-Performance-Diagnostics/GROUP-BY-调优|GROUP BY 调优]]
+- [ORDER BY 调优](ORDER-BY-调优.md)
+- [GROUP BY 调优](GROUP-BY-调优.md)
 
 

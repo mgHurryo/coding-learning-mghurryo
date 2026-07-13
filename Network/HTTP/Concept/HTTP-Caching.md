@@ -26,12 +26,12 @@ HTTP 缓存是指客户端或中间代理存储 HTTP 响应副本，以便在后
 
 | 方法 | 是否默认可缓存 | 说明 |
 |------|----------------|------|
-| [[GET]] | ✅ | 最常见的可缓存方法 |
-| [[HEAD]] | ✅ | 缓存语义与 GET 一致 |
-| [[POST]] | ❌ | 默认不可缓存，但可显式标记 |
-| [[PUT]] | ❌ | 通常不可缓存 |
-| [[PATCH]] | ❌ | 通常不可缓存 |
-| [[DELETE]] | ❌ | 不可缓存 |
+| [GET](../Method/GET.md) | ✅ | 最常见的可缓存方法 |
+| [HEAD](../Method/HEAD.md) | ✅ | 缓存语义与 GET 一致 |
+| [POST](../Method/POST.md) | ❌ | 默认不可缓存，但可显式标记 |
+| [PUT](../Method/PUT.md) | ❌ | 通常不可缓存 |
+| [PATCH](../Method/PATCH.md) | ❌ | 通常不可缓存 |
+| [DELETE](../Method/DELETE.md) | ❌ | 不可缓存 |
 
 ## 主要缓存头
 
@@ -67,7 +67,7 @@ ETag: "abc123"
 
 ## 相关概念
 
-- [[GET]]
-- [[HEAD]]
-- [[HTTP-200-OK]]
-- [[HTTP-304-Not-Modified]]
+- [GET](../Method/GET.md)
+- [HEAD](../Method/HEAD.md)
+- [HTTP-200-OK](../Status/HTTP-200-OK.md)
+- [HTTP-304-Not-Modified](../Status/HTTP-304-Not-Modified.md)

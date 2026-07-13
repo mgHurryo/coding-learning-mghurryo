@@ -54,10 +54,10 @@ Content-Type: application/json
 ## 注意事项
 
 - 使用 PUT 时，请求体应包含资源的完整表示，未提供的字段通常会被清空或设为默认值。
-- 如果只想更新部分字段，应使用 [[PATCH]]。
+- 如果只想更新部分字段，应使用 [PATCH](PATCH.md)。
 
 ## 相关概念
 
-- [[PATCH]]
-- [[HTTP-Idempotency]]
-- [[RESTful-API-Design]]
+- [PATCH](PATCH.md)
+- [HTTP-Idempotency](../Concept/HTTP-Idempotency.md)
+- [RESTful-API-Design](../Concept/RESTful-API-Design.md)

@@ -15,29 +15,29 @@ category: Network
 
 | 意图 | 推荐方法 | 示例 |
 |------|----------|------|
-| 获取资源 | [[GET]] | `GET /users/123` |
-| 获取资源列表 | [[GET]] | `GET /users?page=2` |
-| 创建资源 | [[POST]] | `POST /users` |
-| 完整替换资源 | [[PUT]] | `PUT /users/123` |
-| 部分更新资源 | [[PATCH]] | `PATCH /users/123` |
-| 删除资源 | [[DELETE]] | `DELETE /users/123` |
-| 获取资源元信息 | [[HEAD]] | `HEAD /users/123` |
-| 查询支持的方法 | [[OPTIONS]] | `OPTIONS /users/123` |
+| 获取资源 | [GET](../Method/GET.md) | `GET /users/123` |
+| 获取资源列表 | [GET](../Method/GET.md) | `GET /users?page=2` |
+| 创建资源 | [POST](../Method/POST.md) | `POST /users` |
+| 完整替换资源 | [PUT](../Method/PUT.md) | `PUT /users/123` |
+| 部分更新资源 | [PATCH](../Method/PATCH.md) | `PATCH /users/123` |
+| 删除资源 | [DELETE](../Method/DELETE.md) | `DELETE /users/123` |
+| 获取资源元信息 | [HEAD](../Method/HEAD.md) | `HEAD /users/123` |
+| 查询支持的方法 | [OPTIONS](../Method/OPTIONS.md) | `OPTIONS /users/123` |
 
 ## 决策流程
 
 1. **是否只读取数据？**
-   - 是 → 使用 [[GET]] 或 [[HEAD]]。
+   - 是 → 使用 [GET](../Method/GET.md) 或 [HEAD](../Method/HEAD.md)。
    - 否 → 继续判断。
 2. **是否要创建新资源？**
-   - 是 → 使用 [[POST]]。
+   - 是 → 使用 [POST](../Method/POST.md)。
    - 否 → 继续判断。
 3. **是否要删除资源？**
-   - 是 → 使用 [[DELETE]]。
+   - 是 → 使用 [DELETE](../Method/DELETE.md)。
    - 否 → 继续判断。
 4. **是完整替换还是部分更新？**
-   - 完整替换 → [[PUT]]。
-   - 部分更新 → [[PATCH]]。
+   - 完整替换 → [PUT](../Method/PUT.md)。
+   - 部分更新 → [PATCH](../Method/PATCH.md)。
 
 ## 常见误区
 
@@ -67,14 +67,14 @@ Big-event 中的方法选择可以作为 Spring Boot CRUD 接口的简化模板�
 
 ## 和状态码的配合
 
-- 未认证：[[HTTP-401-Unauthorized]]
-- 已认证但无权限：[[HTTP-403-Forbidden]]
-- 参数语义不合法：[[HTTP-422-Unprocessable-Entity]]
-- 服务端兜底异常：[[HTTP-500-Internal-Server-Error]]
+- 未认证：[HTTP-401-Unauthorized](../Status/HTTP-401-Unauthorized.md)
+- 已认证但无权限：[HTTP-403-Forbidden](../Status/HTTP-403-Forbidden.md)
+- 参数语义不合法：[HTTP-422-Unprocessable-Entity](../Status/HTTP-422-Unprocessable-Entity.md)
+- 服务端兜底异常：[HTTP-500-Internal-Server-Error](../Status/HTTP-500-Internal-Server-Error.md)
 
 ## 相关概念
 
-- [[RESTful-API-Design]]
-- [[HTTP-Idempotency]]
-- [[HTTP-Safety]]
-- [[常见误区]]
+- [RESTful-API-Design](../Concept/RESTful-API-Design.md)
+- [HTTP-Idempotency](../Concept/HTTP-Idempotency.md)
+- [HTTP-Safety](../Concept/HTTP-Safety.md)
+- [常见误区](常见误区.md)

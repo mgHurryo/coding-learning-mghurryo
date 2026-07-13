@@ -36,5 +36,5 @@ Spring Boot 配置中使用应用专用账号；DDL 迁移使用独立发布账�
 
 ## 相关主题
 
-- [[MySQL/10-Operations/安全配置-Security-Baseline|安全配置 Security Baseline]]
-- [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
+- [安全配置 Security Baseline](安全配置-Security-Baseline.md)
+- [DataSource 数据源](../12-Java-Persistence/DataSource-数据源.md)

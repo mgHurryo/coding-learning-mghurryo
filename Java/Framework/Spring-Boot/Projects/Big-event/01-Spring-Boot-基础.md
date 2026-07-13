@@ -9,7 +9,7 @@ category: Spring-Boot
 # 🟢 Spring Boot 核心框架
 
 > 对应项目文件：`BigEventApplication.java`、`config/`、`application.yml`
-> 关联笔记：[[11-分层架构与-DTO-模式]] | [[07-MySQL-数据库配置]]
+> 关联笔记：[11-分层架构与-DTO-模式](11-分层架构与-DTO-模式.md) | [07-MySQL-数据库配置](07-MySQL-数据库配置.md)
 
 ---
 
@@ -235,4 +235,4 @@ mybatis:
 
 ---
 
-> 🔗 **下一步学习：** [[02-RESTful-API设计]] → 了解 Controller 层如何接收 HTTP 请求
+> 🔗 **下一步学习：** [02-RESTful-API设计](02-RESTful-API设计.md) → 了解 Controller 层如何接收 HTTP 请求

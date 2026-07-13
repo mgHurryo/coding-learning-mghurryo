@@ -35,5 +35,5 @@ WHERE table_schema = 'app_db';
 
 ## 相关主题
 
-- [[MySQL/11-Scaling-Architecture/冷热数据-Hot-Cold-Data|冷热数据 Hot Cold Data]]
-- [[MySQL/10-Operations/备份恢复-Backup-Restore|备份恢复 Backup Restore]]
+- [冷热数据 Hot Cold Data](../11-Scaling-Architecture/冷热数据-Hot-Cold-Data.md)
+- [备份恢复 Backup Restore](备份恢复-Backup-Restore.md)

@@ -42,8 +42,8 @@ SHOW REPLICA STATUS\G
 
 ## 相关主题
 
-- [[MySQL/09-Replication-HA/故障切换-Failover|故障切换 Failover]]
-- [[MySQL/09-Replication-HA/主从复制-Replication|主从复制 Replication]]
+- [故障切换 Failover](故障切换-Failover.md)
+- [主从复制 Replication](主从复制-Replication.md)
 
 ## 参考资料
 

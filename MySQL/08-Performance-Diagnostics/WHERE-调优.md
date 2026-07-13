@@ -37,7 +37,7 @@ SELECT id FROM user WHERE username = "tom";
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/WHERE-条件过滤|WHERE 条件过滤]]
-- [[MySQL/05-Indexing/Index-Failure-索引失效场景|Index Failure 索引失效场景]]
+- [WHERE 条件过滤](../04-Query-Methods/WHERE-条件过滤.md)
+- [Index Failure 索引失效场景](../05-Indexing/Index-Failure-索引失效场景.md)
 
 

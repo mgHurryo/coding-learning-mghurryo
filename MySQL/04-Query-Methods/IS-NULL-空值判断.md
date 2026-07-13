@@ -37,7 +37,7 @@ SELECT id FROM user WHERE last_login_time IS NULL;
 
 ## 相关主题
 
-- [[MySQL/02-Schema-DDL/NOT-NULL-非空约束|NOT NULL 非空约束]]
-- [[MySQL/02-Schema-DDL/DEFAULT-默认值|DEFAULT 默认值]]
+- [NOT NULL 非空约束](../02-Schema-DDL/NOT-NULL-非空约束.md)
+- [DEFAULT 默认值](../02-Schema-DDL/DEFAULT-默认值.md)
 
 

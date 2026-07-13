@@ -48,9 +48,9 @@ category: Network
 
 在 Java 中使用 Socket API 进行 TCP/UDP 编程，详见：
 
-- [[Java/Foundation/网络编程\|Java 网络编程]] — Java Socket 实现 TCP/UDP
+- [Java 网络编程](../../Java/Foundation/网络编程.md) — Java Socket 实现 TCP/UDP
 
 ## 相关概念
 
-- [[Network/HTTP/MOC\|HTTP MOC]] — 基于 TCP 的应用层协议
-- [[Network/HTTP/Concept/TLS-Handshake\|TLS 握手]] — TCP 之上的加密握手
+- [HTTP MOC](../HTTP/MOC.md) — 基于 TCP 的应用层协议
+- [TLS 握手](../HTTP/Concept/TLS-Handshake.md) — TCP 之上的加密握手

@@ -37,7 +37,7 @@ SELECT category_id, COUNT(*) FROM article WHERE status = 1 GROUP BY category_id;
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/GROUP-BY-分组|GROUP BY 分组]]
-- [[MySQL/04-Query-Methods/HAVING-分组后过滤|HAVING 分组后过滤]]
+- [GROUP BY 分组](../04-Query-Methods/GROUP-BY-分组.md)
+- [HAVING 分组后过滤](../04-Query-Methods/HAVING-分组后过滤.md)
 
 

@@ -37,7 +37,7 @@ DROP TABLE article;
 
 ## 相关主题
 
-- [[MySQL/03-SQL-DML/TRUNCATE-与-DELETE-区别|TRUNCATE 与 DELETE 区别]]
-- [[MySQL/02-Schema-DDL/ALTER-TABLE-修改表|ALTER TABLE 修改表]]
+- [TRUNCATE 与 DELETE 区别](../03-SQL-DML/TRUNCATE-与-DELETE-区别.md)
+- [ALTER TABLE 修改表](ALTER-TABLE-修改表.md)
 
 

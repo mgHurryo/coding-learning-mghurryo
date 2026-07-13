@@ -37,7 +37,7 @@ InnoDB 的主键设计会影响聚簇索引结构，主键应短、稳定、递�
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Primary-Index-主键索引|Primary Index 主键索引]]
-- [[MySQL/06-Transaction-Lock/Transaction-事务|Transaction 事务]]
+- [Primary Index 主键索引](../05-Indexing/Primary-Index-主键索引.md)
+- [Transaction 事务](../06-Transaction-Lock/Transaction-事务.md)
 
 

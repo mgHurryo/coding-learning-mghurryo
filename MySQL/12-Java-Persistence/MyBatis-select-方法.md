@@ -38,7 +38,7 @@ User findById(Long id);
 
 ## 相关主题
 
-- [[MySQL/03-SQL-DML/SELECT-基础查询|SELECT 基础查询]]
-- [[MySQL/12-Java-Persistence/MyBatis-参数绑定|MyBatis 参数绑定]]
+- [SELECT 基础查询](../03-SQL-DML/SELECT-基础查询.md)
+- [MyBatis 参数绑定](MyBatis-参数绑定.md)
 
 

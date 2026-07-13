@@ -37,7 +37,7 @@ SELECT * FROM article WHERE id BETWEEN 10 AND 20 FOR UPDATE;
 
 ## 相关主题
 
-- [[MySQL/06-Transaction-Lock/Next-Key-Lock|Next-Key Lock]]
-- [[MySQL/06-Transaction-Lock/SELECT-FOR-UPDATE|SELECT FOR UPDATE]]
+- [Next-Key Lock](Next-Key-Lock.md)
+- [SELECT FOR UPDATE](SELECT-FOR-UPDATE.md)
 
 

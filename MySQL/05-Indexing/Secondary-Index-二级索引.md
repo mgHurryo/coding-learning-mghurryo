@@ -44,6 +44,6 @@ EXPLAIN SELECT id, title FROM article WHERE user_id = 1 AND status = 1;
 
 ## 相关主题
 
-- [[MySQL/99-Common-Concepts/回表|回表]]
-- [[MySQL/05-Indexing/Covering-Index-覆盖索引|Covering Index 覆盖索引]]
-- [[MySQL/05-Indexing/Primary-Index-主键索引|Primary Index 主键索引]]
+- [回表](../99-Common-Concepts/回表.md)
+- [Covering Index 覆盖索引](Covering-Index-覆盖索引.md)
+- [Primary Index 主键索引](Primary-Index-主键索引.md)

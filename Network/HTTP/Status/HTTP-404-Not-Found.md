@@ -46,7 +46,7 @@ Content-Type: application/json
 
 ## 相关概念
 
-- [[HTTP-400-Bad-Request]]
-- [[HTTP-401-Unauthorized]]
-- [[HTTP-403-Forbidden]]
-- [[HTTP-405-Method-Not-Allowed]]
+- [HTTP-400-Bad-Request](HTTP-400-Bad-Request.md)
+- [HTTP-401-Unauthorized](HTTP-401-Unauthorized.md)
+- [HTTP-403-Forbidden](HTTP-403-Forbidden.md)
+- [HTTP-405-Method-Not-Allowed](HTTP-405-Method-Not-Allowed.md)

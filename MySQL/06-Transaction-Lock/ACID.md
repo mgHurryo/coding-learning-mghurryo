@@ -46,7 +46,7 @@ COMMIT;
 
 ## 相关主题
 
-- [[MySQL/06-Transaction-Lock/Transaction-事务|Transaction 事务]]
-- [[MySQL/07-InnoDB-Internals/undo-log|undo log]]
-- [[MySQL/07-InnoDB-Internals/redo-log|redo log]]
-- [[MySQL/11-Scaling-Architecture/数据库边界与业务幂等|数据库边界与业务幂等]]
+- [Transaction 事务](Transaction-事务.md)
+- [undo log](../07-InnoDB-Internals/undo-log.md)
+- [redo log](../07-InnoDB-Internals/redo-log.md)
+- [数据库边界与业务幂等](../11-Scaling-Architecture/数据库边界与业务幂等.md)

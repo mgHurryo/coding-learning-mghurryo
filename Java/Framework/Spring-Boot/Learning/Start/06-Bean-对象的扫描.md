@@ -11,7 +11,7 @@ category: Spring-Boot
 
 # 06. Bean 对象的扫描
 
-[[05-接入-Mybatis|上一章：接入 Mybatis]] | [[07-Bean-对象的注册|下一章：Bean 对象的注册]]
+[上一章：接入 Mybatis](05-接入-Mybatis.md) | [下一章：Bean 对象的注册](07-Bean-对象的注册.md)
 
 在 Spring 中, 有两种 Bean 对象的扫描方式:
 
@@ -48,11 +48,11 @@ Big-event 中，启动类位于父包下，Controller、Service、Config、Filte
 需要注意：
 
 - 普通 Spring 组件依赖 `@ComponentScan`。
-- MyBatis Mapper 通常还需要 `@Mapper` 或 `@MapperScan`，见 [[05-接入-Mybatis\|接入 MyBatis]]。
-- 包结构设计见 [[Java/Framework/Spring-的一般项目结构]]。
+- MyBatis Mapper 通常还需要 `@Mapper` 或 `@MapperScan`，见 [接入 MyBatis](05-接入-Mybatis.md)。
+- 包结构设计见 [Spring-的一般项目结构](../../../Spring-的一般项目结构.md)。
 
 ## 相关主题
 
-- [[Java/Framework/Spring-Boot/Annotation/@SpringBootApplication\|@SpringBootApplication]]
-- [[Java/Framework/Spring-Boot/Annotation/@AutoWired()\|@Autowired]]
-- [[Java/Advanced/反射]]
+- [@SpringBootApplication](../../Annotation/@SpringBootApplication.md)
+- [@Autowired](../../Annotation/@AutoWired%28%29.md)
+- [反射](../../../../Advanced/反射.md)

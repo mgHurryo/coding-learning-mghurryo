@@ -41,6 +41,6 @@ Content-Type: application/json
 
 ## 相关概念
 
-- [[HTTP-500-Internal-Server-Error]]
-- [[HTTP-503-Service-Unavailable]]
-- [[HTTP-Proxy]]
+- [HTTP-500-Internal-Server-Error](HTTP-500-Internal-Server-Error.md)
+- [HTTP-503-Service-Unavailable](HTTP-503-Service-Unavailable.md)
+- [HTTP-Proxy](../Concept/HTTP-Proxy.md)

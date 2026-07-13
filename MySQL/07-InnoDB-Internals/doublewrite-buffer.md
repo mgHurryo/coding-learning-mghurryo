@@ -33,5 +33,5 @@ SHOW VARIABLES LIKE 'innodb_doublewrite';
 
 ## 相关主题
 
-- [[MySQL/07-InnoDB-Internals/崩溃恢复-Crash-Recovery|崩溃恢复 Crash Recovery]]
-- [[MySQL/10-Operations/备份恢复-Backup-Restore|备份恢复 Backup Restore]]
+- [崩溃恢复 Crash Recovery](崩溃恢复-Crash-Recovery.md)
+- [备份恢复 Backup Restore](../10-Operations/备份恢复-Backup-Restore.md)

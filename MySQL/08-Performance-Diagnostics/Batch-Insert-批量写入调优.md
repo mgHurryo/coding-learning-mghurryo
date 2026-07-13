@@ -37,7 +37,7 @@ INSERT INTO article_tag (article_id, tag_id) VALUES (1, 10), (1, 11), (1, 12);
 
 ## 相关主题
 
-- [[MySQL/03-SQL-DML/INSERT-批量插入|INSERT 批量插入]]
-- [[MySQL/12-Java-Persistence/MyBatis-批量操作|MyBatis 批量操作]]
+- [INSERT 批量插入](../03-SQL-DML/INSERT-批量插入.md)
+- [MyBatis 批量操作](../12-Java-Persistence/MyBatis-批量操作.md)
 
 

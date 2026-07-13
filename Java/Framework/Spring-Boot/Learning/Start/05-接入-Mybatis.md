@@ -11,7 +11,7 @@ category: Spring-Boot
 
 # 05. 接入 Mybatis
 
-[[04-yaml-配置文件的书写与获取|上一章：yaml 配置文件的书写与获取]] | [[06-Bean-对象的扫描|下一章：Bean 对象的扫描]]
+[上一章：yaml 配置文件的书写与获取](04-yaml-配置文件的书写与获取.md) | [下一章：Bean 对象的扫描](06-Bean-对象的扫描.md)
 
 MyBatis 是 SQL 驱动的持久层框架。在 Spring Boot 项目中，常用 `mybatis-spring-boot-starter` 完成自动配置，让 Mapper 接口可以作为 Spring Bean 被注入到 Service 中。
 
@@ -48,8 +48,8 @@ spring:
 
 配置细节可继续看：
 
-- [[MySQL/12-Java-Persistence/JDBC-URL|JDBC URL]]
-- [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
+- [JDBC URL](../../../../../MySQL/12-Java-Persistence/JDBC-URL.md)
+- [DataSource 数据源](../../../../../MySQL/12-Java-Persistence/DataSource-数据源.md)
 
 ## 3. 注册 Mapper
 
@@ -130,9 +130,9 @@ mybatis:
 
 ## 相关主题
 
-- [[MySQL/12-Java-Persistence/MyBatis-数据访问|MyBatis 数据访问]]
-- [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
-- [[Java/Framework/Spring-的一般项目结构]]
+- [MyBatis 数据访问](../../../../../MySQL/12-Java-Persistence/MyBatis-数据访问.md)
+- [DataSource 数据源](../../../../../MySQL/12-Java-Persistence/DataSource-数据源.md)
+- [Spring-的一般项目结构](../../../Spring-的一般项目结构.md)
 
 ## 参考资料
 

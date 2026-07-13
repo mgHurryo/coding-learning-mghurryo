@@ -64,9 +64,9 @@ JWT Filter 不适合做：
 
 本笔记关注 Spring Security 如何接入 JWT；JWT 本身的结构、Claims、签名算法和无状态认证取舍见：
 
-- [[Security/Authentication/JWT-无状态认证]]
-- [[Security/Authentication/Bearer-Authentication\|Bearer Authentication]]
-- [[Security/Authentication/JJWT-笔记]]
+- [JWT-无状态认证](../../../../../Security/Authentication/JWT-无状态认证.md)
+- [Bearer Authentication](../../../../../Security/Authentication/Bearer-Authentication.md)
+- [JJWT-笔记](../../../../../Security/Authentication/JJWT-笔记.md)
 
 ## 参考资料
 

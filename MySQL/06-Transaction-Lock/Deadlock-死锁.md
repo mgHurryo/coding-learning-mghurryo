@@ -45,6 +45,6 @@ SHOW VARIABLES LIKE 'innodb_print_all_deadlocks';
 
 ## 相关主题
 
-- [[MySQL/06-Transaction-Lock/锁等待排查-Lock-Wait|锁等待排查 Lock Wait]]
-- [[MySQL/06-Transaction-Lock/Row-Lock-行锁|Row Lock 行锁]]
-- [[MySQL/08-Performance-Diagnostics/WHERE-调优|WHERE 调优]]
+- [锁等待排查 Lock Wait](锁等待排查-Lock-Wait.md)
+- [Row Lock 行锁](Row-Lock-行锁.md)
+- [WHERE 调优](../08-Performance-Diagnostics/WHERE-调优.md)

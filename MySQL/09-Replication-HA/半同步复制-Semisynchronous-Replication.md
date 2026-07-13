@@ -34,8 +34,8 @@ SHOW STATUS LIKE 'Rpl_semi_sync%';
 
 ## 相关主题
 
-- [[MySQL/09-Replication-HA/主从复制-Replication|主从复制 Replication]]
-- [[MySQL/09-Replication-HA/故障切换-Failover|故障切换 Failover]]
+- [主从复制 Replication](主从复制-Replication.md)
+- [故障切换 Failover](故障切换-Failover.md)
 
 ## 参考资料
 

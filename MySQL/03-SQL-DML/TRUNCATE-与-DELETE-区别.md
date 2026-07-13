@@ -38,7 +38,7 @@ DELETE FROM temp_import WHERE batch_id = 1001; -- 条件删除
 
 ## 相关主题
 
-- [[MySQL/03-SQL-DML/DELETE-条件删除|DELETE 条件删除]]
-- [[MySQL/02-Schema-DDL/DROP-TABLE-删除表|DROP TABLE 删除表]]
+- [DELETE 条件删除](DELETE-条件删除.md)
+- [DROP TABLE 删除表](../02-Schema-DDL/DROP-TABLE-删除表.md)
 
 

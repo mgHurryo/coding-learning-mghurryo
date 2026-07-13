@@ -50,6 +50,6 @@ LIMIT 20;
 
 ## 相关主题
 
-- [[MySQL/99-Common-Concepts/回表|回表]]
-- [[MySQL/05-Indexing/Secondary-Index-二级索引|Secondary Index 二级索引]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-Extra-字段|EXPLAIN Extra 字段]]
+- [回表](../99-Common-Concepts/回表.md)
+- [Secondary Index 二级索引](Secondary-Index-二级索引.md)
+- [EXPLAIN Extra 字段](../08-Performance-Diagnostics/EXPLAIN-Extra-字段.md)

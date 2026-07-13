@@ -37,7 +37,7 @@ SELECT a.id, a.title, u.username FROM article a INNER JOIN user u ON a.user_id =
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/JOIN-调优|JOIN 调优]]
-- [[MySQL/04-Query-Methods/LEFT-JOIN|LEFT JOIN]]
+- [JOIN 调优](../08-Performance-Diagnostics/JOIN-调优.md)
+- [LEFT JOIN](LEFT-JOIN.md)
 
 

@@ -12,7 +12,7 @@ category: Spring-Boot
 
 # 04. yaml 配置文件的书写与获取
 
-[[03-Spring-Boot配置文件|上一章：Spring-Boot 配置文件]] | [[05-接入-Mybatis|下一章：接入 Mybatis]]
+[上一章：Spring-Boot 配置文件](03-Spring-Boot配置文件.md) | [下一章：接入 Mybatis](05-接入-Mybatis.md)
 
 在常见开发中, 配置文件的需求一般分为两种:
 
@@ -25,7 +25,7 @@ category: Spring-Boot
 
 ## 编写 `yaml` 配置文件
 
-在[[03-Spring-Boot配置文件|上一章]]中, 我们讲了 `yaml` 的特性, 即为有层级, 有缩进
+在[上一章](03-Spring-Boot配置文件.md)中, 我们讲了 `yaml` 的特性, 即为有层级, 有缩进
 这里以邮箱系统作为编写 `yaml` 配置文件的演示:
 
 ```yaml
@@ -119,16 +119,16 @@ public class email{
 
 `@ConfigurationProperties` 适合绑定一组有共同前缀的配置，例如：
 
-- `spring.datasource.*`：数据库连接配置，见[[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]。
-- `jwt.*`：Token 密钥、过期时间等认证配置，见 [[Security/Authentication/JWT-无状态认证]]。
+- `spring.datasource.*`：数据库连接配置，见[DataSource 数据源](../../../../../MySQL/12-Java-Persistence/DataSource-数据源.md)。
+- `jwt.*`：Token 密钥、过期时间等认证配置，见 [JWT-无状态认证](../../../../../Security/Authentication/JWT-无状态认证.md)。
 - 自定义第三方服务配置：邮件、对象存储、支付 SDK 等。
 
 相比零散使用 `@Value`，配置属性类更适合中大型项目维护，也更容易配合校验和自动补全。
 
 ## 相关主题
 
-- [[Java/Framework/Spring-Boot/Annotation/@Configuration\|@Configuration]]
-- [[12-Spring-Security-JWT无状态认证\|Spring Security JWT 无状态认证]]
-- [[MySQL/12-Java-Persistence/JDBC-URL|JDBC URL]]
+- [@Configuration](../../Annotation/@Configuration.md)
+- [Spring Security JWT 无状态认证](12-Spring-Security-JWT无状态认证.md)
+- [JDBC URL](../../../../../MySQL/12-Java-Persistence/JDBC-URL.md)
 
 

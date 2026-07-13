@@ -37,7 +37,7 @@ INSERT INTO user (username, password, create_time) VALUES ("tom", "hash", NOW())
 
 ## 相关主题
 
-- [[MySQL/03-SQL-DML/INSERT-批量插入|INSERT 批量插入]]
-- [[MySQL/02-Schema-DDL/DEFAULT-默认值|DEFAULT 默认值]]
+- [INSERT 批量插入](INSERT-批量插入.md)
+- [DEFAULT 默认值](../02-Schema-DDL/DEFAULT-默认值.md)
 
 

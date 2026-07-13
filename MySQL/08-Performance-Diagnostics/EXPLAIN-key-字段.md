@@ -37,7 +37,7 @@ EXPLAIN SELECT id FROM article WHERE user_id = 1;
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/SHOW-INDEX-查看索引|SHOW INDEX 查看索引]]
-- [[MySQL/05-Indexing/Composite-Index-联合索引|Composite Index 联合索引]]
+- [SHOW INDEX 查看索引](../05-Indexing/SHOW-INDEX-查看索引.md)
+- [Composite Index 联合索引](../05-Indexing/Composite-Index-联合索引.md)
 
 

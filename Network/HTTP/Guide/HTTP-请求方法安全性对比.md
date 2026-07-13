@@ -16,15 +16,15 @@ category: Network
 
 | 方法 | 安全 | 幂等 | 可缓存 | 主要用途 |
 |------|------|------|--------|----------|
-| [[GET]] | ✅ | ✅ | ✅ | 获取资源 |
-| [[HEAD]] | ✅ | ✅ | ✅ | 获取响应头 |
-| [[POST]] | ❌ | ❌ | 可标记 | 创建资源 |
-| [[PUT]] | ❌ | ✅ | ❌ | 整体替换资源 |
-| [[PATCH]] | ❌ | 视实现 | ❌ | 部分更新资源 |
-| [[DELETE]] | ❌ | ✅ | ❌ | 删除资源 |
-| [[OPTIONS]] | ✅ | ✅ | ✅ | 查询支持选项 |
-| [[TRACE]] | ✅ | ✅ | ❌ | 诊断回显 |
-| [[CONNECT]] | ❌ | ❌ | ❌ | 建立隧道 |
+| [GET](../Method/GET.md) | ✅ | ✅ | ✅ | 获取资源 |
+| [HEAD](../Method/HEAD.md) | ✅ | ✅ | ✅ | 获取响应头 |
+| [POST](../Method/POST.md) | ❌ | ❌ | 可标记 | 创建资源 |
+| [PUT](../Method/PUT.md) | ❌ | ✅ | ❌ | 整体替换资源 |
+| [PATCH](../Method/PATCH.md) | ❌ | 视实现 | ❌ | 部分更新资源 |
+| [DELETE](../Method/DELETE.md) | ❌ | ✅ | ❌ | 删除资源 |
+| [OPTIONS](../Method/OPTIONS.md) | ✅ | ✅ | ✅ | 查询支持选项 |
+| [TRACE](../Method/TRACE.md) | ✅ | ✅ | ❌ | 诊断回显 |
+| [CONNECT](../Method/CONNECT.md) | ❌ | ❌ | ❌ | 建立隧道 |
 
 ## 三维解释
 
@@ -69,9 +69,9 @@ category: Network
 
 ## 相关概念
 
-- [[HTTP-Safety]]
-- [[HTTP-Idempotency]]
-- [[HTTP-Caching]]
-- [[HTTP-Method-选择指南]]
-- [[Network/HTTP/Concept/RESTful-API-Design\|RESTful API Design]]
-- [[10-RESTful-API与参数校验\|RESTful API 与参数校验]]
+- [HTTP-Safety](../Concept/HTTP-Safety.md)
+- [HTTP-Idempotency](../Concept/HTTP-Idempotency.md)
+- [HTTP-Caching](../Concept/HTTP-Caching.md)
+- [HTTP-Method-选择指南](HTTP-Method-选择指南.md)
+- [RESTful API Design](../Concept/RESTful-API-Design.md)
+- [RESTful API 与参数校验](../../../Java/Framework/Spring-Boot/Learning/Start/10-RESTful-API与参数校验.md)

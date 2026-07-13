@@ -51,6 +51,6 @@ Last-Modified: Wed, 21 Oct 2025 07:28:00 GMT
 
 ## 相关概念
 
-- [[GET]]
-- [[HTTP-Caching]]
-- [[HTTP-200-OK]]
+- [GET](GET.md)
+- [HTTP-Caching](../Concept/HTTP-Caching.md)
+- [HTTP-200-OK](../Status/HTTP-200-OK.md)

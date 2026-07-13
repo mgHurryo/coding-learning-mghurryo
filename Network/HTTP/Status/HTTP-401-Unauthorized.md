@@ -58,9 +58,9 @@ Content-Type: application/json
 
 ## 相关概念
 
-- [[HTTP-403-Forbidden]]
-- [[HTTP-400-Bad-Request]]
-- [[HTTP-404-Not-Found]]
+- [HTTP-403-Forbidden](HTTP-403-Forbidden.md)
+- [HTTP-400-Bad-Request](HTTP-400-Bad-Request.md)
+- [HTTP-404-Not-Found](HTTP-404-Not-Found.md)
 
 ## Big-event 项目经验
 
@@ -71,4 +71,4 @@ Content-Type: application/json
 - Token 过期，需要重新登录。
 - Token 签名校验失败。
 
-相关实现见 [[Security/Authentication/JWT-无状态认证]] 和 [[12-Spring-Security-JWT无状态认证]]。
+相关实现见 [JWT-无状态认证](../../../Security/Authentication/JWT-无状态认证.md) 和 [12-Spring-Security-JWT无状态认证](../../../Java/Framework/Spring-Boot/Learning/Start/12-Spring-Security-JWT无状态认证.md)。

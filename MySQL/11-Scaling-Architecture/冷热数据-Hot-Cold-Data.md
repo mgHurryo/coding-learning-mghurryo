@@ -34,5 +34,5 @@ DELETE FROM orders WHERE created_at < '2025-01-01' LIMIT 1000;
 
 ## 相关主题
 
-- [[MySQL/10-Operations/容量评估-Capacity-Planning|容量评估 Capacity Planning]]
-- [[MySQL/11-Scaling-Architecture/Partition-分区表|Partition 分区表]]
+- [容量评估 Capacity Planning](../10-Operations/容量评估-Capacity-Planning.md)
+- [Partition 分区表](Partition-分区表.md)

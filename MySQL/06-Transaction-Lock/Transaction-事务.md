@@ -40,7 +40,7 @@ COMMIT;
 
 ## 相关主题
 
-- [[MySQL/06-Transaction-Lock/ACID|ACID]]
-- [[MySQL/06-Transaction-Lock/Isolation-Level-隔离级别|Isolation Level 隔离级别]]
+- [ACID](ACID.md)
+- [Isolation Level 隔离级别](Isolation-Level-隔离级别.md)
 
 

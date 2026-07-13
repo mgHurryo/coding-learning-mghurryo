@@ -9,7 +9,7 @@ category: Spring-Boot
 # 🟠 MySQL 数据库配置
 
 > 对应项目文件：`application.yml`（datasource 配置）
-> 关联笔记：[[06-MyBatis-数据持久层]] | [[01-Spring-Boot-基础]]
+> 关联笔记：[06-MyBatis-数据持久层](06-MyBatis-数据持久层.md) | [01-Spring-Boot-基础](01-Spring-Boot-基础.md)
 
 ---
 
@@ -67,4 +67,4 @@ jdbc:mysql://localhost:3306/big_event?useUnicode=true&characterEncoding=UTF-8
 | MySQL 8.x 驱动 | 连接 MySQL | `pom.xml:36-38` |
 | UTF-8 URI 参数 | 支持中文 | `application.yml:4` |
 
-> 🔗 **下一步学习：** [[08-全局异常处理]] → 异常的统一处理机制
+> 🔗 **下一步学习：** [08-全局异常处理](08-全局异常处理.md) → 异常的统一处理机制

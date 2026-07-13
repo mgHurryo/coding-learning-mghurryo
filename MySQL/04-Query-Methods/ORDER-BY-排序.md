@@ -37,7 +37,7 @@ SELECT id, title FROM article WHERE user_id = 1 ORDER BY create_time DESC;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/ORDER-BY-调优|ORDER BY 调优]]
-- [[MySQL/05-Indexing/Composite-Index-联合索引|Composite Index 联合索引]]
+- [ORDER BY 调优](../08-Performance-Diagnostics/ORDER-BY-调优.md)
+- [Composite Index 联合索引](../05-Indexing/Composite-Index-联合索引.md)
 
 

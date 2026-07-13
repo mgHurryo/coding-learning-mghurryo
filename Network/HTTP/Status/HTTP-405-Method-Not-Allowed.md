@@ -50,6 +50,6 @@ Content-Type: application/json
 
 ## 相关概念
 
-- [[OPTIONS]]
-- [[HTTP-404-Not-Found]]
-- [[RESTful-API-Design]]
+- [OPTIONS](../Method/OPTIONS.md)
+- [HTTP-404-Not-Found](HTTP-404-Not-Found.md)
+- [RESTful-API-Design](../Concept/RESTful-API-Design.md)

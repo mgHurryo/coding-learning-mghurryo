@@ -53,13 +53,13 @@ Content-Type: application/json
 
 ## 相关概念
 
-- [[HTTP-401-Unauthorized]]
-- [[HTTP-404-Not-Found]]
-- [[HTTP-400-Bad-Request]]
+- [HTTP-401-Unauthorized](HTTP-401-Unauthorized.md)
+- [HTTP-404-Not-Found](HTTP-404-Not-Found.md)
+- [HTTP-400-Bad-Request](HTTP-400-Bad-Request.md)
 
 ## Big-event 项目经验
 
-`403 Forbidden` 适合表达“已经知道你是谁，但你不能访问该资源”。它和 [[HTTP-401-Unauthorized]] 的区别是：
+`403 Forbidden` 适合表达“已经知道你是谁，但你不能访问该资源”。它和 [HTTP-401-Unauthorized](HTTP-401-Unauthorized.md) 的区别是：
 
 - `401`：未认证或认证失败。
 - `403`：已认证，但权限不足。

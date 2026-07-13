@@ -11,7 +11,7 @@ category: Spring-Boot
 
 # 01. 使用 Maven 手动创建一个 SpringBoot 项目
 
-[[02-Spring-Boot的学习路径|下一章：Spring-Boot 的学习路径]]
+[下一章：Spring-Boot 的学习路径](02-Spring-Boot的学习路径.md)
 
 >初入Spring(只使用Web)
 

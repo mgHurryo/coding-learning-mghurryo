@@ -9,7 +9,7 @@ category: Spring-Boot
 # 🟣 Bean Validation 数据校验
 
 > 对应项目文件：`dto/*.java`（5 个 DTO 文件）
-> 关联笔记：[[02-RESTful-API设计]] | [[08-全局异常处理]]
+> 关联笔记：[02-RESTful-API设计](02-RESTful-API设计.md) | [08-全局异常处理](08-全局异常处理.md)
 
 ---
 
@@ -132,4 +132,4 @@ public class UserServiceImpl implements UserService { ... }
 | `@Valid` | 触发对象校验 | Controller 参数 |
 | `@Validated` | 类级启用校验 | Service 类 |
 
-> 🔗 **下一步学习：** [[04-Spring-Security认证授权]] → JWT 认证与权限控制
+> 🔗 **下一步学习：** [04-Spring-Security认证授权](04-Spring-Security认证授权.md) → JWT 认证与权限控制

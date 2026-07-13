@@ -37,7 +37,7 @@ EXPLAIN SELECT * FROM article WHERE user_id IN (SELECT id FROM user WHERE status
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/Subquery-子查询|Subquery 子查询]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-使用方法|EXPLAIN 使用方法]]
+- [Subquery 子查询](../04-Query-Methods/Subquery-子查询.md)
+- [EXPLAIN 使用方法](EXPLAIN-使用方法.md)
 
 

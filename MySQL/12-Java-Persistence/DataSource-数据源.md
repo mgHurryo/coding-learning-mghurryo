@@ -58,11 +58,11 @@ DataSource 负责连接数据库，不负责业务逻辑。
 
 ## 相关主题
 
-- [[MySQL/12-Java-Persistence/JDBC-URL|JDBC URL]]
-- [[MySQL/12-Java-Persistence/MyBatis-数据访问|MyBatis 数据访问]]
-- [[05-接入-Mybatis]]
-- [[04-yaml-配置文件的书写与获取\|yaml 配置文件的书写与获取]]
-- [[Java/Advanced/多线程]]
+- [JDBC URL](JDBC-URL.md)
+- [MyBatis 数据访问](MyBatis-数据访问.md)
+- [05-接入-Mybatis](../../Java/Framework/Spring-Boot/Learning/Start/05-接入-Mybatis.md)
+- [yaml 配置文件的书写与获取](../../Java/Framework/Spring-Boot/Learning/Start/04-yaml-配置文件的书写与获取.md)
+- [多线程](../../Java/Advanced/多线程.md)
 
 ## 参考资料
 

@@ -16,63 +16,63 @@ category: Network
 
 | 方法 | 安全 | 幂等 | 说明 |
 | :--- | :---: | :---: | :--- |
-| [[Network/HTTP/Method/GET\|GET]] | ✅ | ✅ | 获取资源 |
-| [[Network/HTTP/Method/POST\|POST]] | ❌ | ❌ | 提交数据，创建资源 |
-| [[Network/HTTP/Method/PUT\|PUT]] | ❌ | ✅ | 整体替换资源 |
-| [[Network/HTTP/Method/PATCH\|PATCH]] | ❌ | 视实现 | 部分修改 |
-| [[Network/HTTP/Method/DELETE\|DELETE]] | ❌ | ✅ | 删除资源 |
-| [[Network/HTTP/Method/HEAD\|HEAD]] | ✅ | ✅ | 只获取响应头 |
-| [[Network/HTTP/Method/OPTIONS\|OPTIONS]] | ✅ | ✅ | 查询通信选项 |
-| [[Network/HTTP/Method/TRACE\|TRACE]] | ✅ | ✅ | 诊断回显 |
-| [[Network/HTTP/Method/CONNECT\|CONNECT]] | ❌ | ❌ | 建立隧道代理 |
+| [GET](Method/GET.md) | ✅ | ✅ | 获取资源 |
+| [POST](Method/POST.md) | ❌ | ❌ | 提交数据，创建资源 |
+| [PUT](Method/PUT.md) | ❌ | ✅ | 整体替换资源 |
+| [PATCH](Method/PATCH.md) | ❌ | 视实现 | 部分修改 |
+| [DELETE](Method/DELETE.md) | ❌ | ✅ | 删除资源 |
+| [HEAD](Method/HEAD.md) | ✅ | ✅ | 只获取响应头 |
+| [OPTIONS](Method/OPTIONS.md) | ✅ | ✅ | 查询通信选项 |
+| [TRACE](Method/TRACE.md) | ✅ | ✅ | 诊断回显 |
+| [CONNECT](Method/CONNECT.md) | ❌ | ❌ | 建立隧道代理 |
 
 ## 核心概念
 
 | 笔记 | 说明 |
 | :--- | :--- |
-| [[Network/HTTP/Concept/HTTP-Idempotency\|幂等性]] | 多次相同请求的效果是否一致 |
-| [[Network/HTTP/Concept/HTTP-Safety\|安全性]] | 请求是否只读不写 |
-| [[Network/HTTP/Concept/HTTP-Caching\|缓存]] | 浏览器与代理缓存机制 |
-| [[Network/HTTP/Concept/RESTful-API-Design\|RESTful 设计]] | 基于 HTTP 方法的 API 架构 |
-| [[Network/HTTP/Concept/HTTP-Proxy\|HTTP 代理]] | 正向代理、反向代理 |
-| [[Network/HTTP/Concept/HTTPS\|HTTPS]] | 加密传输的安全版 HTTP |
-| [[Network/HTTP/Concept/TLS-Handshake\|TLS 握手]] | 加密连接建立流程 |
+| [幂等性](Concept/HTTP-Idempotency.md) | 多次相同请求的效果是否一致 |
+| [安全性](Concept/HTTP-Safety.md) | 请求是否只读不写 |
+| [缓存](Concept/HTTP-Caching.md) | 浏览器与代理缓存机制 |
+| [RESTful 设计](Concept/RESTful-API-Design.md) | 基于 HTTP 方法的 API 架构 |
+| [HTTP 代理](Concept/HTTP-Proxy.md) | 正向代理、反向代理 |
+| [HTTPS](Concept/HTTPS.md) | 加密传输的安全版 HTTP |
+| [TLS 握手](Concept/TLS-Handshake.md) | 加密连接建立流程 |
 
 ## 状态码
 
 | 分类 | 笔记 |
 | :--- | :--- |
-| 2xx 成功 | [[HTTP-200-OK\|200]] · [[HTTP-201-Created\|201]] · [[HTTP-204-No-Content\|204]] |
-| 3xx 重定向 | [[HTTP-304-Not-Modified\|304]] |
-| 4xx 客户端错误 | [[HTTP-400-Bad-Request\|400]] · [[HTTP-401-Unauthorized\|401]] · [[HTTP-403-Forbidden\|403]] · [[HTTP-404-Not-Found\|404]] · [[HTTP-405-Method-Not-Allowed\|405]] · [[HTTP-422-Unprocessable-Entity\|422]] · [[HTTP-429-Too-Many-Requests\|429]] |
-| 5xx 服务器错误 | [[HTTP-500-Internal-Server-Error\|500]] · [[HTTP-502-Bad-Gateway\|502]] · [[HTTP-503-Service-Unavailable\|503]] |
+| 2xx 成功 | [200](Status/HTTP-200-OK.md) · [201](Status/HTTP-201-Created.md) · [204](Status/HTTP-204-No-Content.md) |
+| 3xx 重定向 | [304](Status/HTTP-304-Not-Modified.md) |
+| 4xx 客户端错误 | [400](Status/HTTP-400-Bad-Request.md) · [401](Status/HTTP-401-Unauthorized.md) · [403](Status/HTTP-403-Forbidden.md) · [404](Status/HTTP-404-Not-Found.md) · [405](Status/HTTP-405-Method-Not-Allowed.md) · [422](Status/HTTP-422-Unprocessable-Entity.md) · [429](Status/HTTP-429-Too-Many-Requests.md) |
+| 5xx 服务器错误 | [500](Status/HTTP-500-Internal-Server-Error.md) · [502](Status/HTTP-502-Bad-Gateway.md) · [503](Status/HTTP-503-Service-Unavailable.md) |
 
 ## 安全机制
 
 | 笔记 | 说明 |
 | :--- | :--- |
-| [[CORS-Preflight\|CORS 预检]] | 浏览器跨域安全策略 |
-| [[Network/HTTP/Security/XST\|XST]] | 跨站追踪攻击与防范 |
+| [CORS 预检](Security/CORS-Preflight.md) | 浏览器跨域安全策略 |
+| [XST](Security/XST.md) | 跨站追踪攻击与防范 |
 
 ## 最佳实践与指南
 
 | 笔记 | 说明 |
 | :--- | :--- |
-| [[Network/HTTP/Guide/HTTP-Method-选择指南\|方法选择指南]] | 不同场景下如何选择 HTTP 方法 |
-| [[Network/HTTP/Guide/幂等接口设计\|幂等接口设计]] | 保证网络重试安全的方案 |
-| [[Network/HTTP/Guide/HTTP-请求方法安全性对比\|方法安全性对比]] | 安全、幂等、可缓存三维对比 |
-| [[Network/HTTP/Guide/常见误区\|常见误区]] | 常见设计错误与最佳实践 |
+| [方法选择指南](Guide/HTTP-Method-选择指南.md) | 不同场景下如何选择 HTTP 方法 |
+| [幂等接口设计](Guide/幂等接口设计.md) | 保证网络重试安全的方案 |
+| [方法安全性对比](Guide/HTTP-请求方法安全性对比.md) | 安全、幂等、可缓存三维对比 |
+| [常见误区](Guide/常见误区.md) | 常见设计错误与最佳实践 |
 
 ## Spring Boot 项目实践
 
 | 笔记 | 说明 |
 | :--- | :--- |
-| [[10-RESTful-API与参数校验\|RESTful API 与参数校验]] | Controller、DTO、参数绑定、Bean Validation |
-| [[11-全局异常处理与统一响应\|全局异常处理与统一响应]] | REST API 的统一错误响应 |
+| [RESTful API 与参数校验](../../Java/Framework/Spring-Boot/Learning/Start/10-RESTful-API与参数校验.md) | Controller、DTO、参数绑定、Bean Validation |
+| [全局异常处理与统一响应](../../Java/Framework/Spring-Boot/Learning/Start/11-全局异常处理与统一响应.md) | REST API 的统一错误响应 |
 
 ## 相关主题
 
-- [[Network/MOC\|网络 MOC]]
-- [[Security/MOC\|Security MOC]]
-- [[Java/Foundation/MOC\|Java 基础网络编程]]
-- [[Java/Framework/Spring-Boot/MOC\|Spring Boot MOC]]
+- [网络 MOC](../MOC.md)
+- [Security MOC](../../Security/MOC.md)
+- [Java 基础网络编程](../../Java/Foundation/MOC.md)
+- [Spring Boot MOC](../../Java/Framework/Spring-Boot/MOC.md)

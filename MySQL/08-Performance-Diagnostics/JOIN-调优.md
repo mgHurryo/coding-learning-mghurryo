@@ -50,6 +50,6 @@ LIMIT 20;
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/INNER-JOIN|INNER JOIN]]
-- [[MySQL/05-Indexing/Composite-Index-联合索引|Composite Index 联合索引]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-使用方法|EXPLAIN 使用方法]]
+- [INNER JOIN](../04-Query-Methods/INNER-JOIN.md)
+- [Composite Index 联合索引](../05-Indexing/Composite-Index-联合索引.md)
+- [EXPLAIN 使用方法](EXPLAIN-使用方法.md)

@@ -37,7 +37,7 @@ username VARCHAR(50) NOT NULL DEFAULT ""
 
 ## 相关主题
 
-- [[MySQL/01-Foundations/DataType-数据类型|DataType 数据类型]]
-- [[MySQL/02-Schema-DDL/ALTER-TABLE-修改表|ALTER TABLE 修改表]]
+- [DataType 数据类型](DataType-数据类型.md)
+- [ALTER TABLE 修改表](../02-Schema-DDL/ALTER-TABLE-修改表.md)
 
 

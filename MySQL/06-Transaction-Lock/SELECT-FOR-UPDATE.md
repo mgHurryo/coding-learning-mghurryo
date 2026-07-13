@@ -40,7 +40,7 @@ COMMIT;
 
 ## 相关主题
 
-- [[MySQL/06-Transaction-Lock/Transaction-事务|Transaction 事务]]
-- [[MySQL/06-Transaction-Lock/Row-Lock-行锁|Row Lock 行锁]]
+- [Transaction 事务](Transaction-事务.md)
+- [Row Lock 行锁](Row-Lock-行锁.md)
 
 

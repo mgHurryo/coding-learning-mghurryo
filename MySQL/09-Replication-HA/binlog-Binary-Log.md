@@ -42,9 +42,9 @@ SHOW MASTER STATUS;
 
 ## 相关主题
 
-- [[MySQL/07-InnoDB-Internals/binlog-与-redo-log-协作|binlog 与 redo log 协作]]
-- [[MySQL/09-Replication-HA/主从复制-Replication|主从复制 Replication]]
-- [[MySQL/10-Operations/备份恢复-Backup-Restore|备份恢复 Backup Restore]]
+- [binlog 与 redo log 协作](../07-InnoDB-Internals/binlog-与-redo-log-协作.md)
+- [主从复制 Replication](主从复制-Replication.md)
+- [备份恢复 Backup Restore](../10-Operations/备份恢复-Backup-Restore.md)
 
 ## 参考资料
 

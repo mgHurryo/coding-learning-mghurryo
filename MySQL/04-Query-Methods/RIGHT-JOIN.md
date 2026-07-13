@@ -37,7 +37,7 @@ SELECT a.id, c.category_name FROM article a RIGHT JOIN category c ON a.category_
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/LEFT-JOIN|LEFT JOIN]]
-- [[MySQL/08-Performance-Diagnostics/JOIN-调优|JOIN 调优]]
+- [LEFT JOIN](LEFT-JOIN.md)
+- [JOIN 调优](../08-Performance-Diagnostics/JOIN-调优.md)
 
 

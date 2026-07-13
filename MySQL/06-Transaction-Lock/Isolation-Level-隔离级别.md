@@ -45,9 +45,9 @@ START TRANSACTION;
 
 ## 相关主题
 
-- [[MySQL/06-Transaction-Lock/MVCC|MVCC]]
-- [[MySQL/06-Transaction-Lock/Next-Key-Lock|Next-Key Lock]]
-- [[MySQL/99-Common-Concepts/当前读与快照读|当前读与快照读]]
+- [MVCC](MVCC.md)
+- [Next-Key Lock](Next-Key-Lock.md)
+- [当前读与快照读](../99-Common-Concepts/当前读与快照读.md)
 
 ## 参考资料
 

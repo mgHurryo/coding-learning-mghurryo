@@ -33,8 +33,8 @@ Spring Boot Web 项目通常使用 Spring MVC 编写 REST API。Big-event 中的
 
 HTTP 方法语义可继续看：
 
-- [[Network/HTTP/Guide/HTTP-Method-选择指南]]
-- [[Network/HTTP/Concept/RESTful-API-Design]]
+- [HTTP-Method-选择指南](../../../../../Network/HTTP/Guide/HTTP-Method-选择指南.md)
+- [RESTful-API-Design](../../../../../Network/HTTP/Concept/RESTful-API-Design.md)
 
 ## 3. 参数绑定
 
@@ -55,7 +55,7 @@ DTO 适合做接口入参模型：
 - 校验注解直接写在 DTO 字段上。
 - 避免把数据库实体直接暴露给外部请求。
 
-相关架构说明见 [[Java/Framework/Spring-的一般项目结构]]。
+相关架构说明见 [Spring-的一般项目结构](../../../Spring-的一般项目结构.md)。
 
 ## 5. Bean Validation
 
@@ -86,7 +86,7 @@ code + message + data
 - Controller 返回值更稳定。
 - 可以和全局异常处理配合。
 
-更完整的错误响应设计见 [[11-全局异常处理与统一响应]]。
+更完整的错误响应设计见 [11-全局异常处理与统一响应](11-全局异常处理与统一响应.md)。
 
 ## 参考资料
 

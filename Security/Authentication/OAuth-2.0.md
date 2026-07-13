@@ -46,10 +46,10 @@ category: Security
 
 ## 访问令牌（Access Token）
 
-通常使用 [[Security/Authentication/JJWT-笔记\|JWT]] 格式，包含用户标识、权限范围、过期时间等信息。
+通常使用 [JWT](JJWT-笔记.md) 格式，包含用户标识、权限范围、过期时间等信息。
 
 ## 相关概念
 
-- [[Security/Authentication/JJWT-笔记\|JJWT 笔记]]
-- [[HTTP-401-Unauthorized\|401 Unauthorized]]
-- [[Security/Authentication/Bearer-Authentication\|Bearer Authentication]]
+- [JJWT 笔记](JJWT-笔记.md)
+- [401 Unauthorized](../../Network/HTTP/Status/HTTP-401-Unauthorized.md)
+- [Bearer Authentication](Bearer-Authentication.md)

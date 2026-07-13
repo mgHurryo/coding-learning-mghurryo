@@ -30,11 +30,11 @@ HTTP 代理是位于客户端和目标服务器之间的中间服务器，负责
 
 ## 与 CONNECT 的关系
 
-当客户端需要通过代理访问 HTTPS 网站时，会先发送 [[CONNECT]] 请求与目标服务器建立隧道，然后在隧道中进行 TLS 加密通信。
+当客户端需要通过代理访问 HTTPS 网站时，会先发送 [CONNECT](../Method/CONNECT.md) 请求与目标服务器建立隧道，然后在隧道中进行 TLS 加密通信。
 
 ## 相关概念
 
-- [[CONNECT]]
-- [[HTTPS]]
-- [[TLS-Handshake]]
-- [[HTTP-Caching]]
+- [CONNECT](../Method/CONNECT.md)
+- [HTTPS](HTTPS.md)
+- [TLS-Handshake](TLS-Handshake.md)
+- [HTTP-Caching](HTTP-Caching.md)

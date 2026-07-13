@@ -50,6 +50,6 @@ MyBatis 批量操作用于减少网络往返和 SQL 执行次数，但必须控�
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/Batch-Insert-批量写入调优|Batch Insert 批量写入调优]]
-- [[MySQL/03-SQL-DML/INSERT-批量插入|INSERT 批量插入]]
-- [[MySQL/06-Transaction-Lock/Deadlock-死锁|Deadlock 死锁]]
+- [Batch Insert 批量写入调优](../08-Performance-Diagnostics/Batch-Insert-批量写入调优.md)
+- [INSERT 批量插入](../03-SQL-DML/INSERT-批量插入.md)
+- [Deadlock 死锁](../06-Transaction-Lock/Deadlock-死锁.md)

@@ -37,7 +37,7 @@ SELECT c.id, c.category_name, a.id AS article_id FROM category c LEFT JOIN artic
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/INNER-JOIN|INNER JOIN]]
-- [[MySQL/08-Performance-Diagnostics/JOIN-调优|JOIN 调优]]
+- [INNER JOIN](INNER-JOIN.md)
+- [JOIN 调优](../08-Performance-Diagnostics/JOIN-调优.md)
 
 

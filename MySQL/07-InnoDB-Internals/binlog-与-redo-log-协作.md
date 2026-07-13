@@ -43,6 +43,6 @@ SHOW VARIABLES LIKE 'innodb_flush_log_at_trx_commit';
 
 ## 相关主题
 
-- [[MySQL/07-InnoDB-Internals/redo-log|redo log]]
-- [[MySQL/09-Replication-HA/binlog-Binary-Log|binlog Binary Log]]
-- [[MySQL/07-InnoDB-Internals/崩溃恢复-Crash-Recovery|崩溃恢复 Crash Recovery]]
+- [redo log](redo-log.md)
+- [binlog Binary Log](../09-Replication-HA/binlog-Binary-Log.md)
+- [崩溃恢复 Crash Recovery](崩溃恢复-Crash-Recovery.md)

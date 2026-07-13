@@ -37,7 +37,7 @@ SELECT COUNT(*) FROM article WHERE user_id = 1 AND deleted = 0;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/SELECT-调优|SELECT 调优]]
-- [[MySQL/04-Query-Methods/GROUP-BY-分组|GROUP BY 分组]]
+- [SELECT 调优](../08-Performance-Diagnostics/SELECT-调优.md)
+- [GROUP BY 分组](GROUP-BY-分组.md)
 
 

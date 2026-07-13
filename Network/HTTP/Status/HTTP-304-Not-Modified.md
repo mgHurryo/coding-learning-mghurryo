@@ -40,6 +40,6 @@ Cache-Control: max-age=3600
 
 ## 相关概念
 
-- [[HTTP-Caching]]
-- [[GET]]
-- [[HTTP-200-OK]]
+- [HTTP-Caching](../Concept/HTTP-Caching.md)
+- [GET](../Method/GET.md)
+- [HTTP-200-OK](HTTP-200-OK.md)

@@ -57,6 +57,6 @@ HTTP/1.1 200 Connection Established
 
 ## 相关概念
 
-- [[HTTP-Proxy]]
-- [[HTTPS]]
-- [[TLS-Handshake]]
+- [HTTP-Proxy](../Concept/HTTP-Proxy.md)
+- [HTTPS](../Concept/HTTPS.md)
+- [TLS-Handshake](../Concept/TLS-Handshake.md)

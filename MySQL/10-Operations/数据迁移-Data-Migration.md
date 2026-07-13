@@ -35,5 +35,5 @@ Spring Boot 项目迁移要配合版本发布。先让旧代码兼容新字段�
 
 ## 相关主题
 
-- [[MySQL/02-Schema-DDL/Online-DDL|Online DDL]]
-- [[MySQL/11-Scaling-Architecture/分库分表-Sharding|分库分表 Sharding]]
+- [Online DDL](../02-Schema-DDL/Online-DDL.md)
+- [分库分表 Sharding](../11-Scaling-Architecture/分库分表-Sharding.md)

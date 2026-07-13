@@ -16,11 +16,11 @@ category: 主页
 
 | 领域 | 说明 | 入口 |
 | :--- | :--- | :--- |
-| ☕ **Java** | Java 基础 → 进阶 → 框架生态 | [[Java/MOC\|前往 Java]] |
-| 🌐 **Network** | 传输层（TCP/UDP）→ 应用层（HTTP） | [[Network/MOC\|前往 Network]] |
-| 🔒 **Security** | 认证授权（JWT/OAuth2）、传输安全 | [[Security/MOC\|前往 Security]] |
-| 🗄️ **MySQL** | SQL、CRUD、索引、事务、调优与持久层实践 | [[MySQL/00-Map/MySQL-MOC\|前往 MySQL]] |
-| 🧩 **Big-event** | 项目通用知识总结与落点映射 | [[Big-event通用知识总结/00-通用知识索引\|前往 Big-event]] |
+| ☕ **Java** | Java 基础 → 进阶 → 框架生态 | [前往 Java](Java/MOC.md) |
+| 🌐 **Network** | 传输层（TCP/UDP）→ 应用层（HTTP） | [前往 Network](Network/MOC.md) |
+| 🔒 **Security** | 认证授权（JWT/OAuth2）、传输安全 | [前往 Security](Security/MOC.md) |
+| 🗄️ **MySQL** | SQL、CRUD、索引、事务、调优与持久层实践 | [前往 MySQL](MySQL/00-Map/MySQL-MOC.md) |
+| 🧩 **Big-event** | 项目通用知识总结与落点映射 | [前往 Big-event](Big-event通用知识总结/00-通用知识索引.md) |
 
 ## 导航路径建议
 
@@ -61,10 +61,10 @@ MySQL/MOC
 ## 最近更新
 
 - 仓库重组为 Network / Security / Java 三大领域
-- [[Network/HTTP/MOC\|HTTP MOC]] 完成
-- [[Security/MOC\|Security MOC]] 完成
-- [[MySQL/00-Map/MySQL-MOC\|MySQL MOC]] 重构为英文目录 + 方法级 SQL / 调优知识索引
-- [[09-Spring-Boot自动配置的原理\|Spring-Boot 自动配置的原理]]
+- [HTTP MOC](Network/HTTP/MOC.md) 完成
+- [Security MOC](Security/MOC.md) 完成
+- [MySQL MOC](MySQL/00-Map/MySQL-MOC.md) 重构为英文目录 + 方法级 SQL / 调优知识索引
+- [Spring-Boot 自动配置的原理](Java/Framework/Spring-Boot/Learning/Start/09-Spring-Boot自动配置的原理.md)
 
 ## 标签云
 

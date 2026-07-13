@@ -19,14 +19,14 @@ category: Network
 
 | 方法 | 是否幂等 | 说明 |
 |------|----------|------|
-| [[GET]] | ✅ | 多次获取同一资源结果应相同 |
-| [[HEAD]] | ✅ | 同 GET，只返回头部 |
-| [[PUT]] | ✅ | 整体替换资源，结果一致 |
-| [[DELETE]] | ✅ | 删除一次后再删除仍是删除状态 |
-| [[OPTIONS]] | ✅ | 查询选项，不修改状态 |
-| [[TRACE]] | ✅ | 回显请求，不修改状态 |
-| [[POST]] | ❌ | 多次提交可能创建多个资源 |
-| [[PATCH]] | 视实现 | 部分更新可能不幂等 |
+| [GET](../Method/GET.md) | ✅ | 多次获取同一资源结果应相同 |
+| [HEAD](../Method/HEAD.md) | ✅ | 同 GET，只返回头部 |
+| [PUT](../Method/PUT.md) | ✅ | 整体替换资源，结果一致 |
+| [DELETE](../Method/DELETE.md) | ✅ | 删除一次后再删除仍是删除状态 |
+| [OPTIONS](../Method/OPTIONS.md) | ✅ | 查询选项，不修改状态 |
+| [TRACE](../Method/TRACE.md) | ✅ | 回显请求，不修改状态 |
+| [POST](../Method/POST.md) | ❌ | 多次提交可能创建多个资源 |
+| [PATCH](../Method/PATCH.md) | 视实现 | 部分更新可能不幂等 |
 
 ## 为什么幂等性重要
 
@@ -52,6 +52,6 @@ Idempotency-Key: abc-123-xyz
 
 ## 相关概念
 
-- [[HTTP-Safety]]
-- [[幂等接口设计]]
-- [[HTTP-Method-选择指南]]
+- [HTTP-Safety](HTTP-Safety.md)
+- [幂等接口设计](../Guide/幂等接口设计.md)
+- [HTTP-Method-选择指南](../Guide/HTTP-Method-选择指南.md)

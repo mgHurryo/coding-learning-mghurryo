@@ -37,7 +37,7 @@ SHOW INDEX FROM article;
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Index-索引概念|Index 索引概念]]
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-key-字段|EXPLAIN key 字段]]
+- [Index 索引概念](Index-索引概念.md)
+- [EXPLAIN key 字段](../08-Performance-Diagnostics/EXPLAIN-key-字段.md)
 
 

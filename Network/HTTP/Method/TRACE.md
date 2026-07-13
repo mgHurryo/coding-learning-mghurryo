@@ -36,7 +36,7 @@ Host: api.example.com
 
 ## 安全风险
 
-TRACE 方法可能导致 [[XST]]（Cross-Site Tracing）攻击：攻击者利用 TRACE 读取浏览器中的 HttpOnly Cookie。因此，生产环境中通常应禁用 TRACE 方法。
+TRACE 方法可能导致 [XST](../Security/XST.md)（Cross-Site Tracing）攻击：攻击者利用 TRACE 读取浏览器中的 HttpOnly Cookie。因此，生产环境中通常应禁用 TRACE 方法。
 
 ## 注意事项
 
@@ -45,6 +45,6 @@ TRACE 方法可能导致 [[XST]]（Cross-Site Tracing）攻击：攻击者利用
 
 ## 相关概念
 
-- [[HTTP-Safety]]
-- [[HTTP-Idempotency]]
-- [[XST]]
+- [HTTP-Safety](../Concept/HTTP-Safety.md)
+- [HTTP-Idempotency](../Concept/HTTP-Idempotency.md)
+- [XST](../Security/XST.md)

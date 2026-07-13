@@ -60,13 +60,13 @@ Big-event 中注册和登录使用 POST：
 - 登录会提交凭据并生成 JWT Token。
 - 密码不应放在 URL 中，应通过请求体提交，并配合 HTTPS。
 
-登录后的 Token 认证流程见 [[Security/Authentication/JWT-无状态认证]]。
+登录后的 Token 认证流程见 [JWT-无状态认证](../../../Security/Authentication/JWT-无状态认证.md)。
 
 ## 相关概念
 
-- [[HTTP-Idempotency]]
-- [[RESTful-API-Design]]
-- [[幂等接口设计]]
-- [[HTTP-201-Created]]
-- [[Security/Authentication/密码存储实践\|密码存储实践]]
-- [[10-RESTful-API与参数校验\|RESTful API 与参数校验]]
+- [HTTP-Idempotency](../Concept/HTTP-Idempotency.md)
+- [RESTful-API-Design](../Concept/RESTful-API-Design.md)
+- [幂等接口设计](../Guide/幂等接口设计.md)
+- [HTTP-201-Created](../Status/HTTP-201-Created.md)
+- [密码存储实践](../../../Security/Authentication/密码存储实践.md)
+- [RESTful API 与参数校验](../../../Java/Framework/Spring-Boot/Learning/Start/10-RESTful-API与参数校验.md)

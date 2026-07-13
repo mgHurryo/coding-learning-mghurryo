@@ -41,8 +41,8 @@ mysql app_db < app_db.sql
 
 ## 相关主题
 
-- [[MySQL/09-Replication-HA/binlog-Binary-Log|binlog Binary Log]]
-- [[MySQL/07-InnoDB-Internals/崩溃恢复-Crash-Recovery|崩溃恢复 Crash Recovery]]
+- [binlog Binary Log](../09-Replication-HA/binlog-Binary-Log.md)
+- [崩溃恢复 Crash Recovery](../07-InnoDB-Internals/崩溃恢复-Crash-Recovery.md)
 
 ## 参考资料
 

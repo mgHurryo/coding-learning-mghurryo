@@ -35,6 +35,6 @@ HttpOnly Cookie 原本无法被 JavaScript 读取，但 TRACE 方法会把请求
 
 ## 相关概念
 
-- [[TRACE]]
-- [[HTTP-Safety]]
-- [[HTTPS]]
+- [TRACE](../Method/TRACE.md)
+- [HTTP-Safety](../Concept/HTTP-Safety.md)
+- [HTTPS](../Concept/HTTPS.md)

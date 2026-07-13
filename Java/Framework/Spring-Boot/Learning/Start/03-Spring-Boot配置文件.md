@@ -12,7 +12,7 @@ category: Spring-Boot
 
 # 03. Spring-Boot 配置文件
 
-[[02-Spring-Boot的学习路径|上一章：Spring-Boot 的学习路径]] | [[04-yaml-配置文件的书写与获取|下一章：yaml 配置文件的书写与获取]]
+[上一章：Spring-Boot 的学习路径](02-Spring-Boot的学习路径.md) | [下一章：yaml 配置文件的书写与获取](04-yaml-配置文件的书写与获取.md)
 
 Spring Boot 的配置文件名为 `application`, 有两种配置方法
 
@@ -51,17 +51,17 @@ server:
 
 Spring Boot 配置文件通常承载这些内容：
 
-- 数据库连接：见[[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]] 和[[MySQL/12-Java-Persistence/JDBC-URL|JDBC URL]]。
-- MyBatis 行为：见 [[05-接入-Mybatis\|接入 MyBatis]]。
-- JWT 密钥和过期时间：见 [[Security/Authentication/JWT-无状态认证]]。
+- 数据库连接：见[DataSource 数据源](../../../../../MySQL/12-Java-Persistence/DataSource-数据源.md) 和[JDBC URL](../../../../../MySQL/12-Java-Persistence/JDBC-URL.md)。
+- MyBatis 行为：见 [接入 MyBatis](05-接入-Mybatis.md)。
+- JWT 密钥和过期时间：见 [JWT-无状态认证](../../../../../Security/Authentication/JWT-无状态认证.md)。
 - 多环境配置：开发、测试、生产环境应拆分配置，避免在代码中硬编码敏感信息。
 
 Big-event 中的数据库配置、JWT 配置、MyBatis 驼峰映射都属于配置文件实践。
 
 ## 相关主题
 
-- [[04-yaml-配置文件的书写与获取\|yaml 配置文件的书写与获取]]
-- [[MySQL/12-Java-Persistence/DataSource-数据源|DataSource 数据源]]
-- [[Security/Authentication/JWT-无状态认证]]
+- [yaml 配置文件的书写与获取](04-yaml-配置文件的书写与获取.md)
+- [DataSource 数据源](../../../../../MySQL/12-Java-Persistence/DataSource-数据源.md)
+- [JWT-无状态认证](../../../../../Security/Authentication/JWT-无状态认证.md)
 
 

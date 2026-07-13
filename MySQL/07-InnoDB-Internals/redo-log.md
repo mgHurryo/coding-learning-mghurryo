@@ -45,9 +45,9 @@ SHOW VARIABLES LIKE 'innodb_redo_log_capacity';
 
 ## 相关主题
 
-- [[MySQL/07-InnoDB-Internals/binlog-与-redo-log-协作|binlog 与 redo log 协作]]
-- [[MySQL/07-InnoDB-Internals/checkpoint|checkpoint]]
-- [[MySQL/07-InnoDB-Internals/崩溃恢复-Crash-Recovery|崩溃恢复 Crash Recovery]]
+- [binlog 与 redo log 协作](binlog-与-redo-log-协作.md)
+- [checkpoint](checkpoint.md)
+- [崩溃恢复 Crash Recovery](崩溃恢复-Crash-Recovery.md)
 
 ## 参考资料
 

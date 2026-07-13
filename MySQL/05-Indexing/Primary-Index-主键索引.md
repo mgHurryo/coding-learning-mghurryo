@@ -37,7 +37,7 @@ PRIMARY KEY (id)
 
 ## 相关主题
 
-- [[MySQL/02-Schema-DDL/PRIMARY-KEY-主键约束|PRIMARY KEY 主键约束]]
-- [[MySQL/01-Foundations/StorageEngine-存储引擎|StorageEngine 存储引擎]]
+- [PRIMARY KEY 主键约束](../02-Schema-DDL/PRIMARY-KEY-主键约束.md)
+- [StorageEngine 存储引擎](../01-Foundations/StorageEngine-存储引擎.md)
 
 

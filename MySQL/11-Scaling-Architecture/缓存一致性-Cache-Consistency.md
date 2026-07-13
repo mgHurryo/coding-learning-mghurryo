@@ -35,5 +35,5 @@ write: UPDATE db -> delete cache
 
 ## 相关主题
 
-- [[MySQL/11-Scaling-Architecture/数据库边界与业务幂等|数据库边界与业务幂等]]
-- [[MySQL/03-SQL-DML/INSERT-ON-DUPLICATE-KEY-UPDATE|INSERT ON DUPLICATE KEY UPDATE]]
+- [数据库边界与业务幂等](数据库边界与业务幂等.md)
+- [INSERT ON DUPLICATE KEY UPDATE](../03-SQL-DML/INSERT-ON-DUPLICATE-KEY-UPDATE.md)

@@ -37,7 +37,7 @@ SELECT user_id, COUNT(*) AS total FROM article GROUP BY user_id HAVING total > 1
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/GROUP-BY-分组|GROUP BY 分组]]
-- [[MySQL/08-Performance-Diagnostics/GROUP-BY-调优|GROUP BY 调优]]
+- [GROUP BY 分组](GROUP-BY-分组.md)
+- [GROUP BY 调优](../08-Performance-Diagnostics/GROUP-BY-调优.md)
 
 

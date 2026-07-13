@@ -37,7 +37,7 @@ UPDATE article SET status = 0 WHERE category_id = 3 AND status = 1;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/WHERE-调优|WHERE 调优]]
-- [[MySQL/06-Transaction-Lock/Deadlock-死锁|Deadlock 死锁]]
+- [WHERE 调优](../08-Performance-Diagnostics/WHERE-调优.md)
+- [Deadlock 死锁](../06-Transaction-Lock/Deadlock-死锁.md)
 
 

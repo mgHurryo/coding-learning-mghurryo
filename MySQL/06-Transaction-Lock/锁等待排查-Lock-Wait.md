@@ -47,6 +47,6 @@ SELECT * FROM performance_schema.data_locks;
 
 ## 相关主题
 
-- [[MySQL/06-Transaction-Lock/Deadlock-死锁|Deadlock 死锁]]
-- [[MySQL/06-Transaction-Lock/Next-Key-Lock|Next-Key Lock]]
-- [[MySQL/08-Performance-Diagnostics/慢-SQL-排查流程|慢 SQL 排查流程]]
+- [Deadlock 死锁](Deadlock-死锁.md)
+- [Next-Key Lock](Next-Key-Lock.md)
+- [慢 SQL 排查流程](../08-Performance-Diagnostics/慢-SQL-排查流程.md)

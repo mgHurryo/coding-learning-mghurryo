@@ -17,9 +17,9 @@ category: Network
 
 ## 使用场景
 
-- [[DELETE]] 删除成功。
-- [[PUT]] 或 [[PATCH]] 更新成功，但客户端不需要更新后的数据。
-- [[OPTIONS]] 预检请求成功。
+- [DELETE](../Method/DELETE.md) 删除成功。
+- [PUT](../Method/PUT.md) 或 [PATCH](../Method/PATCH.md) 更新成功，但客户端不需要更新后的数据。
+- [OPTIONS](../Method/OPTIONS.md) 预检请求成功。
 
 ## 示例
 
@@ -40,8 +40,8 @@ HTTP/1.1 204 No Content
 
 ## 相关概念
 
-- [[DELETE]]
-- [[PUT]]
-- [[PATCH]]
-- [[OPTIONS]]
-- [[HTTP-200-OK]]
+- [DELETE](../Method/DELETE.md)
+- [PUT](../Method/PUT.md)
+- [PATCH](../Method/PATCH.md)
+- [OPTIONS](../Method/OPTIONS.md)
+- [HTTP-200-OK](HTTP-200-OK.md)

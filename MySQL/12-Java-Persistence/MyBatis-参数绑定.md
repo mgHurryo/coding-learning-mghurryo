@@ -38,7 +38,7 @@ User findByUsername(String username);
 
 ## 相关主题
 
-- [[MySQL/12-Java-Persistence/MyBatis-数据访问|MyBatis 数据访问]]
-- [[MySQL/08-Performance-Diagnostics/WHERE-调优|WHERE 调优]]
+- [MyBatis 数据访问](MyBatis-数据访问.md)
+- [WHERE 调优](../08-Performance-Diagnostics/WHERE-调优.md)
 
 

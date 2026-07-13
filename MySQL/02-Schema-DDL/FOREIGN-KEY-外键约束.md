@@ -37,7 +37,7 @@ FOREIGN KEY (user_id) REFERENCES user(id)
 
 ## 相关主题
 
-- [[MySQL/02-Schema-DDL/PRIMARY-KEY-主键约束|PRIMARY KEY 主键约束]]
-- [[MySQL/06-Transaction-Lock/Row-Lock-行锁|Row Lock 行锁]]
+- [PRIMARY KEY 主键约束](PRIMARY-KEY-主键约束.md)
+- [Row Lock 行锁](../06-Transaction-Lock/Row-Lock-行锁.md)
 
 

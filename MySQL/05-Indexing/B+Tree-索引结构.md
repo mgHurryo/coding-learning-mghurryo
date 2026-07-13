@@ -45,6 +45,6 @@ SELECT id, title FROM article WHERE user_id = 10 ORDER BY create_time DESC LIMIT
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Primary-Index-主键索引|Primary Index 主键索引]]
-- [[MySQL/05-Indexing/Secondary-Index-二级索引|Secondary Index 二级索引]]
-- [[MySQL/05-Indexing/Composite-Index-联合索引|Composite Index 联合索引]]
+- [Primary Index 主键索引](Primary-Index-主键索引.md)
+- [Secondary Index 二级索引](Secondary-Index-二级索引.md)
+- [Composite Index 联合索引](Composite-Index-联合索引.md)

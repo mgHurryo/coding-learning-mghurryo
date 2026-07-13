@@ -9,7 +9,7 @@ category: Spring-Boot
 # 🔵 RESTful API 设计
 
 > 对应项目文件：`controller/UserController.java`、`dto/*.java`、`pojo/Result.java`
-> 关联笔记：[[01-Spring-Boot-基础]] | [[03-数据校验Bean-Validation]] | [[11-分层架构与-DTO-模式]]
+> 关联笔记：[01-Spring-Boot-基础](01-Spring-Boot-基础.md) | [03-数据校验Bean-Validation](03-数据校验Bean-Validation.md) | [11-分层架构与-DTO-模式](11-分层架构与-DTO-模式.md)
 
 ---
 
@@ -177,4 +177,4 @@ public class Result<T> {
 | 表单参数自动绑定 | `UserController.java:24,29` | 无需注解绑定 |
 | 泛型 `Result<T>` | `pojo/Result.java:13` | 统一响应封装 |
 
-> 🔗 **下一步学习：** [[03-数据校验Bean-Validation]] → DTO 中如何保证数据合法性
+> 🔗 **下一步学习：** [03-数据校验Bean-Validation](03-数据校验Bean-Validation.md) → DTO 中如何保证数据合法性

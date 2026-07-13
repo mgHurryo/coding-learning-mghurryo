@@ -41,7 +41,7 @@ SHOW VARIABLES LIKE 'innodb_flush_log_at_trx_commit';
 
 ## 相关主题
 
-- [[MySQL/07-InnoDB-Internals/Buffer-Pool|Buffer Pool]]
-- [[MySQL/07-InnoDB-Internals/redo-log|redo log]]
-- [[MySQL/07-InnoDB-Internals/undo-log|undo log]]
-- [[MySQL/07-InnoDB-Internals/checkpoint|checkpoint]]
+- [Buffer Pool](Buffer-Pool.md)
+- [redo log](redo-log.md)
+- [undo log](undo-log.md)
+- [checkpoint](checkpoint.md)

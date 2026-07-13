@@ -37,7 +37,7 @@ SELECT id, title FROM article WHERE create_time BETWEEN "2026-01-01" AND "2026-0
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Leftmost-Prefix-最左前缀原则|Leftmost Prefix 最左前缀原则]]
-- [[MySQL/08-Performance-Diagnostics/WHERE-调优|WHERE 调优]]
+- [Leftmost Prefix 最左前缀原则](../05-Indexing/Leftmost-Prefix-最左前缀原则.md)
+- [WHERE 调优](../08-Performance-Diagnostics/WHERE-调优.md)
 
 

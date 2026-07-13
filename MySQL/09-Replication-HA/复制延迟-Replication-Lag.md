@@ -40,5 +40,5 @@ SHOW PROCESSLIST;
 
 ## 相关主题
 
-- [[MySQL/09-Replication-HA/读写分离-Read-Write-Splitting|读写分离 Read Write Splitting]]
-- [[MySQL/09-Replication-HA/relay-log|relay log]]
+- [读写分离 Read Write Splitting](读写分离-Read-Write-Splitting.md)
+- [relay log](relay-log.md)

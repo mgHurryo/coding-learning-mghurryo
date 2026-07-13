@@ -27,12 +27,12 @@ REST（Representational State Transfer）是一种软件架构风格，由 Roy F
 
 | 方法 | 操作 | URI 示例 | 说明 |
 |------|------|----------|------|
-| [[GET]] | 读取 | `/users` | 获取用户列表 |
-| [[GET]] | 读取 | `/users/123` | 获取指定用户 |
-| [[POST]] | 创建 | `/users` | 创建新用户 |
-| [[PUT]] | 更新 | `/users/123` | 整体替换用户信息 |
-| [[PATCH]] | 部分更新 | `/users/123` | 修改用户部分字段 |
-| [[DELETE]] | 删除 | `/users/123` | 删除指定用户 |
+| [GET](../Method/GET.md) | 读取 | `/users` | 获取用户列表 |
+| [GET](../Method/GET.md) | 读取 | `/users/123` | 获取指定用户 |
+| [POST](../Method/POST.md) | 创建 | `/users` | 创建新用户 |
+| [PUT](../Method/PUT.md) | 更新 | `/users/123` | 整体替换用户信息 |
+| [PATCH](../Method/PATCH.md) | 部分更新 | `/users/123` | 修改用户部分字段 |
+| [DELETE](../Method/DELETE.md) | 删除 | `/users/123` | 删除指定用户 |
 
 ## URI 设计规范
 
@@ -95,14 +95,14 @@ Big-event 的用户模块可以抽象出一套常见 REST API 经验：
 
 ## 相关概念
 
-- [[GET]]
-- [[POST]]
-- [[PUT]]
-- [[PATCH]]
-- [[DELETE]]
-- [[HTTP-Method-选择指南]]
-- [[10-RESTful-API与参数校验]]
-- [[11-全局异常处理与统一响应]]
+- [GET](../Method/GET.md)
+- [POST](../Method/POST.md)
+- [PUT](../Method/PUT.md)
+- [PATCH](../Method/PATCH.md)
+- [DELETE](../Method/DELETE.md)
+- [HTTP-Method-选择指南](../Guide/HTTP-Method-选择指南.md)
+- [10-RESTful-API与参数校验](../../../Java/Framework/Spring-Boot/Learning/Start/10-RESTful-API与参数校验.md)
+- [11-全局异常处理与统一响应](../../../Java/Framework/Spring-Boot/Learning/Start/11-全局异常处理与统一响应.md)
 
 ## 参考资料
 

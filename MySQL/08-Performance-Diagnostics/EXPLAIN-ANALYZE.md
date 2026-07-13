@@ -45,9 +45,9 @@ LIMIT 20;
 
 ## 相关主题
 
-- [[MySQL/08-Performance-Diagnostics/EXPLAIN-使用方法|EXPLAIN 使用方法]]
-- [[MySQL/08-Performance-Diagnostics/optimizer-trace|optimizer trace]]
-- [[MySQL/08-Performance-Diagnostics/慢-SQL-排查流程|慢 SQL 排查流程]]
+- [EXPLAIN 使用方法](EXPLAIN-使用方法.md)
+- [optimizer trace](optimizer-trace.md)
+- [慢 SQL 排查流程](慢-SQL-排查流程.md)
 
 ## 参考资料
 

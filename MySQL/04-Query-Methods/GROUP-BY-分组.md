@@ -37,7 +37,7 @@ SELECT status, COUNT(*) FROM article GROUP BY status;
 
 ## 相关主题
 
-- [[MySQL/04-Query-Methods/HAVING-分组后过滤|HAVING 分组后过滤]]
-- [[MySQL/08-Performance-Diagnostics/GROUP-BY-调优|GROUP BY 调优]]
+- [HAVING 分组后过滤](HAVING-分组后过滤.md)
+- [GROUP BY 调优](../08-Performance-Diagnostics/GROUP-BY-调优.md)
 
 

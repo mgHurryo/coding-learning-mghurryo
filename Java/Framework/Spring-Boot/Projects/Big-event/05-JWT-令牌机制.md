@@ -9,7 +9,7 @@ category: Spring-Boot
 # 🟡 JWT 令牌机制
 
 > 对应项目文件：`utils/JwtUtil.java`、`filter/JwtFilter.java`、`properties/JwtProperties.java`、`config/JwtConfig.java`
-> 关联笔记：[[04-Spring-Security认证授权]] | [[08-全局异常处理]]
+> 关联笔记：[04-Spring-Security认证授权](04-Spring-Security认证授权.md) | [08-全局异常处理](08-全局异常处理.md)
 
 ---
 
@@ -170,4 +170,4 @@ jwt:
 | `Keys.hmacShaKeyFor()` | 创建 HMAC 密钥 | `JwtUtil.java:13-15` |
 | `@ConfigurationProperties` | 配置 JWT 参数 | `JwtProperties.java:9-12` |
 
-> 🔗 **下一步学习：** [[06-MyBatis-数据持久层]] → 数据库操作层
+> 🔗 **下一步学习：** [06-MyBatis-数据持久层](06-MyBatis-数据持久层.md) → 数据库操作层

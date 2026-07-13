@@ -51,7 +51,7 @@ Content-Type: application/json
 
 ## 相关概念
 
-- [[HTTP-401-Unauthorized]]
-- [[HTTP-403-Forbidden]]
-- [[HTTP-404-Not-Found]]
-- [[HTTP-422-Unprocessable-Entity]]
+- [HTTP-401-Unauthorized](HTTP-401-Unauthorized.md)
+- [HTTP-403-Forbidden](HTTP-403-Forbidden.md)
+- [HTTP-404-Not-Found](HTTP-404-Not-Found.md)
+- [HTTP-422-Unprocessable-Entity](HTTP-422-Unprocessable-Entity.md)

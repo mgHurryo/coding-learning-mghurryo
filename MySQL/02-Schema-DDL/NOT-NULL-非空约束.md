@@ -37,7 +37,7 @@ username VARCHAR(50) NOT NULL
 
 ## 相关主题
 
-- [[MySQL/02-Schema-DDL/DEFAULT-默认值|DEFAULT 默认值]]
-- [[MySQL/04-Query-Methods/IS-NULL-空值判断|IS NULL 空值判断]]
+- [DEFAULT 默认值](DEFAULT-默认值.md)
+- [IS NULL 空值判断](../04-Query-Methods/IS-NULL-空值判断.md)
 
 

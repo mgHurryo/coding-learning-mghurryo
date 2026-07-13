@@ -51,9 +51,9 @@ Content-Type: application/json
 
 ## 相关概念
 
-- [[HTTP-400-Bad-Request]]
-- [[POST]]
-- [[RESTful-API-Design]]
+- [HTTP-400-Bad-Request](HTTP-400-Bad-Request.md)
+- [POST](../Method/POST.md)
+- [RESTful-API-Design](../Concept/RESTful-API-Design.md)
 
 ## Big-event 项目经验
 
@@ -66,4 +66,4 @@ Content-Type: application/json
 - 新密码和确认密码不一致。
 - 必填字段为空白字符串。
 
-相关实现见 [[10-RESTful-API与参数校验]]。
+相关实现见 [10-RESTful-API与参数校验](../../../Java/Framework/Spring-Boot/Learning/Start/10-RESTful-API与参数校验.md)。

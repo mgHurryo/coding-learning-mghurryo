@@ -37,7 +37,7 @@ CREATE TABLE user (id BIGINT PRIMARY KEY, username VARCHAR(50) NOT NULL);
 
 ## 相关主题
 
-- [[MySQL/01-Foundations/Column-字段|Column 字段]]
-- [[MySQL/02-Schema-DDL/CREATE-TABLE-创建表|CREATE TABLE 创建表]]
+- [Column 字段](Column-字段.md)
+- [CREATE TABLE 创建表](../02-Schema-DDL/CREATE-TABLE-创建表.md)
 
 

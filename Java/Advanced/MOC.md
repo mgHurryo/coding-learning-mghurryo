@@ -16,12 +16,12 @@ category: Java
 
 | 笔记 | 标签 | 说明 |
 | :--- | :--- | :--- |
-| [[Java/Advanced/反射\|反射]] | #Java #Reflect | Java 反射机制与 Class 对象获取 |
-| [[Java/Advanced/多线程\|多线程]] | #Java #JUC #多线程 #线程池 | CPU/I/O 密集型线程池大小估算 |
+| [反射](反射.md) | #Java #Reflect | Java 反射机制与 Class 对象获取 |
+| [多线程](多线程.md) | #Java #JUC #多线程 #线程池 | CPU/I/O 密集型线程池大小估算 |
 
 ## 相关主题
 
-- [[Java/Foundation/MOC\|Java 基础 MOC]]
-- [[Java/Framework/MOC\|Java 框架 MOC]]
-- [[Java/Framework/Spring-Boot/MOC\|Spring Boot MOC]]
-- [[MySQL/00-Map/MySQL-MOC\|MySQL MOC]]
+- [Java 基础 MOC](../Foundation/MOC.md)
+- [Java 框架 MOC](../Framework/MOC.md)
+- [Spring Boot MOC](../Framework/Spring-Boot/MOC.md)
+- [MySQL MOC](../../MySQL/00-Map/MySQL-MOC.md)

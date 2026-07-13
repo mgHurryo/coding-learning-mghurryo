@@ -37,7 +37,7 @@ UNIQUE KEY uk_user_username (username)
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Unique-Index-唯一索引|Unique Index 唯一索引]]
-- [[MySQL/03-SQL-DML/INSERT-ON-DUPLICATE-KEY-UPDATE|INSERT ON DUPLICATE KEY UPDATE]]
+- [Unique Index 唯一索引](../05-Indexing/Unique-Index-唯一索引.md)
+- [INSERT ON DUPLICATE KEY UPDATE](../03-SQL-DML/INSERT-ON-DUPLICATE-KEY-UPDATE.md)
 
 

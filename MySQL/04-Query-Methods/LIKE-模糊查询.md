@@ -37,7 +37,7 @@ SELECT id, title FROM article WHERE title LIKE "MySQL%";
 
 ## 相关主题
 
-- [[MySQL/05-Indexing/Index-Failure-索引失效场景|Index Failure 索引失效场景]]
-- [[MySQL/08-Performance-Diagnostics/WHERE-调优|WHERE 调优]]
+- [Index Failure 索引失效场景](../05-Indexing/Index-Failure-索引失效场景.md)
+- [WHERE 调优](../08-Performance-Diagnostics/WHERE-调优.md)
 
 

@@ -37,7 +37,7 @@ CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci
 
 ## 相关主题
 
-- [[MySQL/01-Foundations/Database-数据库概念|Database 数据库概念]]
-- [[MySQL/02-Schema-DDL/CREATE-DATABASE-创建数据库|CREATE DATABASE 创建数据库]]
+- [Database 数据库概念](Database-数据库概念.md)
+- [CREATE DATABASE 创建数据库](../02-Schema-DDL/CREATE-DATABASE-创建数据库.md)
 
 

@@ -35,5 +35,5 @@ Spring Boot 配置不能提交明文密码；生产连接信息应来自密钥�
 
 ## 相关主题
 
-- [[MySQL/10-Operations/权限与账号-Privilege|权限与账号 Privilege]]
-- [[MySQL/10-Operations/备份恢复-Backup-Restore|备份恢复 Backup Restore]]
+- [权限与账号 Privilege](权限与账号-Privilege.md)
+- [备份恢复 Backup Restore](备份恢复-Backup-Restore.md)

@@ -9,7 +9,7 @@ category: Spring-Boot
 # ⚪ MyBatis 数据持久层
 
 > 对应项目文件：`mapper/UserMapper.java`、`application.yml`（MyBatis 配置）
-> 关联笔记：[[07-MySQL-数据库配置]] | [[11-分层架构与-DTO-模式]]
+> 关联笔记：[07-MySQL-数据库配置](07-MySQL-数据库配置.md) | [11-分层架构与-DTO-模式](11-分层架构与-DTO-模式.md)
 
 ---
 
@@ -155,4 +155,4 @@ private String password;
 | 驼峰命名映射 | 下划线转驼峰 | `application.yml:13` |
 | `@JsonIgnore` | JSON 序列化忽略 | `pojo/User.java:15` |
 
-> 🔗 **下一步学习：** [[07-MySQL-数据库配置]] → 数据库连接配置详解
+> 🔗 **下一步学习：** [07-MySQL-数据库配置](07-MySQL-数据库配置.md) → 数据库连接配置详解

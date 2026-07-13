@@ -37,7 +37,7 @@ status TINYINT NOT NULL DEFAULT 1
 
 ## 相关主题
 
-- [[MySQL/02-Schema-DDL/NOT-NULL-非空约束|NOT NULL 非空约束]]
-- [[MySQL/03-SQL-DML/INSERT-单行插入|INSERT 单行插入]]
+- [NOT NULL 非空约束](NOT-NULL-非空约束.md)
+- [INSERT 单行插入](../03-SQL-DML/INSERT-单行插入.md)
 
 
