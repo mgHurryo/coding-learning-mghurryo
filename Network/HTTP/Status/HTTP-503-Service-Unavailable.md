@@ -1,9 +1,12 @@
 ---
+title: HTTP 503 Service Unavailable
+description: 服务器暂时无法处理请求，常因过载或维护导致，可配合 Retry-After 头
 tags:
   - http
   - status-code
   - 503-error-code
   - error
+category: Network
 ---
 
 # HTTP 503 Service Unavailable

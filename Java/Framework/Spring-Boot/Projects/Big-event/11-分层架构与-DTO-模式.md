@@ -1,6 +1,9 @@
 ---
+title: 分层架构与 DTO 模式
+description: Controller-Service-Mapper 三层架构设计、DTO 模式应用与面向接口编程实践
 created: 2026-06-28
 tags: [architecture, layered-architecture, dto, design-pattern]
+category: Spring-Boot
 ---
 
 # 🟩 分层架构与 DTO 模式

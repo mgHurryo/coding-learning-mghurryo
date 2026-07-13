@@ -1,9 +1,12 @@
 ---
+title: HTTP 404 Not Found
+description: 请求的资源不存在，服务器无法找到对应 URI 的资源
 tags:
   - http
   - status-code
   - 404-error-code
   - error
+category: Network
 ---
 
 # HTTP 404 Not Found

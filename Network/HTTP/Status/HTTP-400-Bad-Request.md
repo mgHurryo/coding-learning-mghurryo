@@ -1,9 +1,12 @@
 ---
+title: HTTP 400 Bad Request
+description: 客户端请求语法错误或参数无效，服务器无法处理
 tags:
   - http
   - status-code
   - 400-error-code
   - error
+category: Network
 ---
 
 # HTTP 400 Bad Request

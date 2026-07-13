@@ -1,9 +1,12 @@
 ---
+title: POST
+description: HTTP POST 方法，用于提交数据创建资源，非安全非幂等
 tags:
   - http
   - http-method
   - post
   - rest
+category: Network
 ---
 
 # POST

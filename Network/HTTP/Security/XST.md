@@ -1,9 +1,12 @@
 ---
+title: XST (Cross-Site Tracing)
+description: 跨站追踪攻击原理，利用 TRACE 方法窃取 Cookie 的安全风险与防御措施
 tags:
   - http
   - security
   - xst
   - cookie
+category: Network
 ---
 
 # XST

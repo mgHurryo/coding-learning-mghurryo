@@ -1,4 +1,6 @@
 ---
+title: JJWT 笔记
+description: Java JWT (JJWT) 0.13 库的使用方法，涵盖 Token 创建、解析、签名与过期校验
 tags:
   - java
   - jwt
@@ -6,6 +8,7 @@ tags:
   - security
   - library
   - tutorial
+category: Security
 ---
 
 # JJWT 笔记

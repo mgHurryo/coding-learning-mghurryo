@@ -1,9 +1,12 @@
 ---
+title: HTTP 204 No Content
+description: 请求成功但无返回体，常用于 DELETE 操作或更新后无需返回数据的场景
 tags:
   - http
   - status-code
   - 204-error-code
   - delete
+category: Network
 ---
 
 # HTTP 204 No Content

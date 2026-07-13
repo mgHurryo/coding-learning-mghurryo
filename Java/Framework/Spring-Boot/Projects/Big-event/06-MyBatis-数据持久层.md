@@ -1,6 +1,9 @@
 ---
+title: MyBatis 数据持久层
+description: @Mapper 与 @MapperScan 扫描机制、注解式 SQL、驼峰命名自动映射与参数绑定
 created: 2026-06-28
 tags: [mybatis, database, orm, sql]
+category: Spring-Boot
 ---
 
 # ⚪ MyBatis 数据持久层

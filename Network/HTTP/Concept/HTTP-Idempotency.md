@@ -1,9 +1,12 @@
 ---
+title: HTTP Idempotency
+description: HTTP 幂等性概念及其在 GET、PUT、DELETE 等方法中的设计含义
 tags:
   - http
   - concept
   - idempotency
   - reliability
+category: Network
 ---
 
 # HTTP Idempotency

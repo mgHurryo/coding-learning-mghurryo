@@ -1,4 +1,6 @@
 ---
+title: CONNECT
+description: HTTP CONNECT 方法，用于建立隧道连接，常用于 HTTPS 代理通信
 tags:
   - http
   - http-method
@@ -6,6 +8,7 @@ tags:
   - proxy
   - tunnel
   - https
+category: Network
 ---
 
 # CONNECT

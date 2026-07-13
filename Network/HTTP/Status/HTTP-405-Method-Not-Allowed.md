@@ -1,9 +1,12 @@
 ---
+title: HTTP 405 Method Not Allowed
+description: 请求方法不被资源支持，服务器需返回 Allow 头告知支持的 HTTP 方法
 tags:
   - http
   - status-code
   - 405-error-code
   - error
+category: Network
 ---
 
 # HTTP 405 Method Not Allowed

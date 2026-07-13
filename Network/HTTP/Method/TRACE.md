@@ -1,9 +1,12 @@
 ---
+title: TRACE
+description: HTTP TRACE 方法，用于诊断请求路径，返回请求在服务器端的镜像
 tags:
   - http
   - http-method
   - trace
   - security
+category: Network
 ---
 
 # TRACE

@@ -1,9 +1,12 @@
 ---
+title: HTTP 502 Bad Gateway
+description: 网关或代理收到上游服务器的无效响应，常见于反向代理场景
 tags:
   - http
   - status-code
   - 502-error-code
   - error
+category: Network
 ---
 
 # HTTP 502 Bad Gateway

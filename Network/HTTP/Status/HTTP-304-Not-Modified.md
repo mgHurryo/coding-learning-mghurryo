@@ -1,9 +1,12 @@
 ---
+title: HTTP 304 Not Modified
+description: 条件请求未修改时返回，配合 ETag 和 Last-Modified 实现缓存验证
 tags:
   - http
   - status-code
   - 304-error-code
   - caching
+category: Network
 ---
 
 # HTTP 304 Not Modified

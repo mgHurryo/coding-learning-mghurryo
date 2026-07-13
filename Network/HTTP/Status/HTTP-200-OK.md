@@ -1,8 +1,11 @@
 ---
+title: HTTP 200 OK
+description: 请求成功的标准响应，GET 查询与同步操作的成功确认
 tags:
   - http
   - status-code
   - 200-error-code
+category: Network
 ---
 
 # HTTP 200 OK

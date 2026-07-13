@@ -1,9 +1,12 @@
 ---
+title: PUT
+description: HTTP PUT 方法，用于全量替换资源，幂等但非安全
 tags:
   - http
   - http-method
   - put
   - rest
+category: Network
 ---
 
 # PUT

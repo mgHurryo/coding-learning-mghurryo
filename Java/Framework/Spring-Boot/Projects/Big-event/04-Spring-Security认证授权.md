@@ -1,6 +1,9 @@
 ---
+title: Spring Security 认证与授权
+description: SecurityFilterChain 配置、无状态会话管理、请求权限控制与自定义 JwtFilter 集成
 created: 2026-06-28
 tags: [spring-security, authentication, filter, jwt]
+category: Spring-Boot
 ---
 
 # 🔴 Spring Security 认证与授权

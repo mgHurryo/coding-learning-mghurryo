@@ -1,6 +1,9 @@
 ---
+title: RESTful API 设计
+description: @RestController、请求映射、HTTP 方法语义、参数接收与统一响应结果 Result<T> 设计
 created: 2026-06-28
 tags: [restful, api, controller, java]
+category: Spring-Boot
 ---
 
 # 🔵 RESTful API 设计

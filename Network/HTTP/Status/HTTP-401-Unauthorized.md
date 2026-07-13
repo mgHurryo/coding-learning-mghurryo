@@ -1,10 +1,13 @@
 ---
+title: HTTP 401 Unauthorized
+description: 请求未认证，需要提供有效凭据（如 Token、用户名密码）才能访问资源
 tags:
   - http
   - status-code
   - 401-error-code
   - auth
   - security
+category: Network
 ---
 
 # HTTP 401 Unauthorized

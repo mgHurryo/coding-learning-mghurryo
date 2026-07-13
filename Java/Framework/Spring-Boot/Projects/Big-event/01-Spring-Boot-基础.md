@@ -1,6 +1,9 @@
 ---
+title: Spring Boot 核心框架
+description: 入口类、@SpringBootApplication、依赖注入、@Configuration 配置类与 application.yml 配置文件
 created: 2026-06-28
 tags: [spring-boot, java, 配置]
+category: Spring-Boot
 ---
 
 # 🟢 Spring Boot 核心框架

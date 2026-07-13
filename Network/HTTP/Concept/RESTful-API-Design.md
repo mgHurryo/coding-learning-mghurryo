@@ -1,9 +1,12 @@
 ---
+title: RESTful API Design
+description: RESTful 架构风格的设计原则，资源命名、HTTP 方法语义与状态码使用规范
 tags:
   - http
   - rest
   - api
   - design
+category: Network
 ---
 
 # RESTful API Design

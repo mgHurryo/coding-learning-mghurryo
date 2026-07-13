@@ -1,10 +1,13 @@
 ---
+title: HTTP 403 Forbidden
+description: 服务器理解请求但拒绝执行，客户端已认证但无权限访问资源
 tags:
   - http
   - status-code
   - 403-error-code
   - auth
   - security
+category: Network
 ---
 
 # HTTP 403 Forbidden

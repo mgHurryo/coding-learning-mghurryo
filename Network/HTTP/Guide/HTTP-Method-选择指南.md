@@ -1,9 +1,12 @@
 ---
+title: HTTP Method 选择指南
+description: 根据业务场景选择合适的 HTTP 方法，包括安全性与幂等性对比
 tags:
   - http
   - guide
   - best-practice
   - rest
+category: Network
 ---
 
 # HTTP Method 选择指南

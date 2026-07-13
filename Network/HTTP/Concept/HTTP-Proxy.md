@@ -1,8 +1,11 @@
 ---
+title: HTTP Proxy
+description: HTTP 代理服务器的类型、工作原理及常见配置方式
 tags:
   - http
   - proxy
   - network
+category: Network
 ---
 
 # HTTP Proxy

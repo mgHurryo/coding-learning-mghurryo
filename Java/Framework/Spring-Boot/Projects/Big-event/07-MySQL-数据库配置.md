@@ -1,6 +1,9 @@
 ---
+title: MySQL 数据库配置
+description: DataSource 配置详解、JDBC URL 参数与 Spring Boot 数据源自动装配
 created: 2026-06-28
 tags: [mysql, datasource, configuration]
+category: Spring-Boot
 ---
 
 # 🟠 MySQL 数据库配置

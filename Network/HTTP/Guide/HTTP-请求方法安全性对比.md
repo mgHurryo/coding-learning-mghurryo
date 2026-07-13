@@ -1,10 +1,13 @@
 ---
+title: HTTP 请求方法安全性对比
+description: HTTP 各方法的安全性与幂等性对比矩阵，以及缓存语义分析
 tags:
   - http
   - comparison
   - safety
   - idempotency
   - caching
+category: Network
 ---
 
 # HTTP 请求方法安全性对比

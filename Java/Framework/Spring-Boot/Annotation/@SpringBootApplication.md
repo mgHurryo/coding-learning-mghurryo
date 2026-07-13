@@ -1,13 +1,19 @@
 ---
 title: "@SpringBootApplication"
+description: Spring Boot 入口注解，组合 @SpringBootConfiguration、@EnableAutoConfiguration、@ComponentScan
+tags:
+  - Spring-Boot
+  - Annotation
+  - 入门
+category: Spring-Boot
 ---
 # `@SpringBootApplication`
 
 这是 Spring Boot 的启动标识, 其本质为一个配置类, 其包含了`@SpringBootConfiguration`,  `@EnableAutoConfiguration`, `@ComponentScan`, 相同于, 我是一个配置类, 同时开启自动配置与组件扫描. 
 
-自动配置的具体原理可以前往 [[09-Spring-Boot自动配置的原理]] 查看
+自动配置的具体原理可以前往 [[Java/Framework/Spring-Boot/Learning/Start/09-Spring-Boot自动配置的原理|09-Spring-Boot自动配置的原理]] 查看
 
-组件扫描具体原理可以前往 [[06-Bean-对象的扫描]] 查看
+组件扫描具体原理可以前往 [[Java/Framework/Spring-Boot/Learning/Start/06-Bean-对象的扫描|06-Bean-对象的扫描]] 查看
 
 ## 容易踩的坑
 
@@ -16,9 +22,9 @@ title: "@SpringBootApplication"
 
 ## 关联知识
 
-- [[06-Bean-对象的扫描\|Bean 对象的扫描]]
-- [[09-Spring-Boot自动配置的原理\|Spring Boot 自动配置的原理]]
-- [[05-接入-Mybatis\|接入 MyBatis]]
+- [[Java/Framework/Spring-Boot/Learning/Start/06-Bean-对象的扫描|Bean 对象的扫描]]
+- [[Java/Framework/Spring-Boot/Learning/Start/09-Spring-Boot自动配置的原理|Spring Boot 自动配置的原理]]
+- [[Java/Framework/Spring-Boot/Learning/Start/05-接入-Mybatis|接入 MyBatis]]
 - [[Java/Advanced/反射\|反射]]
 - [[Java/Framework/Spring-的一般项目结构\|Spring 的一般项目结构]]
 

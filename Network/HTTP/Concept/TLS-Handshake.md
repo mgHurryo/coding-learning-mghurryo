@@ -1,9 +1,12 @@
 ---
+title: TLS Handshake
+description: TLS 握手协议流程，客户端与服务器建立加密连接的关键步骤
 tags:
   - http
   - tls
   - security
   - handshake
+category: Network
 ---
 
 # TLS Handshake

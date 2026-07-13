@@ -1,9 +1,12 @@
 ---
+title: HTTP 422 Unprocessable Entity
+description: 请求格式正确但语义错误，服务器无法处理，常用于 Bean Validation 校验失败
 tags:
   - http
   - status-code
   - 422-error-code
   - error
+category: Network
 ---
 
 # HTTP 422 Unprocessable Entity

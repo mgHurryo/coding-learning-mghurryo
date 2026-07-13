@@ -1,9 +1,12 @@
 ---
+title: HTTP Caching
+description: HTTP 缓存机制，包括强缓存、协商缓存与缓存控制头
 tags:
   - http
   - concept
   - caching
   - performance
+category: Network
 ---
 
 # HTTP Caching

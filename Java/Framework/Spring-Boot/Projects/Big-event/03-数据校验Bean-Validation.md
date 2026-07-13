@@ -1,6 +1,9 @@
 ---
+title: Bean Validation 数据校验
+description: @Valid 与 @Validated 区别、常用校验注解（@Pattern、@NotBlank、@Email）与自定义校验方法
 created: 2026-06-28
 tags: [validation, bean-validation, java]
+category: Spring-Boot
 ---
 
 # 🟣 Bean Validation 数据校验

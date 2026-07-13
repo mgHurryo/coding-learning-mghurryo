@@ -1,9 +1,12 @@
 ---
+title: HTTP Safety
+description: HTTP 安全方法（Safe Methods）的定义及其在 RESTful API 设计中的意义
 tags:
   - http
   - concept
   - safety
   - rest
+category: Network
 ---
 
 # HTTP Safety

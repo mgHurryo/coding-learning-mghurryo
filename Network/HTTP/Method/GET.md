@@ -1,9 +1,12 @@
 ---
+title: GET
+description: HTTP GET 方法，用于请求获取资源，安全且幂等
 tags:
   - http
   - http-method
   - get
   - rest
+category: Network
 ---
 
 # GET

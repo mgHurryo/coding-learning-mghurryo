@@ -1,9 +1,12 @@
 ---
+title: HTTP 201 Created
+description: 资源创建成功的响应，常用于 POST 请求创建新资源后的返回
 tags:
   - http
   - status-code
   - 201-error-code
   - post
+category: Network
 ---
 
 # HTTP 201 Created

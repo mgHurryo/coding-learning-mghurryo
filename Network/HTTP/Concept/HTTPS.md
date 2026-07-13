@@ -1,9 +1,12 @@
 ---
+title: HTTPS
+description: HTTPS 协议原理，TLS/SSL 加密、证书验证与安全通信流程
 tags:
   - http
   - https
   - security
   - tls
+category: Network
 ---
 
 # HTTPS

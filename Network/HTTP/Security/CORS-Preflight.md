@@ -1,9 +1,12 @@
 ---
+title: CORS Preflight
+description: 跨域资源共享的预检请求机制，OPTIONS 方法与 CORS 头部交互流程
 tags:
   - http
   - cors
   - security
   - options
+category: Network
 ---
 
 # CORS Preflight

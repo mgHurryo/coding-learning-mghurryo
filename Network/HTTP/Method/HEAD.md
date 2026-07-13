@@ -1,9 +1,12 @@
 ---
+title: HEAD
+description: HTTP HEAD 方法，类似 GET 但只返回响应头，用于检查资源存在性或缓存状态
 tags:
   - http
   - http-method
   - head
   - caching
+category: Network
 ---
 
 # HEAD

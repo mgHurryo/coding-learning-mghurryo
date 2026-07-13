@@ -1,9 +1,12 @@
 ---
+title: HTTP 500 Internal Server Error
+description: 服务器内部错误，通用兜底状态码，表示服务器端处理异常
 tags:
   - http
   - status-code
   - 500-error-code
   - error
+category: Network
 ---
 
 # HTTP 500 Internal Server Error

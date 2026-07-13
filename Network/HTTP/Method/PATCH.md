@@ -1,9 +1,12 @@
 ---
+title: PATCH
+description: HTTP PATCH 方法，用于局部更新资源，非安全非幂等
 tags:
   - http
   - http-method
   - patch
   - rest
+category: Network
 ---
 
 # PATCH

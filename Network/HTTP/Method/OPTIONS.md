@@ -1,9 +1,12 @@
 ---
+title: OPTIONS
+description: HTTP OPTIONS 方法，用于获取服务器支持的 HTTP 方法，常用于 CORS 预检请求
 tags:
   - http
   - http-method
   - options
   - cors
+category: Network
 ---
 
 # OPTIONS

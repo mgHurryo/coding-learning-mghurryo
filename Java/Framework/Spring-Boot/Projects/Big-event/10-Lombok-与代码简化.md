@@ -1,6 +1,9 @@
 ---
+title: Lombok 代码简化
+description: @Data、@NoArgsConstructor、@AllArgsConstructor 等注解，以及 DTO/POJO 中减少样板代码的实践
 created: 2026-06-28
 tags: [lombok, boilerplate, java]
+category: Spring-Boot
 ---
 
 # 🔷 Lombok 代码简化

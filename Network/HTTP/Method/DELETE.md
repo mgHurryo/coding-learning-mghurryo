@@ -1,9 +1,12 @@
 ---
+title: DELETE
+description: HTTP DELETE 方法，用于删除指定资源，幂等但非安全
 tags:
   - http
   - http-method
   - delete
   - rest
+category: Network
 ---
 
 # DELETE

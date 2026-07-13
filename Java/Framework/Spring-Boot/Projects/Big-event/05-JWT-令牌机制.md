@@ -1,6 +1,9 @@
 ---
+title: JWT 令牌机制
+description: JWT 结构与原理、JJWT 0.13 库的使用、Token 生成与解析完整流程
 created: 2026-06-28
 tags: [jwt, authentication, jjwt, token]
+category: Spring-Boot
 ---
 
 # 🟡 JWT 令牌机制
