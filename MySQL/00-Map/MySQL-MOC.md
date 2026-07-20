@@ -51,7 +51,7 @@ category: MySQL
 | :--- | :--- |
 | [CREATE DATABASE 创建数据库](../02-Schema-DDL/CREATE-DATABASE-创建数据库.md) | 创建数据库与字符集 |
 | [CREATE TABLE 创建表](../02-Schema-DDL/CREATE-TABLE-创建表.md) | 字段、主键、约束、引擎 |
-| [???? Constraint ??](../02-Schema-DDL/????-Constraint-??.md) | ????????????????????? CHECK ???? |
+| [数据约束 Constraint 百科](../02-Schema-DDL/数据约束-Constraint-百科.md) | 面向新手的主键、非空、默认值、唯一、外键与 CHECK 语句总览 |
 | [ALTER TABLE 修改表](../02-Schema-DDL/ALTER-TABLE-修改表.md) | 表结构演进与上线风险 |
 | [Online DDL](../02-Schema-DDL/Online-DDL.md) | 在线变更、锁级别和生产发布策略 |
 | [PRIMARY KEY 主键约束](../02-Schema-DDL/PRIMARY-KEY-主键约束.md) | 主键约束与聚簇索引 |
@@ -106,6 +106,21 @@ category: MySQL
 | [RIGHT JOIN](../04-Query-Methods/RIGHT-JOIN.md) | 右连接 |
 | [Subquery 子查询](../04-Query-Methods/Subquery-子查询.md) | 子查询与改写思路 |
 
+## 04.5-Functions 函数百科
+
+> 从 [MySQL 函数百科](../04.5-Functions/函数-MOC.md) 开始，按用途学习和查阅标量函数、聚合函数与窗口函数；每篇都包含语法、示例、NULL 行为、易错点和性能提示。
+
+| 笔记 | 说明 |
+| :--- | :--- |
+| [MySQL 函数百科](../04.5-Functions/函数-MOC.md) | 函数分类、学习路线与通用检查清单 |
+| [字符串函数](../04.5-Functions/字符串函数.md) | 拼接、截取、替换、清洗和字符长度 |
+| [数值函数](../04.5-Functions/数值函数.md) | 舍入、取整、绝对值、余数和精度 |
+| [日期时间函数](../04.5-Functions/日期时间函数.md) | 当前时间、日期加减、差值和格式化 |
+| [NULL 与流程控制函数](../04.5-Functions/NULL-与-流程控制函数.md) | 空值兜底、除零保护和条件分支 |
+| [类型转换与系统信息函数](../04.5-Functions/类型转换与系统信息函数.md) | 显式转换、版本、用户和连接信息 |
+| [JSON 函数](../04.5-Functions/JSON函数.md) | JSON 路径、读取、修改、判断和索引 |
+| [Aggregate 聚合函数](../04-Query-Methods/Aggregate-聚合函数.md) | COUNT、SUM、AVG、MAX 和 MIN |
+| [Window Functions 窗口函数](../04-Query-Methods/Window-Functions-窗口函数.md) | 排名、累计、前后行和组内分析 |
 ## 05-Indexing 索引
 
 | 笔记 | 说明 |
