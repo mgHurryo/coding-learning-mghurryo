@@ -77,6 +77,7 @@ category: MySQL
 | [Soft Delete 逻辑删除](../03-SQL-DML/Soft-Delete-逻辑删除.md) | 逻辑删除字段与查询约束 |
 
 ## 04-Query-Methods 查询方法
+> 初学者建议先从 [DQL MOC](../04-Query-Methods/DQL-MOC.md) 开始；该入口按单表过滤、聚合、多表连接和高级分析分层，并包含执行顺序、练习与性能自检。
 
 | 笔记 | 说明 |
 | :--- | :--- |
