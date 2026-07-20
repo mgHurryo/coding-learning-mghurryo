@@ -16,7 +16,12 @@ category: MySQL
 ## 基本语法
 
 ```sql
+
+// 指定数据插入
 INSERT INTO user (username, password, create_time) VALUES ("tom", "hash", NOW());
+
+// 全行插入
+INSERT INTO user VALUES ("CCC", "hash", NOW());
 ```
 
 ## 示例场景

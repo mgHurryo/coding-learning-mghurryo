@@ -31,6 +31,12 @@ ALTER TABLE 表名 DROP 字段名;
 // 修改表名
 ALTER TABLE 表名 RENAME TO 新表名;
 
+// 删除表
+DROP TABLE [IF EXISTS] 表名;
+
+// 删除指定表, 并重新创建该表
+TRUNCATE TABLE 表名;
+
 ```
 
 ## 示例场景
