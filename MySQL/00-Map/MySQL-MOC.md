@@ -51,6 +51,7 @@ category: MySQL
 | :--- | :--- |
 | [CREATE DATABASE 创建数据库](../02-Schema-DDL/CREATE-DATABASE-创建数据库.md) | 创建数据库与字符集 |
 | [CREATE TABLE 创建表](../02-Schema-DDL/CREATE-TABLE-创建表.md) | 字段、主键、约束、引擎 |
+| [???? Constraint ??](../02-Schema-DDL/????-Constraint-??.md) | ????????????????????? CHECK ???? |
 | [ALTER TABLE 修改表](../02-Schema-DDL/ALTER-TABLE-修改表.md) | 表结构演进与上线风险 |
 | [Online DDL](../02-Schema-DDL/Online-DDL.md) | 在线变更、锁级别和生产发布策略 |
 | [PRIMARY KEY 主键约束](../02-Schema-DDL/PRIMARY-KEY-主键约束.md) | 主键约束与聚簇索引 |
