@@ -13,12 +13,26 @@ category: MySQL
 > 主线版本以 MySQL 8.4 LTS 为准。学习目标是同时服务复习、面试追问和 Spring Boot / MyBatis 项目落地。目录名全部使用英文和 hyphen，文件名保留中英文混合，方便检索。
 
 ## 学习路线
-
-1. 先读 [基础概念](../01-Foundations/Database-数据库概念.md)、[表](../01-Foundations/Table-表.md)、[数据类型](../01-Foundations/DataType-数据类型.md)，建立 schema、表、列和字符集意识。
+1. 先读 [基础概念](../01-Foundations/Database-数据库概念.md)、[表](../01-Foundations/Table-表.md)、[字段](../01-Foundations/Column-字段.md) 和 [数据类型](../01-Foundations/DataType-数据类型.md)，建立 schema、列语义、字符集和完整类型选型意识。
 2. 再读 [DDL](../02-Schema-DDL/CREATE-TABLE-创建表.md)、[DML](../03-SQL-DML/SELECT-基础查询.md)、[查询方法](../04-Query-Methods/WHERE-条件过滤.md)，把 SQL 写法练熟。
 3. 接着读 [B+Tree](../05-Indexing/B+Tree-索引结构.md)、[联合索引](../05-Indexing/Composite-Index-联合索引.md)、[MVCC](../06-Transaction-Lock/MVCC.md)、[隔离级别](../06-Transaction-Lock/Isolation-Level-隔离级别.md)，理解性能和并发。
 4. 然后读 [Buffer Pool](../07-InnoDB-Internals/Buffer-Pool.md)、[redo log](../07-InnoDB-Internals/redo-log.md)、[binlog 与 redo log 协作](../07-InnoDB-Internals/binlog-与-redo-log-协作.md)，串起 InnoDB 的可靠性机制。
 5. 最后读 [慢 SQL 排查流程](../08-Performance-Diagnostics/慢-SQL-排查流程.md)、[主从复制](../09-Replication-HA/主从复制-Replication.md)、[备份恢复](../10-Operations/备份恢复-Backup-Restore.md)、[MyBatis 批量操作](../12-Java-Persistence/MyBatis-批量操作.md)，落到线上诊断与项目实践。
+
+## 0-BASES 字段类型深入
+
+> 以下专题以 MySQL 8.4 LTS 为版本边界。先用 [DataType 数据类型](../01-Foundations/DataType-数据类型.md) 建立完整选型框架，再按数据域深入。
+
+| 笔记 | 覆盖类型与作用 |
+| :--- | :--- |
+| [整数类型](../0-BASES/MySQL-Data-Types/整数类型.md) | `TINYINT`、`SMALLINT`、`MEDIUMINT`、`INT`、`BIGINT`、`UNSIGNED`、溢出与语言映射 |
+| [浮点类型](../0-BASES/MySQL-Data-Types/浮点类型.md) | `FLOAT`、`DOUBLE`、`REAL`、有效数字、误差和容差比较 |
+| [定点与位类型](../0-BASES/MySQL-Data-Types/定点与位类型.md) | `DECIMAL` / `NUMERIC`、`BIT`、`BOOL` / `BOOLEAN`，精确值和位标志 |
+| [字符串与二进制类型](../0-BASES/MySQL-Data-Types/字符串.md) | `CHAR`、`VARCHAR`、TEXT/BLOB 四级类型、`BINARY`、`VARBINARY`、字符集和字节语义 |
+| [枚举与集合类型](../0-BASES/MySQL-Data-Types/枚举与集合类型.md) | `ENUM`、`SET`、内部序号、DDL 演进和规范化替代方案 |
+| [日期时间类型](../0-BASES/MySQL-Data-Types/日期.md) | `DATE`、`TIME`、`DATETIME`、`TIMESTAMP`、`YEAR`、小数秒与时区 |
+| [JSON 类型](../0-BASES/MySQL-Data-Types/JSON-类型.md) | 二进制 JSON、路径、`JSON_TABLE`、部分更新、generated/函数/多值索引 |
+| [空间数据类型](../0-BASES/MySQL-Data-Types/空间数据类型.md) | `GEOMETRY` 与 7 个具体子类型、SRID、空间函数和 `SPATIAL INDEX` |
 
 ## 01-Foundations 基础
 
@@ -130,16 +144,26 @@ category: MySQL
 | [崩溃恢复 Crash Recovery](../07-InnoDB-Internals/崩溃恢复-Crash-Recovery.md) | redo、undo、binlog 的恢复路径 |
 
 ## 08-Performance-Diagnostics 性能排障
-
 | 笔记 | 说明 |
 | :--- | :--- |
-| [EXPLAIN 使用方法](../08-Performance-Diagnostics/EXPLAIN-使用方法.md) | 执行计划入口 |
+| [EXPLAIN 使用方法](../08-Performance-Diagnostics/EXPLAIN-使用方法.md) | 12 个核心输出字段、可执行实验和阅读顺序 |
+| [EXPLAIN id 字段](../08-Performance-Diagnostics/EXPLAIN-id-字段.md) | 查询块编号和执行层次 |
+| [EXPLAIN select_type 字段](../08-Performance-Diagnostics/EXPLAIN-select_type-字段.md) | SIMPLE、PRIMARY、SUBQUERY、DERIVED 等查询类型 |
+| [EXPLAIN type 字段](../08-Performance-Diagnostics/EXPLAIN-type-字段.md) | system、const、eq_ref、ref、range、index、ALL 等访问方式 |
+| [EXPLAIN key 字段](../08-Performance-Diagnostics/EXPLAIN-key-字段.md) | 优化器实际选择的索引 |
+| [EXPLAIN rows 字段](../08-Performance-Diagnostics/EXPLAIN-rows-字段.md) | 预计扫描行数及估算误差 |
+| [EXPLAIN Extra 字段](../08-Performance-Diagnostics/EXPLAIN-Extra-字段.md) | Using index、Using filesort、Using temporary 等附加信息 |
 | [EXPLAIN ANALYZE](../08-Performance-Diagnostics/EXPLAIN-ANALYZE.md) | 实际执行时间与行数验证 |
 | [optimizer trace](../08-Performance-Diagnostics/optimizer-trace.md) | 优化器决策过程追踪 |
 | [Slow Query Log 慢查询日志](../08-Performance-Diagnostics/Slow-Query-Log-慢查询日志.md) | 慢 SQL 发现入口 |
 | [慢 SQL 排查流程](../08-Performance-Diagnostics/慢-SQL-排查流程.md) | 从现象到执行计划到修复验证 |
+| [SELECT 调优](../08-Performance-Diagnostics/SELECT-调优.md) | 列裁剪、访问路径和回表成本 |
+| [WHERE 调优](../08-Performance-Diagnostics/WHERE-调优.md) | 谓词可索引性、隐式转换与选择性 |
 | [JOIN 调优](../08-Performance-Diagnostics/JOIN-调优.md) | 连接字段、驱动表和索引 |
+| [GROUP BY 调优](../08-Performance-Diagnostics/GROUP-BY-调优.md) | 分组索引、临时表和聚合成本 |
+| [ORDER BY 调优](../08-Performance-Diagnostics/ORDER-BY-调优.md) | 索引顺序、filesort 和 LIMIT |
 | [LIMIT 深分页调优](../08-Performance-Diagnostics/LIMIT-深分页调优.md) | seek pagination 与覆盖索引 |
+| [Batch Insert 批量写入调优](../08-Performance-Diagnostics/Batch-Insert-批量写入调优.md) | 批次大小、事务、网络与日志权衡 |
 | [Connection Pool 连接池调优](../08-Performance-Diagnostics/Connection-Pool-连接池调优.md) | 连接池与数据库承载能力 |
 
 ## 09-Replication-HA 复制与高可用
