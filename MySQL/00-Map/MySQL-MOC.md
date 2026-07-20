@@ -14,7 +14,7 @@ category: MySQL
 
 ## 学习路线
 1. 先读 [基础概念](../01-Foundations/Database-数据库概念.md)、[表](../01-Foundations/Table-表.md)、[字段](../01-Foundations/Column-字段.md) 和 [数据类型](../01-Foundations/DataType-数据类型.md)，建立 schema、列语义、字符集和完整类型选型意识。
-2. 再读 [DDL](../02-Schema-DDL/CREATE-TABLE-创建表.md)、[DML](../03-SQL-DML/SELECT-基础查询.md)、[查询方法](../04-Query-Methods/WHERE-条件过滤.md)，把 SQL 写法练熟。
+2. 再读 [DDL](../02-Schema-DDL/CREATE-TABLE-创建表.md)、[DML](../03-SQL-DML/SELECT-基础查询.md)、[DQL](../04-Query-Methods/DQL-MOC.md) 和 [DCL](../03.5-SQL-DCL/DCL-MOC.md)，把 SQL 写法与权限控制练熟。
 3. 接着读 [B+Tree](../05-Indexing/B+Tree-索引结构.md)、[联合索引](../05-Indexing/Composite-Index-联合索引.md)、[MVCC](../06-Transaction-Lock/MVCC.md)、[隔离级别](../06-Transaction-Lock/Isolation-Level-隔离级别.md)，理解性能和并发。
 4. 然后读 [Buffer Pool](../07-InnoDB-Internals/Buffer-Pool.md)、[redo log](../07-InnoDB-Internals/redo-log.md)、[binlog 与 redo log 协作](../07-InnoDB-Internals/binlog-与-redo-log-协作.md)，串起 InnoDB 的可靠性机制。
 5. 最后读 [慢 SQL 排查流程](../08-Performance-Diagnostics/慢-SQL-排查流程.md)、[主从复制](../09-Replication-HA/主从复制-Replication.md)、[备份恢复](../10-Operations/备份恢复-Backup-Restore.md)、[MyBatis 批量操作](../12-Java-Persistence/MyBatis-批量操作.md)，落到线上诊断与项目实践。
@@ -75,6 +75,14 @@ category: MySQL
 | [DELETE 条件删除](../03-SQL-DML/DELETE-条件删除.md) | 条件删除与安全边界 |
 | [TRUNCATE 与 DELETE 区别](../03-SQL-DML/TRUNCATE-与-DELETE-区别.md) | 清空表与条件删除差异 |
 | [Soft Delete 逻辑删除](../03-SQL-DML/Soft-Delete-逻辑删除.md) | 逻辑删除字段与查询约束 |
+
+## 03.5-SQL-DCL 数据控制语言
+
+> 从 [DCL 数据控制语言](../03.5-SQL-DCL/DCL-MOC.md) 开始，学习账号、授权、撤权、角色和最小权限原则。
+
+| 笔记 | 说明 |
+| :--- | :--- |
+| [DCL 数据控制语言](../03.5-SQL-DCL/DCL-MOC.md) | `CREATE USER`、`GRANT`、`REVOKE`、`SHOW GRANTS` 与角色管理 |
 
 ## 04-Query-Methods 查询方法
 > 初学者建议先从 [DQL MOC](../04-Query-Methods/DQL-MOC.md) 开始；该入口按单表过滤、聚合、多表连接和高级分析分层，并包含执行顺序、练习与性能自检。
@@ -185,7 +193,7 @@ category: MySQL
 | 笔记 | 说明 |
 | :--- | :--- |
 | [备份恢复 Backup Restore](../10-Operations/备份恢复-Backup-Restore.md) | 逻辑备份、物理备份和恢复演练 |
-| [权限与账号 Privilege](../10-Operations/权限与账号-Privilege.md) | 最小权限、账号分层与授权边界 |
+| [DCL 数据控制语言](../03.5-SQL-DCL/DCL-MOC.md) | 最小权限、账号分层与授权边界 |
 | [安全配置 Security Baseline](../10-Operations/安全配置-Security-Baseline.md) | 网络、账号、日志和参数基线 |
 | [参数配置 Server Variables](../10-Operations/参数配置-Server-Variables.md) | 参数变更、持久化和回滚 |
 | [监控指标 Monitoring Metrics](../10-Operations/监控指标-Monitoring-Metrics.md) | 连接、QPS、锁、缓存、复制 |

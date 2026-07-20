@@ -20,7 +20,7 @@ category: 主页
 | 🌐 **Network** | 传输层（TCP/UDP）→ 应用层（HTTP） | [前往 Network](Network/MOC.md) |
 | 🔒 **Security** | 认证授权（JWT/OAuth2）、传输安全 | [前往 Security](Security/MOC.md) |
 | 🗄️ **MySQL** | SQL、CRUD、索引、事务、调优与持久层实践 | [前往 MySQL](MySQL/00-Map/MySQL-MOC.md) |
-| 🧩 **Big-event** | 项目通用知识总结与落点映射 | [前往 Big-event](Big-event通用知识总结/00-通用知识索引.md) |
+| 🧩 **Big-event** | 项目通用知识总结与落点映射 | [前往 Big-event](Java/Framework/Spring-Boot/Projects/Big-event/00-知识索引.md) |
 
 ## 导航路径建议
 
