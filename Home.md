@@ -19,7 +19,7 @@ category: 主页
 | ☕ **Java** | Java 基础 → 进阶 → 框架生态 | [前往 Java](Java/MOC.md) |
 | 🌐 **Network** | 传输层（TCP/UDP）→ 应用层（HTTP） | [前往 Network](Network/MOC.md) |
 | 🔒 **Security** | 认证授权（JWT/OAuth2）、传输安全 | [前往 Security](Security/MOC.md) |
-| 🗄️ **MySQL** | SQL、CRUD、索引、事务、调优与持久层实践 | [前往 MySQL](MySQL/00-Map/MySQL-MOC.md) |
+| 🗄️ **MySQL** | SQL、CRUD、索引、事务、调优与持久层实践 | [前往 MySQL](MySQL-MOC.md) |
 | 🧩 **Big-event** | 项目通用知识总结与落点映射 | [前往 Big-event](Java/Framework/Spring-Boot/Projects/Big-event/00-知识索引.md) |
 
 ## 导航路径建议
@@ -63,7 +63,7 @@ MySQL/MOC
 - 仓库重组为 Network / Security / Java 三大领域
 - [HTTP MOC](Network/HTTP/MOC.md) 完成
 - [Security MOC](Security/MOC.md) 完成
-- [MySQL MOC](MySQL/00-Map/MySQL-MOC.md) 重构为英文目录 + 方法级 SQL / 调优知识索引
+- [MySQL MOC](MySQL-MOC.md) 重构为英文目录 + 方法级 SQL / 调优知识索引
 - [Spring-Boot 自动配置的原理](Java/Framework/Spring-Boot/Learning/Start/09-Spring-Boot自动配置的原理.md)
 
 ## 标签云

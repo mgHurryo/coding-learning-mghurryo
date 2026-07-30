@@ -48,8 +48,8 @@ spring:
 
 配置细节可继续看：
 
-- [JDBC URL](../../../../../MySQL/12-Java-Persistence/JDBC-URL.md)
-- [DataSource 数据源](../../../../../MySQL/12-Java-Persistence/DataSource-数据源.md)
+- [JDBC URL](JDBC-URL.md)
+- [DataSource 数据源](DataSource-数据源.md)
 
 ## 3. 注册 Mapper
 
@@ -130,8 +130,8 @@ mybatis:
 
 ## 相关主题
 
-- [MyBatis 数据访问](../../../../../MySQL/12-Java-Persistence/MyBatis-数据访问.md)
-- [DataSource 数据源](../../../../../MySQL/12-Java-Persistence/DataSource-数据源.md)
+- [MyBatis 数据访问](MyBatis-数据访问.md)
+- [DataSource 数据源](DataSource-数据源.md)
 - [Spring-的一般项目结构](../../../Spring-的一般项目结构.md)
 
 ## 参考资料

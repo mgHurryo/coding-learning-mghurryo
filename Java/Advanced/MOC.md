@@ -24,4 +24,4 @@ category: Java
 - [Java 基础 MOC](../Foundation/MOC.md)
 - [Java 框架 MOC](../Framework/MOC.md)
 - [Spring Boot MOC](../Framework/Spring-Boot/MOC.md)
-- [MySQL MOC](../../MySQL/00-Map/MySQL-MOC.md)
+- [MySQL MOC](MySQL-MOC.md)

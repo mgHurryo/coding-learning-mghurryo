@@ -19,7 +19,7 @@ category: Java
 | :--- | :--- | :--- |
 | 🌱 Spring Boot | [Spring Boot MOC](Spring-Boot/MOC.md) | 入门系列、自动配置、Bean 管理、注解速查 |
 | 📐 项目结构 | [Spring 项目结构](Spring-的一般项目结构.md) | Spring 项目的通用分层与命名规范 |
-| 🗄️ MyBatis / MySQL | [MySQL MOC](../../MySQL/00-Map/MySQL-MOC.md) | JDBC URL、DataSource、Mapper 与 SQL 映射 |
+| 🗄️ MyBatis / MySQL | [MySQL MOC](MySQL-MOC.md) | JDBC URL、DataSource、Mapper 与 SQL 映射 |
 
 ## 相关主题
 

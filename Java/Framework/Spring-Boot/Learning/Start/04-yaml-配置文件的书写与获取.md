@@ -119,7 +119,7 @@ public class email{
 
 `@ConfigurationProperties` 适合绑定一组有共同前缀的配置，例如：
 
-- `spring.datasource.*`：数据库连接配置，见[DataSource 数据源](../../../../../MySQL/12-Java-Persistence/DataSource-数据源.md)。
+- `spring.datasource.*`：数据库连接配置，见[DataSource 数据源](DataSource-数据源.md)。
 - `jwt.*`：Token 密钥、过期时间等认证配置，见 [JWT-无状态认证](../../../../../Security/Authentication/JWT-无状态认证.md)。
 - 自定义第三方服务配置：邮件、对象存储、支付 SDK 等。
 
@@ -129,6 +129,6 @@ public class email{
 
 - [@Configuration](../../Annotation/@Configuration.md)
 - [Spring Security JWT 无状态认证](12-Spring-Security-JWT无状态认证.md)
-- [JDBC URL](../../../../../MySQL/12-Java-Persistence/JDBC-URL.md)
+- [JDBC URL](JDBC-URL.md)
 
 

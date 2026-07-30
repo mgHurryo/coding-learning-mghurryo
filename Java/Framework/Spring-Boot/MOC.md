@@ -42,5 +42,5 @@ category: Java
 - [返回主页](../../../Home.md)
 - [Java MOC](../../Foundation/MOC.md)
 - [Spring 项目结构](../Spring-的一般项目结构.md)
-- [MySQL MOC](../../../MySQL/00-Map/MySQL-MOC.md)
+- [MySQL MOC](MySQL-MOC.md)
 - [Security MOC](../../../Security/MOC.md)

@@ -25,5 +25,5 @@ category: Java
 - [Java 进阶 MOC](../Advanced/MOC.md)
 - [Java 框架 MOC](../Framework/MOC.md)
 - [网络 MOC](../../Network/MOC.md) — 传输层与 HTTP 协议
-- [MySQL MOC](../../MySQL/00-Map/MySQL-MOC.md) — JDBC URL 与数据库连接实践
+- [MySQL MOC](MySQL-MOC.md) — JDBC URL 与数据库连接实践
 - [返回主页](../../Home.md)

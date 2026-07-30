@@ -31,5 +31,5 @@ category: Java
 - [返回主页](../Home.md)
 - [Network MOC](../Network/MOC.md)
 - [Security MOC](../Security/MOC.md)
-- [MySQL MOC](../MySQL/00-Map/MySQL-MOC.md)
+- [MySQL MOC](MySQL-MOC.md)
 
